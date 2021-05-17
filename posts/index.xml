@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Sun, 16 May 2021 12:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 11:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Results</title>
       <link>https://francis-panzani.github.io/search/</link>
@@ -24,10 +24,12 @@ Initial setup Search depends on additional output content type of JSON in config
     <item>
       <title>Bienvenue :)</title>
       <link>https://francis-panzani.github.io/posts/_introduction/</link>
-      <pubDate>Sun, 16 May 2021 12:06:25 +0000</pubDate>
+      <pubDate>Sun, 16 May 2021 11:06:25 +0000</pubDate>
       
       <guid>https://francis-panzani.github.io/posts/_introduction/</guid>
-      <description>citationlite non ordonné : + - * liste ordonnée1. texte avec 2 espace a la fin pour retour ligne :)1.1 t2. textePour afficher un bloc de code, sautez deux lignes comme pour un paragraphe, puis indentez avec 4 espaces ou une tabulation. Dans le navigateur, la touche tabulation vous fait changer de champ et il n’est généralement pas possible de l’utiliser. Le bloc se terminera dès qu’il arrivera sur un ligne non indentée.</description>
+      <description>📢 Bonjour à tous et à toutes ❗  Bienvenue sur mon espace personnel sur GitHub 😃
+C&amp;rsquo;était l&amp;rsquo;occasion pour moi de faire mon eportefolio et de tester les pages GitHub pages en découvrant Markdown, je n&amp;rsquo;ai pas pu résister 😄
+ D&amp;rsquo;ailleurs un petit lien pour ceux qui ne connaissent pas les GitHub pages (Hébergement de pages statiques gratuites, si si 😍) et Markdown avec GitHub (n&amp;rsquo;oubliez pas le raw html et les frameworks JS ) :Pages GitHub - Mastering Markdown  Vous trouverez essentiellement un début de ressources pour les formations que je donne et des liens sécurisés pour les documents à destination de mes stagiaires.</description>
     </item>
     
     <item>
