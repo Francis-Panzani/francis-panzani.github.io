@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Formation en Développement Informatique présentiel et distanciel 
+  logo: /images/sections/skills/cloud.png
+  summary: "J'ai des supports de cours pour toutes mes formations (demandez le programme complet, une petite partie est listée ici :P), elles ont toutes des exercices TP / TD, la plupart peuvent être insérées dans des projets."
+  url: "mailto:francis.panzani@gmail.com"
+
+- name: SEO 
+  logo: /images/sections/skills/SEOkisspng-search-engine-optimization-computer-icons-web-sear-seo-icon-png-5ab053f026b5e3.0083853915215052641586.png
+  summary: "Capable de former et de déployer puis d'enregistrer le site sur les moteurs de recherche, Google Analytics & Adwords etc ..,utilisation de référencement naturel et de référencement payant"
+
+- name: Bootstrap
+  logo: /images/sections/skills/bootstrap.png
+  summary: "Capable de former et de développer des pages webs responsive avec Bootstrap"
+  url: "https://getbootstrap.com/"
+
+- name: Node JS
+  logo: /images/sections/skills/node.png
+  summary: "Capable de former et de produire des applications en CLI, côté serveur avec Mongoose, Jade / Pug, Express et EJS "
+  url: "https://nodejs.org/en/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Débutant, connaissances de base. Impossible actuellement de former sur cette techno"
+  url: "https://www.docker.com/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Utilisé il y a longtemps comme Système d'Exploitation principal. Capable d'écrire des scripts bash / shell.<br/> J'y reviens de plus en plus, un peu obligé par certaines techno il faut dire ;) "
+
+- name: Git & GitHub
+  logo: /images/sections/skills/git.png
+  summary: "Capable de former et je suis expérimenté avec Git Github (essentiellement). De plus j'ai une petite expérience avec GitLab. "
+  url: "https://git-scm.com/"
+
+- name: Autonomie et apprentissage solo
+  logo: /images/sections/skills/secnumacademie_toque.png
+  summary: "Je pris l'habitude d'être autonome dans mon travail et mes montée en compétences. <br/> J'apprends toujours de nouvelles choses avec beaucoup de plaisir quasi quotidiennement"
+
+- name: C / C++
+  logo: /images/sections/skills/c++.png
+  summary: "Au tout début j'avais appris ces 2 langages de base, inutile de dire qu'il ne sont plus très frais à mon souvenir. <br/> Mais il risque d'y avoir un gros rafraîchissement en vue ^^ ;;."
+
+- name: TypeScript
+  logo: /images/sections/skills/typescript.png
+  summary: "Capable de former et produire de petits logiciels avec, utilisé principalement pour entraîner ou préparer les formations d'Angular"
+  url: "https://www.typescriptlang.org/"
+# jQuery icone2.jpeg
+# mongodb.png

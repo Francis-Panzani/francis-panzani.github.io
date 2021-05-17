@@ -1,0 +1,68 @@
+# section information https://fr.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode_(0000-0FFF)
+section:
+  name: A_propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Formateur, Enseignant et coordination pédagogique des actions régions/pôle emploi en développement informatique
+# your company information
+company:
+  name: AFIP Formation.
+  url: "https://afip-formations.com/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/CV FORMATEUR-DEVELOPPEUR FRANCIS PANZANI 2021.pdf"
+
+# a summary about you
+summary: "Je suis un Développeur de logiciels passionné et un Formateur en Développement Informatique avec plus de 9 ans d'expérience professionnelle dans le domaine. Anciennement jury des titres professionnels Développeur Logiciel et Concepteur Développeur Informatique, je suis bénévole dans une association de quartier, le Comité d'Intérêt Local. Et je suis passionné d'informatique depuis que j'ai vu un Atari ST. Ouais ca date un peu ..."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Mail
+  icon: "fas fa-at"
+  url: "mailto:francis.panzani@gmail.com"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/Francis-Panzani"
+- name: LinkedIn
+  icon: "fab fa-linkedin-in"
+  url: "https://linkedin.com/in/francispanzani/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Encadrement ☻
+  percentage: 95
+  color: blue
+- name: Travail en Équipe
+  percentage: 90
+  color: yellow
+#esprit critique
+- name: Oeil critique²
+  percentage: 85
+  color: pink
+#puissance de travail
+- name: Autonomie α & Ω
+  percentage: 90
+  color: green
+  #capacité d'adaptation
+- name: Adaptabilité ◙
+  percentage: 75
+  color: sky
+  #Résolution de probleme
+- name: Facilitateur ☼
+  percentage: 95
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"

@@ -1,0 +1,61 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: IT Training (see a little part below) in remote or face-to-face 
+  logo: /images/sections/skills/cloud.png
+  summary: "I have course materials for all my trainings (ask for the program: P), they all have practical work / tutorials, most of them can be inserted into projects."
+  url: "mailto:francis.panzani@gmail.com"
+
+- name: SEO 
+  logo: /images/sections/skills/SEOkisspng-search-engine-optimization-computer-icons-web-sear-seo-icon-png-5ab053f026b5e3.0083853915215052641586.png
+  summary: "Able to train people and register site on mostly search engine, Google Analytics Adwords, SEO and Paid referencing"
+
+- name: Bootstrap
+  logo: /images/sections/skills/bootstrap.png
+  summary: "Able to train people and produce responsive Web Page with Bootstrap"
+  url: "https://getbootstrap.com/"
+
+- name: Node JS
+  logo: /images/sections/skills/node.png
+  summary: "Able to train people and produce sofwtare in CLI, Serveur Side with Mongoose, Jade/Pug, Express & EJS"
+  url: "https://nodejs.org/en/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Beginner, basic knowledge. Currently not able to train people on it"
+  url: "https://www.docker.com/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main Operating System. Able of writing bash/shell scripts."
+
+- name: Git & GitHub
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+
+- name: Learn by myself
+  logo: /images/sections/skills/secnumacademie_toque.png
+  summary: "I am very used to learning on my own. I still learn new things with a lot of pleasure every day"
+  #url: "https://github.com/Francis-Panzani/Formation_Git/"
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "At the bottom of the cellar are basic C/C++ programming. Big refresh on preview ^^;;."
+
+- name: TypeScript
+  logo: /images/sections/skills/typescript.png
+  summary: "Able to train people and produce little sofwtare with it, mainly use to train or prepare Angular's training"
+  url: "https://www.typescriptlang.org/"
+# jQuery icone2.jpeg
+# mongodb.png
