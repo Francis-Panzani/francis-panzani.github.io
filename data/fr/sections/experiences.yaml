@@ -1,0 +1,64 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: AFIP Formation
+    url: "https://afip-formations.com/"
+    location: Villeurbanne / Télétravail
+    # company overview 
+    overview:     ![ecole afip logo](files/afiplogo3030.jpg)  AFIP Formations est une école privée d'enseignement supérieur, proposant des formations post-bac jusqu'au Master en alternance et en initial 
+    #AFIP Formations est une école privée d'enseignement supérieur, proposant des formations post-bac jusqu'au Master en alternance et en initial 
+  positions:
+  - designation: Formateur, Enseignant et coordination pédagogique des actions régions/pôle emploi en développement informatique
+  #Formateur et coordination pédagogique des actions régions/pôle emploi en développement informatique
+    start: Juin 2018
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Assurer la formation en Algorithmie, HTML5, CSS3, Javascript, JQuery, Bootstrap, VueJs 2, UML2, Merise, PhP 7, MySQL, Java 8, JFX, JEE 8, Git, Android 7, Scrum, Wordpress 4, Référencement, Maquetage, Wireframe, d’étudiants \(SIO ou bachelors\), de demandeurs d'emploi \(via validation titre RNCP de niveau Bac+2 a Bac +5\) ou de professionnels.
+    - Suivi pédagogique et suivi des présences, animation d’ateliers, Gestion de projets \(personnels ou en groupe\).
+    - Production de supports de cours et d’exercices, de devoirs \(TP/TD/Projects\), corrections
+    - Ingénierie pédagogique \(Construction d'un projet de formation, Animation d'une action de formation, Evaluation d'une action de formation\).
+    - Gestion de projet Agiles -> Approche d'un problème client, création de Product Vision Board, Product Backlog, Sprint et gestion de projet en [méthodologie Scrum](https://www.scrum.org/).  
+  - designation: Formateur en Développement Informatique
+    start: Novembre 2016
+    end: Mars 2018
+    responsibilities:
+    - Assurer la formation en Algorithmie, HTML5, CSS3, Javascript, JQuery, UML2, Merise, PhP 7, MySQL, Java 8, JEE 8, Git, Android 7, Scrum, SEO, Layout, Wireframe, étudiants \(SIO ou bachelors \) de demandeurs d'emploi \(via validation titre RNCP de niveau Bac+2 a Bac +5\) ou de professionnels.
+    - Suivi pédagogique et suivi des présences, animation d’ateliers, Gestion de projets \(personnels ou en groupe\).
+    - Ingénierie pédagogique \(Construction d'un projet de formation, Animation d'une action de formation, Evaluation d'une action de formation\).
+- company:
+    name: Norsys
+    url: "https://www.norsys.fr/"
+    location: Lyon
+    overview:   ![esn norsys logo](files/logoNorsys30p30.png) Entreprise de services numériques \(ESN\) axée sur les nouvelles technologies - Conseil et assistance en génie logiciel \(Conception et développement d'applications\) - Conseil et assistance en gestion de projet \(cahier des charges, étude de faisabilité, conduite du changement, formation\)
+  positions:
+  - designation: Développeur (Front-Office)
+    start: Mars 2013
+    end: Avril 2014
+    responsibilities:
+    - Développement en PHP via immersion d'un cahier des charges relatif à une modification du portail M6jeux.fr
+    - Front Office entre le client et 2 collaborateurs en Offshore \(Maroc\).
+    - Gestion, suivi de production, formation à distance, qualification et reporting au client.
+# arret le 08/07/2019 - formateur indépendant en informatique
+- company:
+    name: ->CV FORMATEUR-DEVELOPPEUR FRANCIS PANZANI 2021.pdf<-
+    url: "http://franpan.free.fr/ressources/gihub_portefolio/CV FORMATEUR-DEVELOPPEUR FRANCIS PANZANI 2021.pdf"
+    location: France
+    overview:    ![a continuer plus tard](files/to-be-continued-png-47206.png)
+  positions:
+    - designation: Vous pouvez télécharger mon CV, me contacter pour plus d'infos, ou attendre la prochaine itération
+      start: Décembre 2000
+      end: Mars 2013
+      responsibilities:
+      - Diverses et variées

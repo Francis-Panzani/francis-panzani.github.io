@@ -1,0 +1,11 @@
+# Copyright Notice
+copyright: © 2021 Copyright Francis Panzani.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio de Francis Panzani portefolio folio formation développement dévelopement developpement dev informatique info IT lyon villeurbanne NodeJS Scrum TypeScript Référencement referencement Node agile git github.
+
+# add some custom menus in the navbar
+customMenus:
+- name: My_in
+  url: https://www.linkedin.com/in/francispanzani/
+
