@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://francis-panzani.github.io/fr/posts/referencement/</loc>
-    <lastmod>2021-05-16T08:06:25+00:00</lastmod>
+    <loc>https://francis-panzani.github.io/fr/posts/~_introduction/</loc>
+    <lastmod>2021-05-16T11:06:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://francis-panzani.github.io/posts/referencement/"
+                href="https://francis-panzani.github.io/posts/~_introduction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://francis-panzani.github.io/fr/posts/referencement/"
+                href="https://francis-panzani.github.io/fr/posts/~_introduction/"
                 />
   </url><url>
     <loc>https://francis-panzani.github.io/fr/</loc>
-    <lastmod>2021-05-16T08:06:25+00:00</lastmod>
+    <lastmod>2021-05-16T11:06:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://francis-panzani.github.io/fr/posts/</loc>
-    <lastmod>2021-05-16T08:06:25+00:00</lastmod>
+    <lastmod>2021-05-16T11:06:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,6 +39,19 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://francis-panzani.github.io/fr/posts/"
+                />
+  </url><url>
+    <loc>https://francis-panzani.github.io/fr/posts/referencement/</loc>
+    <lastmod>2021-05-16T08:06:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://francis-panzani.github.io/posts/referencement/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://francis-panzani.github.io/fr/posts/referencement/"
                 />
   </url><url>
     <loc>https://francis-panzani.github.io/fr/posts/nodejs/</loc>
