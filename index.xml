@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Sun, 16 May 2021 11:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 08:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Results</title>
       <link>https://francis-panzani.github.io/search/</link>
@@ -19,17 +19,6 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Bienvenue :)</title>
-      <link>https://francis-panzani.github.io/posts/_introduction/</link>
-      <pubDate>Sun, 16 May 2021 11:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/posts/_introduction/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Bienvenue sur mon espace personnel sur GitHub 😃
-C&amp;rsquo;était l&amp;rsquo;occasion pour moi de faire mon eportefolio et de tester les pages GitHub pages en découvrant Markdown, je n&amp;rsquo;ai pas pu résister 😄
- D&amp;rsquo;ailleurs un petit lien pour ceux qui ne connaissent pas les GitHub pages (Hébergement de pages statiques gratuites, si si 😍) et Markdown avec GitHub (n&amp;rsquo;oubliez pas le raw html et les frameworks JS ) :Pages GitHub - Mastering Markdown  Vous trouverez essentiellement un début de ressources pour les formations que je donne et des liens sécurisés pour les documents à destination de mes stagiaires.</description>
     </item>
     
     <item>
