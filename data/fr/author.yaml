@@ -1,0 +1,20 @@
+# some information about you
+name: "Panzani Francis"
+nickname: "Francis et :"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Salut, je me prénomme "
+#dossier image dans assets/images
+image: "images/author/avatar_cercle2.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "francis.panzani@gmail.com"
+  phone: "+06 jamais la premiere fois, d'abord par mail ;)"
+
+# some summary about what you do
+summary:
+  - Je suis un Développeur Java JEE PhP ...
+  - Je suis un Formateur en Développement Informatique
+  - J'aime Apprendre, Coder, Tester et Transmettre
+  - Je travaille actuellement dans une école qui fait aussi centre de formation pour adulte 
+  - Je suis bénévole dans mon association de quartier, le C.I.L de la Gravière
+  - J'aime travailler sur des projets sympas en tant que Product Owner ou Facilitateur
