@@ -71,6 +71,19 @@
                 href="https://francis-panzani.github.io/posts/referencement/"
                 />
   </url><url>
+    <loc>https://francis-panzani.github.io/posts/formation_typescript/</loc>
+    <lastmod>2021-05-05T19:05:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://francis-panzani.github.io/fr/posts/formation_typescript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://francis-panzani.github.io/posts/formation_typescript/"
+                />
+  </url><url>
     <loc>https://francis-panzani.github.io/posts/formation_nodejs/</loc>
     <lastmod>2021-05-05T18:06:25+00:00</lastmod>
     <xhtml:link

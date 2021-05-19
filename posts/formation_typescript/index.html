@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Formation Uml</title>
+    <title>Formation sur TypeScript</title>
     
 
 
@@ -40,7 +40,7 @@
 <link rel="stylesheet" href="/css/style.css"/>
 
     
-<meta name="description" content="uml formation diagramme diagram utilisation Classe classe sequence séquence" />
+<meta name="description" content="Installer TypeScript, le prendre en main, l&#39;utiliser , revoir ECMA6" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -123,7 +123,7 @@ if (!doNotTrack) {
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/fr/posts/formation_uml">
+        <a class="dropdown-item nav-link languages-item" href="/fr/posts/formation_typescript">
           
           <span class="flag-icon flag-icon-fr"></span>
           Français
@@ -195,21 +195,21 @@ if (!doNotTrack) {
   
   
   
+    
+    
+  
   
     
-    <li><a class="" href="/posts/formation_typescript/" title="Formation TypeScript">Formation TypeScript</a></li>
+    <li><a class="active" href="/posts/formation_typescript/" title="Formation TypeScript">Formation TypeScript</a></li>
   
 
   
   
   
   
-    
-    
-  
   
     
-    <li><a class="active" href="/posts/formation_uml/" title="Formation Uml">Formation Uml</a></li>
+    <li><a class="" href="/posts/formation_uml/" title="Formation Uml">Formation Uml</a></li>
   
 
   
@@ -245,7 +245,7 @@ if (!doNotTrack) {
   <div class="content">
     <div class="container p-0 read-area">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://francis-panzani.github.io/posts/formation_uml/hero.svg);'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://francis-panzani.github.io/posts/formation_typescript/hero.svg);'>
       </div>
 
       
@@ -253,101 +253,68 @@ if (!doNotTrack) {
         <div class="author-profile ml-auto align-self-lg-center">
           <img class="rounded-circle" src='/images/author/avatar_cercle2.png' alt="Author Image">
           <h5 class="author-name">Panzani Francis</h5>
-          <p>May 19, 2021</p>
+          <p>May 5, 2021</p>
         </div>
 
         <div class="title">
-          <h1>Formation Uml</h1>
+          <h1>Formation sur TypeScript</h1>
         </div>
 
         <div class="post-content" id="post-content">
           <h2 id="center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></h2>
 <hr>
-<h2 id="bienvenue-sur-cette-partie-traitant-de-la-formation-à-uml-">Bienvenue sur cette partie traitant de la formation à UML 😃</h2>
-<p>On verra ici ce qu&rsquo;est UML (dispensé jusqu&rsquo;en bac +3 /4 et oui, vous n&rsquo;avez pas fini d&rsquo;en entendre parler).<br>
-<em>U</em>nified <em>M</em>odeling <em>L</em>anguage ou en français Langage de Modélisation Unifié est un langage de  modélisation graphique à base de pictogrammes conçu pour fournir une méthode normalisée pour visualiser la conception d&rsquo;un système.</p>
-<blockquote>
-<p><img src="bonaparte.jpg" alt="napoleon citation"> “Un bon croquis vaut mieux qu’un long discours.”</p>
-<p>&ndash; <cite><a href="http://evene.lefigaro.fr/citation/bon-croquis-vaut-mieux-long-discours-37319.php">Napoléon Bonaparte</a></cite></p>
-</blockquote>
-<p>Il est couramment utilisé en Développement Logiciel et en Conception Orientée Objet.<br>
-L&rsquo;UML est le résultat de la fusion de précédents langages de modélisation objet : Booch, OMT, OOSE</p>
-<p>UML est à présent un standard adopté par l&rsquo;Object Management Group (OMG) -&gt; consortium américain à but non lucratif créé en 1989 dont l&rsquo;objectif est de standardiser et promouvoir le modèle objet.<br>
-La dernière version de la spécification validée par l&rsquo;OMG est UML 2.5.1 (2017)2.</p>
-<p>Pour faire simple a un moment il y avait beaucoup de façon de représenter des systemes d&rsquo;informations ou des projets informatique (Il reste encore beaucoup de diversités mais maintenant on a au moins une base commune), il y a eu un gros besoin de standardisation qui s&rsquo;est traduite en 1997 par la V1 d&rsquo;UML.<br>
-Le langage Uml est mondialement connu et reste encore très utilisé et très enseigné, ou en tout cas certains de ses diagrammes le sont encore quasi dans tous les projets informatiques d&rsquo;une taille conséquente même après l&rsquo;avenement des méthodologies Agiles.</p>
-<p>Il est composé de 14 diagrammes, on en verra un certain nombre à des moments divers de votre parcours avec moi, ces diagrammes se suivent et s&rsquo;enrichissent des précédents diagrammes en permettant de construire une application Informatique (mais pas que) des étapes de conception au déploiement, en passant bien évideement par la réalisation !!!</p>
-<h3 id="diagramme-de-cas-dutilisation">Diagramme de Cas d’Utilisation</h3>
-<p>C&rsquo;est le premier, il permet de visualiser les Uses Cases (Cas d&rsquo;utilisation,) a ne pas confondre avec les Users Sorties des méthodologiees Agiles).</p>
-<p>Son but :</p>
+<p>Dans cette formation on verra comment installer et configurer TypeScript, le prendre en main, faire un tour de ce qu&rsquo;il a apporté a Javascript (ECMA 6), ça sera une bonne préparation pour la Formation sur Angular.</p>
+<p><em>Passons en revue ses caractéristiques</em> :</p>
 <ul>
-<li>Modéliser ce que l ’application doit (ou ne doit pas) être capable de prendre en compte.</li>
-<li>Modélise la manière dont une organisation ou un système externe doivent interagir avec le système.</li>
+<li><input checked="" disabled="" type="checkbox"> TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d&rsquo;améliorer et de sécuriser la production de code JavaScript.</li>
+<li><input checked="" disabled="" type="checkbox"> Son contributeur principal estAnders Hejlsberg, créateur de Delphi,Turbo Pascal et principal inventeur de C#.</li>
+<li><input checked="" disabled="" type="checkbox"> C&rsquo;est un sur-ensemble ou sur-couche de JavaScript (cela signifie que JavaScript est inclus dans TypeScript qui ajoute ce qui semble manquer au langage).</li>
+<li><input checked="" disabled="" type="checkbox"> L’ensemble des fonctionnalités supplémentaires permet au langage de se rapprocher de ses concurrents célèbres et populaires tels que Java et C++.</li>
+<li><input checked="" disabled="" type="checkbox"> Typescript supporte ECMA 6.</li>
+<li><input checked="" disabled="" type="checkbox"> Les dernières versions de JavaScript (à partir d’ECMAScript 2015) reprennent ces évolutions. Elles devraient donc se généraliser au fur et à mesure des mises à jour des moteurs JavaScript au sein des navigateurs.</li>
+<li><input checked="" disabled="" type="checkbox"> Le code TypeScript est transcompilé via un transpileur ou transcodeur nommé tsc.Plus simplement, l’ensemble du code est transformé en JavaScript et peut ensuite être interprété par n&rsquo;importe quel navigateur web ou moteur JavaScript.</li>
+<li><input checked="" disabled="" type="checkbox"> TypeScript permet d&rsquo;utiliser via des en-têtes TypeScript de nombreuses bibliothèques populaires comme JQuery, MongoDB, D3.JS, Node.js.</li>
+<li><input checked="" disabled="" type="checkbox"> Angular s&rsquo;appuie beaucoup dessus c&rsquo;est pourquoi il est très souvent vu au début de tout apprentissage sur ce Framewwork Web.</li>
+<li><input checked="" disabled="" type="checkbox"> Sorti en 2012, ses fichiers sont en .ts, le site off:  <a href="https://www.typescriptlang.org/">https://www.typescriptlang.org/</a></li>
 </ul>
-<p>Coté Utilisateur :</p>
+<p>En gros c&rsquo;est une sur-couche de JavaScript qui permet de :</p>
 <ul>
-<li>Met en évidence les services du système</li>
-<li>Fixe le périmètre entre le système et son environnement</li>
+<li>Typer optionnellement les variables lors de leurs déclarations (typage statique).</li>
+<li>Gérer des paramètres optionnels (en ajoutant un point d’interrogation accolé à leurs noms).</li>
+<li>Créer des classes et les instancier.</li>
+<li>Gérer un héritage simplifié.</li>
+<li>Implémenter des interfaces (au sens de la programmation objet).</li>
+<li>Gérer l’accès aux attributs par trois mots réservés : public, protected, private.</li>
 </ul>
-<h3 id="diagramme-de-séquence">Diagramme de Séquence</h3>
-<p>Il  permet la représentation de façon séquentielle du déroulement des traitements et des interactions entre les éléments du système et/ou de ses acteurs.</p>
-<p>Son but :</p>
+<h2 id="todo--">TODO  🎢:</h2>
 <ul>
-<li>Validation des cas d ’utilisation, pour comprendre la logique de l ’application.</li>
-<li>Complète le diagramme des cas d’utilisation en mettant en évidence les objets et leurs  Interactions d’un point de vue temporel.</li>
+<li>
+<p>Installez la version node-v10.24.1 <a href="https://nodejs.org/dist/latest-v10.x/">-&gt;ICI&lt;-</a></p>
+</li>
+<li>
+<p>Puis créons un dossier Hello_World et lançons y la commande shell :</p>
+</li>
 </ul>
-<p>Note : Pas tout le temps nécessaire.</p>
-<h3 id="diagramme-de-classe">Diagramme de Classe</h3>
-<p>Ultra important, c&rsquo;est la représentation des classes intervenant dans le système (Il est le point central de la modélisation du système pour décrire ce que le système doit faire (analyse) et comment il va le faire (conception)).</p>
-<p>Son but :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">npm install -g typescript
+</code></pre></div><center> <img  src="install_typescript1.png" alt ="[image install 1]"></center>
+<br/>
 <ul>
-<li>Représentation de la structure statique du système d’information</li>
-<li>Modélisation des classes et de leurs relations</li>
-</ul>
-<h3 id="diagramme-détat-transition">Diagramme d’État Transition</h3>
-<p>Il est la représentation du cycle de vie des instances d’une classe.</p>
-<p>Son but :</p>
+<li>Puis créons via <a href="https://code.visualstudio.com/download">Visual Studio Code</a> un fichier <code>hello.ts</code>
 <ul>
-<li>Spécification des états, des transitions entre ces états et des actions associées aux transitions.</li>
-<li>S’utilise pour la modélisation de la dynamique de certaines classes</li>
+<li>Rentrons y le code Javascript suivant :</li>
 </ul>
-<h3 id="diagramme-de-paquetages">Diagramme de Paquetages</h3>
-<p>Un Diagramme de package permet de représenter les dépendances entre les différents package du système.</p>
-<h3 id="diagramme-dactivité">Diagramme d’Activité</h3>
-<p>Il est la représentation sous forme de flux ou d&rsquo;enchaînement d&rsquo;activités du comportement du système ou de ses composants.<br>
-Les activités sont soit :</p>
-<ul>
-<li>une opération</li>
-<li>une étape dans une opération</li>
-<li>une action d’un scénario d’un cas d ’utilisation</li>
+<center> <img  src="install_typescript2.png" width="55%" alt ="[image install 2]"></center>
+- _C'est pour la demo, on verra pour le typescript pur plus tard, no stress ;)_  
+</li>
+<li>Afin de transcompiler le fichier et de l’intégrer à une page HTML, la commande à lancer dans un terminal Windows est  :</li>
 </ul>
-<p>Il permet de :</p>
-<ul>
-<li>représenter soit un processus d’une organisation</li>
-<li>ou alors le comportement des opérations d ’une classe</li>
-</ul>
-<p>Il permet plusieurs points de vue pour :</p>
-<ul>
-<li>soit pour analyser un processus</li>
-<li>soit pour concevoir un objet</li>
-</ul>
-<h3 id="diagramme-de-composants">Diagramme de Composants</h3>
-<p>Il permet la description des composants logiciels (composants du système d&rsquo;un point de vue physique) et de leurs dépendances, tels qu&rsquo;ils sont mis en œuvre (fichiers, librairies, bases de données, exécutables …)</p>
-<p>Note : Utilisé en conception de logiciel pour allouer les classes et objets aux composants</p>
-<h3 id="diagramme-de-déploiement">Diagramme de Déploiement</h3>
-<p>Son but est de décrire :</p>
-<ul>
-<li>la configuration matérielle des unités de traitements (hard et soft).</li>
-<li>l’architecture technique, des noeuds et de leur interconnexion.</li>
-</ul>
-<p>Note : Les noeuds peuvent être les serveurs, postes de travail et périphériques. Les composants sont alloués aux différents noeuds.</p>
-<div style="text-align:center"><img src="/content/posts/Formation_Uml/liensdiagramme.png" alt="[image des liens diagrammes uml]" title="liens entre les différents diagrammes UML"/></div>
-<h2 id="220px-staruml_logopng220px-staruml_logopng-débuter-la-formation"><img src="220px-Staruml_logo.png" alt="220px-Staruml_logo.png"> Débuter la formation</h2>
-<p>Dans un premier temps téléchargez, installez et prenez en main l&rsquo;excellentissime,et gratuit (mais soutenez-le quand même quand vous gagnerez votre vie en partie grâce à lui :P) ! StarUML : <a href="https://staruml.io/">https://staruml.io/</a></p>
-<p>Sinon vous avez un outil gratuit en ligne draw.io : <a href="https://app.diagrams.net/">https://app.diagrams.net/</a></p>
-<p>🎓 <a href="http://franpan.free.fr/formation/_Uml777">Afin de suivre la formation en référencement ensemble, vous aurez besoin de suivre les instructions du support suivant :  📚 (Logins  &amp; Passswords 🔐 donnés par le formateur) 💊 </a>.</p>
-<p>Merci de garder pour vous les ressources que vous y trouverez et de ne pas les diffuser 😏<br>
-Merci de m&rsquo;avertir de toute erreur ou coquille qui m&rsquo;auraient échapées 😍</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">tsc hello.ts
+</code></pre></div> <img align="right" width="50%" src="install_typescript3.png" alt ="[image install 3]">
+- Ce qui va nous créer un fichier du même nom mais en .js que l'on va pouvoir lancer avec Node.js via la commande node hello.js    
+<br/><br/>
+- Pour rappel Node.js sert a écrire des applications type serveur et desktop en javascript, ce n'est pas un browser, mais on peut inclure notre .js dans un .html afin de l'interpreter via notre navigateur préféré ;)   
+<p><img align="left" src="install_typescript4.png" alt ="[image install 4]"><img width="50%" src="install_typescript5.png" alt ="[image install 5]"></p>
+<p>🎓 <a href="http://franpan.free.fr/formation/_typescript321">&mdash;&gt; Afin de débuter la formation TypeScript ensemble, vous aurez besoin de suivre les instructions du support suivant :  📚 (Logins  &amp; Passswords 🔐 donnés par le formateur) 💊 &lt;&mdash;</a>.</p>
 <p>©️ 🚫 Do not distribute    😌</p>
 
         </div>
@@ -355,7 +322,7 @@ Merci de m&rsquo;avertir de toute erreur ou coquille qui m&rsquo;auraient échap
         
         
           <div class="btn-improve-page">
-              <a href="https://github.com/Francis-Panzani/francis-panzani.github.io/edit//content/posts%5cFormation_Uml%5cindex.md" title="" target="_blank" rel="noopener">
+              <a href="https://github.com/Francis-Panzani/francis-panzani.github.io/edit//content/posts%5cFormation_TypeScript%5cindex.md" title="" target="_blank" rel="noopener">
                 <i class="fas fa-code-branch"></i>
                 
               </a>
@@ -378,18 +345,12 @@ Merci de m&rsquo;avertir de toute erreur ou coquille qui m&rsquo;auraient échap
   
 
   
-
-  
-
-  
-
-  
     
       
       <div class="col-md-6 previous-article">
-        <a href="/posts/welcome/" title="Bienvenue :)" class="btn btn-outline-info">
+        <a href="/posts/referencement/" title="Formation en Référencement, SEO, Conseils et TP à faire" class="btn btn-outline-info">
           <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-          <div class="next-prev-text">Bienvenue :)</div>
+          <div class="next-prev-text">Formation en Référencement, SEO, Conseils et TP à faire</div>
         </a>
       </div>
       
@@ -403,13 +364,19 @@ Merci de m&rsquo;avertir de toute erreur ou coquille qui m&rsquo;auraient échap
           
         
         <div class="col-md-6 next-article">
-          <a href="/posts/referencement/" title="Formation en Référencement, SEO, Conseils et TP à faire" class="btn btn-outline-info">
+          <a href="/posts/formation_nodejs/" title="Formation sur Node Js" class="btn btn-outline-info">
             <div>Next <i class="fas fa-chevron-circle-right"></i></div>
-            <div class="next-prev-text">Formation en Référencement, SEO, Conseils et TP à faire</div>
+            <div class="next-prev-text">Formation sur Node Js</div>
           </a>
         </div>
       
     
+  
+
+  
+
+  
+
   
 
 </div>
@@ -436,7 +403,7 @@ Merci de m&rsquo;avertir de toute erreur ou coquille qui m&rsquo;auraient échap
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
         
-        <a class="dropdown-item nav-link languages-item" href="/fr/posts/formation_uml">
+        <a class="dropdown-item nav-link languages-item" href="/fr/posts/formation_typescript">
             
             <img class="flag" src="https://www.countryflags.io/fr/flat/24.png" alt="fr">
             Français
@@ -459,19 +426,7 @@ Merci de m&rsquo;avertir de toute erreur ou coquille qui m&rsquo;auraient échap
         <nav id="TableOfContents">
   <ol>
     <li><a href="#center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></a></li>
-    <li><a href="#bienvenue-sur-cette-partie-traitant-de-la-formation-à-uml-">Bienvenue sur cette partie traitant de la formation à UML 😃</a>
-      <ol>
-        <li><a href="#diagramme-de-cas-dutilisation">Diagramme de Cas d’Utilisation</a></li>
-        <li><a href="#diagramme-de-séquence">Diagramme de Séquence</a></li>
-        <li><a href="#diagramme-de-classe">Diagramme de Classe</a></li>
-        <li><a href="#diagramme-détat-transition">Diagramme d’État Transition</a></li>
-        <li><a href="#diagramme-de-paquetages">Diagramme de Paquetages</a></li>
-        <li><a href="#diagramme-dactivité">Diagramme d’Activité</a></li>
-        <li><a href="#diagramme-de-composants">Diagramme de Composants</a></li>
-        <li><a href="#diagramme-de-déploiement">Diagramme de Déploiement</a></li>
-      </ol>
-    </li>
-    <li><a href="#220px-staruml_logopng220px-staruml_logopng-débuter-la-formation"><img src="220px-Staruml_logo.png" alt="220px-Staruml_logo.png"> Débuter la formation</a></li>
+    <li><a href="#todo--">TODO  🎢:</a></li>
   </ol>
 </nav>
       </div>

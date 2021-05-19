@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Creation d&#39;un compte étudiant avec l&#39;IDE PhpStorm</title>
+    <title>Formation sur TypeScript</title>
     
 
 
@@ -40,7 +40,7 @@
 <link rel="stylesheet" href="/css/style.css"/>
 
     
-<meta name="description" content="Se créer un compte étudiant pour utiliser l&#39;ide php storm phpstorm" />
+<meta name="description" content="Installer TypeScript, le prendre en main, l&#39;utiliser , revoir ECMA6" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -101,8 +101,8 @@ if (!doNotTrack) {
       <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/">
-      <img src="/images/avatar_cercle_huac9278d397fdb4837c1ab592c91306a8_179083_42x0_resize_box_2.png" alt="Logo">Francis Panzani E-porteFolio</a>
+    <a class="navbar-brand" href="/fr">
+      <img src="/images/avatar_cercle_huac9278d397fdb4837c1ab592c91306a8_179083_42x0_resize_box_2.png" alt="Logo">FPanzani PorteFolio</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -118,15 +118,15 @@ if (!doNotTrack) {
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       
-      <span class="flag-icon flag-icon-gb"></span>
-      English
+      <span class="flag-icon flag-icon-fr"></span>
+      Français
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/fr/posts/creation_compte_phpstorm">
+        <a class="dropdown-item nav-link languages-item" href="/posts/formation_typescript">
           
-          <span class="flag-icon flag-icon-fr"></span>
-          Français
+          <span class="flag-icon flag-icon-gb"></span>
+          English
         </a>
       
     </div>
@@ -152,19 +152,16 @@ if (!doNotTrack) {
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <li id="list-heading"><a href="/fr/posts" data-filter="all">News</a></li>
             <div class="subtree">
                 
   
   
   
   
-    
-    
-  
   
     
-    <li><a class="active" href="/posts/creation_compte_phpstorm/" title="Creation_compte_PhpStorm">Creation_compte_PhpStorm</a></li>
+    <li><a class="" href="/fr/posts/creation_compte_phpstorm/" title="Creation_compte_PhpStorm">Creation_compte_PhpStorm</a></li>
   
 
   
@@ -173,7 +170,7 @@ if (!doNotTrack) {
   
   
     
-    <li><a class="" href="/posts/formation_git/" title="Formation Git &amp; Github">Formation Git &amp; Github</a></li>
+    <li><a class="" href="/fr/posts/formation_git/" title="Formation Git &amp; Github">Formation Git &amp; Github</a></li>
   
 
   
@@ -182,7 +179,7 @@ if (!doNotTrack) {
   
   
     
-    <li><a class="" href="/posts/formation_nodejs/" title="Formation NodeJS">Formation NodeJS</a></li>
+    <li><a class="" href="/fr/posts/formation_nodejs/" title="Formation NodeJS">Formation NodeJS</a></li>
   
 
   
@@ -191,7 +188,19 @@ if (!doNotTrack) {
   
   
     
-    <li><a class="" href="/posts/referencement/" title="Formation Référencement de Site Web">Formation Référencement de Site Web</a></li>
+    <li><a class="" href="/fr/posts/referencement/" title="Formation Référencement de Site Web">Formation Référencement de Site Web</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/fr/posts/formation_typescript/" title="Formation TypeScript">Formation TypeScript</a></li>
   
 
   
@@ -200,7 +209,7 @@ if (!doNotTrack) {
   
   
     
-    <li><a class="" href="/posts/formation_typescript/" title="Formation TypeScript">Formation TypeScript</a></li>
+    <li><a class="" href="/fr/posts/formation_uml/" title="Formation Uml">Formation Uml</a></li>
   
 
   
@@ -209,7 +218,7 @@ if (!doNotTrack) {
   
   
     
-    <li><a class="" href="/posts/formation_uml/" title="Formation Uml">Formation Uml</a></li>
+    <li><a class="" href="/fr/posts/welcome/" title="Introduction">Introduction</a></li>
   
 
   
@@ -218,16 +227,7 @@ if (!doNotTrack) {
   
   
     
-    <li><a class="" href="/posts/welcome/" title="Introduction">Introduction</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/wsl_w10/" title="Ubuntu_Wsl_LAMP_Win10">Ubuntu_Wsl_LAMP_Win10</a></li>
+    <li><a class="" href="/fr/posts/wsl_w10/" title="Ubuntu_Wsl_LAMP_Win10">Ubuntu_Wsl_LAMP_Win10</a></li>
   
 
 
@@ -245,7 +245,7 @@ if (!doNotTrack) {
   <div class="content">
     <div class="container p-0 read-area">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://francis-panzani.github.io/posts/creation_compte_phpstorm/hero.svg);'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://francis-panzani.github.io/fr/posts/formation_typescript/hero.svg);'>
       </div>
 
       
@@ -253,57 +253,68 @@ if (!doNotTrack) {
         <div class="author-profile ml-auto align-self-lg-center">
           <img class="rounded-circle" src='/images/author/avatar_cercle2.png' alt="Author Image">
           <h5 class="author-name">Panzani Francis</h5>
-          <p>February 6, 2021</p>
+          <p>May 5, 2021</p>
         </div>
 
         <div class="title">
-          <h1>Creation d&#39;un compte étudiant avec l&#39;IDE PhpStorm</h1>
+          <h1>Formation sur TypeScript</h1>
         </div>
 
         <div class="post-content" id="post-content">
           <h2 id="center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></h2>
 <hr>
+<p>Dans cette formation on verra comment installer et configurer TypeScript, le prendre en main, faire un tour de ce qu&rsquo;il a apporté a Javascript (ECMA 6), ça sera une bonne préparation pour la Formation sur Angular.</p>
+<p><em>Passons en revue ses caractéristiques</em> :</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d&rsquo;améliorer et de sécuriser la production de code JavaScript.</li>
+<li><input checked="" disabled="" type="checkbox"> Son contributeur principal estAnders Hejlsberg, créateur de Delphi,Turbo Pascal et principal inventeur de C#.</li>
+<li><input checked="" disabled="" type="checkbox"> C&rsquo;est un sur-ensemble ou sur-couche de JavaScript (cela signifie que JavaScript est inclus dans TypeScript qui ajoute ce qui semble manquer au langage).</li>
+<li><input checked="" disabled="" type="checkbox"> L’ensemble des fonctionnalités supplémentaires permet au langage de se rapprocher de ses concurrents célèbres et populaires tels que Java et C++.</li>
+<li><input checked="" disabled="" type="checkbox"> Typescript supporte ECMA 6.</li>
+<li><input checked="" disabled="" type="checkbox"> Les dernières versions de JavaScript (à partir d’ECMAScript 2015) reprennent ces évolutions. Elles devraient donc se généraliser au fur et à mesure des mises à jour des moteurs JavaScript au sein des navigateurs.</li>
+<li><input checked="" disabled="" type="checkbox"> Le code TypeScript est transcompilé via un transpileur ou transcodeur nommé tsc.Plus simplement, l’ensemble du code est transformé en JavaScript et peut ensuite être interprété par n&rsquo;importe quel navigateur web ou moteur JavaScript.</li>
+<li><input checked="" disabled="" type="checkbox"> TypeScript permet d&rsquo;utiliser via des en-têtes TypeScript de nombreuses bibliothèques populaires comme JQuery, MongoDB, D3.JS, Node.js.</li>
+<li><input checked="" disabled="" type="checkbox"> Angular s&rsquo;appuie beaucoup dessus c&rsquo;est pourquoi il est très souvent vu au début de tout apprentissage sur ce Framewwork Web.</li>
+<li><input checked="" disabled="" type="checkbox"> Sorti en 2012, ses fichiers sont en .ts, le site off:  <a href="https://www.typescriptlang.org/">https://www.typescriptlang.org/</a></li>
+</ul>
+<p>En gros c&rsquo;est une sur-couche de JavaScript qui permet de :</p>
+<ul>
+<li>Typer optionnellement les variables lors de leurs déclarations (typage statique).</li>
+<li>Gérer des paramètres optionnels (en ajoutant un point d’interrogation accolé à leurs noms).</li>
+<li>Créer des classes et les instancier.</li>
+<li>Gérer un héritage simplifié.</li>
+<li>Implémenter des interfaces (au sens de la programmation objet).</li>
+<li>Gérer l’accès aux attributs par trois mots réservés : public, protected, private.</li>
+</ul>
 <h2 id="todo--">TODO  🎢:</h2>
-<p>Afin de vous créez un compte pour l&rsquo;IDE PhPStorm rendez-vous : <a href="https://www.jetbrains.com/fr-fr/phpstorm">-&gt;ICI&lt;-</a></p>
 <ul>
 <li>
-<p>Puis aller dans <code>Enseignement</code> .</p>
+<p>Installez la version node-v10.24.1 <a href="https://nodejs.org/dist/latest-v10.x/">-&gt;ICI&lt;-</a></p>
 </li>
 <li>
-<p>Puis dans <code>Étudiants et enseignants</code> <a href="https://www.jetbrains.com/fr-fr/community/education/#students">-&gt;ICI&lt;-</a></p>
-</li>
-<li>
-<p>Et enfin cliquez sur <code>postuler maintenant</code></p>
-</li>
-<li>
-<p>Remplissez les champs <code>Étudiant</code>, <code>Enseignement professionnel</code></p>
-</li>
-<li>
-<p>Le reste puis vous cochez <code>avoir lu</code> et <code>accepter l'accord de compte</code></p>
-</li>
-<li>
-<p>Puis finissez par cliquer sur <code>DEMANDER DES PRODUITS GRATUITS</code></p>
-</li>
-<li>
-<p>Attendez le mail de JetBrains puis cliquez sur le lien <code>follow this link</code> afin de valider votre email (ça peut prendre un petit moment).</p>
-</li>
-<li>
-<p>allez sur le site puis dans <code>Create JetBrains Account</code>, mettez votre email de l&rsquo;école pusi cliquez sur <code>Sign Up</code>
--Remplissez les champs <code>Username</code> et <code>password</code> et cochez <code>I have Read ...</code>, cliquez sur <code>Submit</code></p>
-</li>
-<li>
-<p>Et enfin téléchargez le logiciel <code>PhPStorm</code>, Installez le (mettez le dans un dossier bien précis)</p>
-</li>
-<li>
-<p>Les raccourcits claviers sont  ℹ️<a href="PhpStorm_ReferenceCard.pdf">-&gt;ICI&lt;-</a></p>
-</li>
-<li>
-<p>Attention faudra peut être redemarrer après l&rsquo;installation, ne cliquez pas aveuglément ;)</p>
-</li>
-<li>
-<p>Puis vous le lancer en l&rsquo;activant au besoin (mettez votre email et/ou username ainsi que votre mot de passe), n&rsquo;oubliez pas de l&rsquo;autoriser dans le parefeu ;)</p>
+<p>Puis créons un dossier Hello_World et lançons y la commande shell :</p>
 </li>
 </ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">npm install -g typescript
+</code></pre></div><center> <img  src="install_typescript1.png" alt ="[image install 1]"></center>
+<br/>
+<ul>
+<li>Puis créons via <a href="https://code.visualstudio.com/download">Visual Studio Code</a> un fichier <code>hello.ts</code>
+<ul>
+<li>Rentrons y le code Javascript suivant :</li>
+</ul>
+<center> <img  src="install_typescript2.png" width="55%" alt ="[image install 2]"></center>
+- _C'est pour la demo, on verra pour le typescript pur plus tard, no stress ;)_  
+</li>
+<li>Afin de transcompiler le fichier et de l’intégrer à une page HTML, la commande à lancer dans un terminal Windows est  :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">tsc hello.ts
+</code></pre></div> <img align="right" width="50%" src="install_typescript3.png" alt ="[image install 3]">
+- Ce qui va nous créer un fichier du même nom mais en .js que l'on va pouvoir lancer avec Node.js via la commande node hello.js    
+<br/><br/>
+- Pour rappel Node.js sert a écrire des applications type serveur et desktop en javascript, ce n'est pas un browser, mais on peut inclure notre .js dans un .html afin de l'interpreter via notre navigateur préféré ;)   
+<p><img align="left" src="install_typescript4.png" alt ="[image install 4]"><img width="50%" src="install_typescript5.png" alt ="[image install 5]"></p>
+<p>🎓 <a href="http://franpan.free.fr/formation/_typescript321">&mdash;&gt; Afin de débuter la formation TypeScript ensemble, vous aurez besoin de suivre les instructions du support suivant :  📚 (Logins  &amp; Passswords 🔐 donnés par le formateur) 💊 &lt;&mdash;</a>.</p>
 <p>©️ 🚫 Do not distribute    😌</p>
 
         </div>
@@ -311,7 +322,7 @@ if (!doNotTrack) {
         
         
           <div class="btn-improve-page">
-              <a href="https://github.com/Francis-Panzani/francis-panzani.github.io/edit//content/posts%5cCreation_compte_PhpStorm%5cindex.md" title="" target="_blank" rel="noopener">
+              <a href="https://github.com/Francis-Panzani/francis-panzani.github.io/edit//content/posts%5cFormation_TypeScript%5cindex.fr.md" title="" target="_blank" rel="noopener">
                 <i class="fas fa-code-branch"></i>
                 
               </a>
@@ -330,12 +341,14 @@ if (!doNotTrack) {
   
 
   
+
+  
     
       
       <div class="col-md-6 previous-article">
-        <a href="/posts/formation_nodejs/" title="Formation sur Node Js" class="btn btn-outline-info">
-          <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-          <div class="next-prev-text">Formation sur Node Js</div>
+        <a href="/fr/posts/referencement/" title="Formation en Référencement, SEO, Conseils et TP à faire" class="btn btn-outline-info">
+          <div><i class="fas fa-chevron-circle-left"></i> Précédent</div>
+          <div class="next-prev-text">Formation en Référencement, SEO, Conseils et TP à faire</div>
         </a>
       </div>
       
@@ -349,17 +362,13 @@ if (!doNotTrack) {
           
         
         <div class="col-md-6 next-article">
-          <a href="/posts/wsl_w10/" title="Installer LAMP &amp; Ubuntu sur Windows 10" class="btn btn-outline-info">
-            <div>Next <i class="fas fa-chevron-circle-right"></i></div>
-            <div class="next-prev-text">Installer LAMP &amp; Ubuntu sur Windows 10</div>
+          <a href="/fr/posts/formation_nodejs/" title="Formation sur Node Js" class="btn btn-outline-info">
+            <div>Suivant <i class="fas fa-chevron-circle-right"></i></div>
+            <div class="next-prev-text">Formation sur Node Js</div>
           </a>
         </div>
       
     
-  
-
-  
-
   
 
   
@@ -387,15 +396,15 @@ if (!doNotTrack) {
 <div class="dropdown languageSelector">
     <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         
-        <img class="flag" src="https://www.countryflags.io/gb/flat/16.png" alt="gb">
-        English
+        <img class="flag" src="https://www.countryflags.io/fr/flat/16.png" alt="fr">
+        Français
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
         
-        <a class="dropdown-item nav-link languages-item" href="/fr/posts/creation_compte_phpstorm">
+        <a class="dropdown-item nav-link languages-item" href="/posts/formation_typescript">
             
-            <img class="flag" src="https://www.countryflags.io/fr/flat/24.png" alt="fr">
-            Français
+            <img class="flag" src="https://www.countryflags.io/gb/flat/24.png" alt="gb">
+            English
         </a>
         
     </div>
@@ -409,7 +418,7 @@ if (!doNotTrack) {
   <section class="toc-section" id="toc-section">
     
     <div class="toc-holder">
-      <h5 class="text-center pl-3">Table of Contents</h5>
+      <h5 class="text-center pl-3">Table des matières</h5>
       <hr>
       <div class="toc">
         <nav id="TableOfContents">
@@ -492,7 +501,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#about">About</a>
+                  <a class="smooth-scroll" href="/#about">A propos</a>
                 </li>
               
               
@@ -501,7 +510,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                  <a class="smooth-scroll" href="/#skills">Compétences</a>
                 </li>
               
               
@@ -510,7 +519,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                  <a class="smooth-scroll" href="/#experiences">Expériences</a>
                 </li>
               
               
@@ -519,7 +528,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#education">Education</a>
+                  <a class="smooth-scroll" href="/#education">Éducation</a>
                 </li>
               
               
@@ -528,7 +537,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                  <a class="smooth-scroll" href="/#projects">Projets</a>
                 </li>
               
               
@@ -537,7 +546,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#accomplishments">Accomplishments</a>
+                  <a class="smooth-scroll" href="/#recent-posts">Posts</a>
                 </li>
               
               
@@ -546,7 +555,16 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                  <a class="smooth-scroll" href="/#accomplishments">Certifications</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Réalisations</a>
                 </li>
               
           </ul>
@@ -555,12 +573,12 @@ if (!doNotTrack) {
         
         
         <div class="col-md-4 col-sm-12">
-          <h5>Contact me:</h5>
+          <h5>Contactez moi :</h5>
           <ul>
             
             <li><span>Email: </span> <span>francis.panzani@gmail.com</span></li>
             
-            <li><span>Phone: </span> <span>&#43;06 first contact via mail</span></li>
+            <li><span>Phone: </span> <span>&#43;06 jamais la premiere fois, d&#39;abord par mail ;)</span></li>
             
           </ul>
         </div>
@@ -579,9 +597,9 @@ if (!doNotTrack) {
             Toha
           </a>
         </div>
-        <div class="col-md-4 text-center">© 2021 Copyright Francis Panzani.</div>
+        <div class="col-md-4 text-center">© 2021 Tous droits réservés.</div>
         <div class="col-md-4 text-right">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
           <img
             src="/images/hugo-logo.svg"
             alt="Hugo Logo"
