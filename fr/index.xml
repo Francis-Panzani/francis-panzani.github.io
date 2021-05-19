@@ -43,12 +43,12 @@ Le référencement web s&amp;rsquo;articule autour de deux stratégies distincte
     
     <item>
       <title>Formation sur Node Js</title>
-      <link>https://francis-panzani.github.io/fr/posts/nodejs/</link>
+      <link>https://francis-panzani.github.io/fr/posts/formation_nodejs/</link>
       <pubDate>Wed, 05 May 2021 18:06:25 +0000</pubDate>
       
-      <guid>https://francis-panzani.github.io/fr/posts/nodejs/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  🎓 Afin de suivre la formation Node JS ensemble, vous aurez besoin de suivre les instructions du support suivant :📚Login/Passsword🔐 donné par le formateur 💊.
-TODO 🎢:  Installez la version node-v10.24.1 -&amp;gt;ICI&amp;lt;- Suivez mon post ou les liens suivants pour Installer une WSL Ubuntu sur WINDOWS. PS : si vous ne voulez pas etre embeté, sous windows prenez-la .msi  Aide :</description>
+      <guid>https://francis-panzani.github.io/fr/posts/formation_nodejs/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et configurer NodeJS, le prendre en main, l&amp;rsquo;utiliser avec MongoDB, Jade/Pug et Express JS, on m&amp;rsquo;utilisera en mode CLI, si on a du temps on fera une API/REST
+Tout d&amp;rsquo;abord un petit historique des frameworks web jusqu&amp;rsquo;à 2019 (merci Dr Jawa ) Si on regarde l&amp;rsquo;état du JS en 2020 on se rends compte qu&amp;rsquo;il est extremement populaire : https://2020.</description>
     </item>
     
     <item>
@@ -82,8 +82,9 @@ TODO 🎢:  On suivra ensemble les instructions du fichier 📙 Install-LAMP-WSL
       <pubDate>Thu, 04 Feb 2021 12:06:25 +0000</pubDate>
       
       <guid>https://francis-panzani.github.io/fr/posts/formation_git/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  🎓 Afin de suivre la formation Git GitHub 🌎 ensemble vous aurez besoin de suivre les instructions du support suivant : 📚(Login/Passsword🔐) donné par le formateur 💊.
- 🍡 Je vous communiquerai quand on aura commencé un autre repo pour les exemples et exercices  TODO 🎢:   🚀 Afin d&amp;rsquo;aller plus loin dans la formation, vous aurez besoin de suivre les instructions des ressources que vous trouverez : -&amp;gt;ICI&amp;lt;-</description>
+      <description>📢 Bonjour à tous et à toutes ❗  Créé en 1995 par Linus Torvalds (le fondateur de Linux) il a su s&amp;rsquo;implanter rapidement comme le logiciel de versionning le plus populaire depuis 2016.
+La fonctionnalité Git qui le distingue vraiment de presque tous les autres SCM est son modèle de branche :
+ Git permet et je vous recommande d&amp;rsquo;à avoir plusieurs branches locales (qui peuvent être entièrement indépendantes les unes des autres).</description>
     </item>
     
   </channel>
