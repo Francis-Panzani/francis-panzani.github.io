@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Installer LAMP &amp; Ubuntu sur Windows 10</title>
+    <title>Formation Uml</title>
     
 
 
@@ -40,7 +40,7 @@
 <link rel="stylesheet" href="/css/style.css"/>
 
     
-<meta name="description" content="Installer Ubuntu &amp; LAMP via WSL sous Windows 10" />
+<meta name="description" content="uml" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -123,7 +123,7 @@ if (!doNotTrack) {
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/fr/posts/wsl_w10">
+        <a class="dropdown-item nav-link languages-item" href="/fr/posts/formation_uml">
           
           <span class="flag-icon flag-icon-fr"></span>
           Français
@@ -195,9 +195,12 @@ if (!doNotTrack) {
   
   
   
+    
+    
+  
   
     
-    <li><a class="" href="/posts/formation_uml/" title="Formation Uml">Formation Uml</a></li>
+    <li><a class="active" href="/posts/formation_uml/" title="Formation Uml">Formation Uml</a></li>
   
 
   
@@ -213,12 +216,9 @@ if (!doNotTrack) {
   
   
   
-    
-    
-  
   
     
-    <li><a class="active" href="/posts/wsl_w10/" title="Ubuntu_Wsl_LAMP_Win10">Ubuntu_Wsl_LAMP_Win10</a></li>
+    <li><a class="" href="/posts/wsl_w10/" title="Ubuntu_Wsl_LAMP_Win10">Ubuntu_Wsl_LAMP_Win10</a></li>
   
 
 
@@ -236,7 +236,7 @@ if (!doNotTrack) {
   <div class="content">
     <div class="container p-0 read-area">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://francis-panzani.github.io/posts/wsl_w10/hero.svg);'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://francis-panzani.github.io/posts/formation_uml/hero.svg);'>
       </div>
 
       
@@ -244,34 +244,108 @@ if (!doNotTrack) {
         <div class="author-profile ml-auto align-self-lg-center">
           <img class="rounded-circle" src='/images/author/avatar_cercle2.png' alt="Author Image">
           <h5 class="author-name">Panzani Francis</h5>
-          <p>February 5, 2021</p>
+          <p>May 19, 2021</p>
         </div>
 
         <div class="title">
-          <h1>Installer LAMP &amp; Ubuntu sur Windows 10</h1>
+          <h1>Formation Uml</h1>
         </div>
 
         <div class="post-content" id="post-content">
-          <hr>
-<h2 id="center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></h2>
-<p>🎓
-Afin de suivre l&rsquo;installation ensemble vous aurez besoin de suivre les instructions du support suivant :  📙<a href="Install-LAMP-WSL-WINDOWS.pdf">-&gt;Install-LAMP-WSL-WINDOWS&lt;-</a></p>
-<h2 id="todo--">TODO  🎢:</h2>
+          <h2 id="center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></h2>
+<hr>
+<h2 id="bienvenue-sur-cette-partie-traitant-de-la-formation-à-uml-">Bienvenue sur cette partie traitant de la formation à UML 😃</h2>
+<p>On verra ici ce qu&rsquo;est UML (dispensé jusqu&rsquo;en bac +3 /4 et oui, vous n&rsquo;avez pas fini d&rsquo;en entendre parler).<br>
+<em>U</em>nified <em>M</em>odeling <em>L</em>anguage ou en français Langage de Modélisation Unifié est un langage de  modélisation graphique à base de pictogrammes conçu pour fournir une méthode normalisée pour visualiser la conception d&rsquo;un système.</p>
+<blockquote>
+<p><img src="bonaparte.jpg" alt="napoleon citation"> “Un bon croquis vaut mieux qu’un long discours.”</p>
+<p>&ndash; <cite><a href="http://evene.lefigaro.fr/citation/bon-croquis-vaut-mieux-long-discours-37319.php">Napoléon Bonaparte</a></cite></p>
+</blockquote>
+<p>Il est couramment utilisé en Développement Logiciel et en Conception Orientée Objet.<br>
+L&rsquo;UML est le résultat de la fusion de précédents langages de modélisation objet : Booch, OMT, OOSE</p>
+<p>UML est à présent un standard adopté par l&rsquo;Object Management Group (OMG) -&gt; consortium américain à but non lucratif créé en 1989 dont l&rsquo;objectif est de standardiser et promouvoir le modèle objet.<br>
+La dernière version de la spécification validée par l&rsquo;OMG est UML 2.5.1 (2017)2.</p>
+<p>Pour faire simple a un moment il y avait beaucoup de façon de représenter des systemes d&rsquo;informations ou des projets informatique (Il reste encore beaucoup de diversités mais maintenant on a au moins une base commune), il y a eu un gros besoin de standardisation qui s&rsquo;est traduite en 1997 par la V1 d&rsquo;UML.<br>
+Le langage Uml est mondialement connu et reste encore très utilisé et très enseigné, ou en tout cas certains de ses diagrammes le sont encore quasi dans tous les projets informatiques d&rsquo;une taille conséquente même après l&rsquo;avenement des méthodologies Agiles.</p>
+<p>Il est composé de 14 diagrammes, on en verra un certain nombre à des moments divers de votre parcours avec moi, ces diagrammes se suivent et s&rsquo;enrichissent des précédents diagrammes en permettant de construire une application Informatique (mais pas que) des étapes de conception au déploiement, en passant bien évideement par la réalisation !!!</p>
+<h3 id="diagramme-de-cas-dutilisation">Diagramme de Cas d’utilisation</h3>
+<p>C&rsquo;est le premier, il permet de visualiser les Uses Cases (Cas d&rsquo;utilisation,) a ne pas confondre avec les Users Sorties des méthodologiees Agiles).</p>
+<p>Son but :</p>
 <ul>
-<li>On suivra ensemble les instructions du fichier  📙 <code>Install-LAMP-WSL-WINDOWS.pdf</code> .</li>
-<li>Pour ceux qui ont vraiment du mal vous installerez [Xampp] (<a href="https://www.apachefriends.org/fr/index.html">https://www.apachefriends.org/fr/index.html</a> ).</li>
-<li>Sources :</li>
-<li>ℹ️ <a href="https://doc.ubuntu-fr.org/wsl">https://doc.ubuntu-fr.org/wsl</a></li>
-<li>ℹ️ <a href="https://docs.microsoft.com/fr-fr/windows/wsl/install-win10">https://docs.microsoft.com/fr-fr/windows/wsl/install-win10</a>
-©️ 🚫 Do not distribute    😌</li>
+<li>Modéliser ce que l ’application doit (ou ne doit pas) être capable de prendre en compte.</li>
+<li>Modélise la manière dont une organisation ou un système externe doivent interagir avec le système.</li>
 </ul>
+<p>Coté Utilisateur :</p>
+<ul>
+<li>Met en évidence les services du système</li>
+<li>Fixe le périmètre entre le système et son environnement</li>
+</ul>
+<h3 id="diagramme-de-séquence">Diagramme de séquence</h3>
+<p>Il  permet la représentation de façon séquentielle du déroulement des traitements et des interactions entre les éléments du système et/ou de ses acteurs.</p>
+<p>Son but :</p>
+<ul>
+<li>Validation des cas d ’utilisation, pour comprendre la logique de l ’application.</li>
+<li>Complète le diagramme des cas d’utilisation en mettant en évidence les objets et leurs  Interactions d’un point de vue temporel.</li>
+</ul>
+<p>Note : Pas tout le temps nécessaire.</p>
+<h3 id="diagramme-de-classe">Diagramme de Classe</h3>
+<p>Ultra important, c&rsquo;est la représentation des classes intervenant dans le système (Il est le point central de la modélisation du système pour décrire ce que le système doit faire (analyse) et comment il va le faire (conception)).</p>
+<p>Son but :</p>
+<ul>
+<li>Représentation de la structure statique du système d’information</li>
+<li>Modélisation des classes et de leurs relations</li>
+</ul>
+<h3 id="diagramme-détat-transition">Diagramme d’état transition</h3>
+<p>Il est la représentation du cycle de vie des instances d’une classe.</p>
+<p>Son but :</p>
+<ul>
+<li>Spécification des états, des transitions entre ces états et des actions associées aux transitions.</li>
+<li>S’utilise pour la modélisation de la dynamique de certaines classes</li>
+</ul>
+<h3 id="diagramme-de-paquetages">Diagramme de paquetages</h3>
+<p>Un Diagramme de package permet de représenter les dépendances entre les différents package du système.</p>
+<h3 id="diagramme-dactivité">Diagramme d’Activité</h3>
+<p>Il est la représentation sous forme de flux ou d&rsquo;enchaînement d&rsquo;activités du comportement du système ou de ses composants.<br>
+Les activités sont soit :</p>
+<ul>
+<li>une opération</li>
+<li>une étape dans une opération</li>
+<li>une action d’un scénario d’un cas d ’utilisation</li>
+</ul>
+<p>Il permet de :</p>
+<ul>
+<li>représenter soit un processus d’une organisation</li>
+<li>ou alors le comportement des opérations d ’une classe</li>
+</ul>
+<p>Il permet plusieurs points de vue pour :</p>
+<ul>
+<li>soit pour analyser un processus</li>
+<li>soit pour concevoir un objet</li>
+</ul>
+<h3 id="diagramme-de-composants">Diagramme de composants</h3>
+<p>Il permet la description des composants logiciels (composants du système d&rsquo;un point de vue physique) et de leurs dépendances, tels qu&rsquo;ils sont mis en œuvre (fichiers, librairies, bases de données, exécutables …)</p>
+<p>Note : Utilisé en conception de logiciel pour allouer les classes et objets aux composants</p>
+<h3 id="diagramme-de-déploiement">Diagramme de déploiement</h3>
+<p>Son but est de décrire :</p>
+<ul>
+<li>la configuration matérielle des unités de traitements (hard et soft).</li>
+<li>l’architecture technique, des noeuds et de leur interconnexion.</li>
+</ul>
+<p>Note : Les noeuds peuvent être les serveurs, postes de travail et périphériques. Les composants sont alloués aux différents noeuds.</p>
+<p><img src="liensdiagramme.png" alt="liens diagrammes uml"></p>
+<h2 id="220px-staruml_logopng220px-staruml_logopng-débuter-la-formation"><img src="220px-Staruml_logo.png" alt="220px-Staruml_logo.png"> Débuter la formation</h2>
+<p>Dans un premier temps téléchargez, installez et prenez en main l&rsquo;excellentissime,et gratuit (mais soutenez-le quand même quand vous gagnerez votre vie en partie grâce à lui :P) ! StarUML : <a href="https://staruml.io/">https://staruml.io/</a></p>
+<p>🎓 Afin de suivre la formation en référencement ensemble, vous aurez besoin de suivre les instructions du support suivant :  📚<a href="http://franpan.free.fr/formation/_Uml777"><em>Login/Passsword🔐</em></a> donné par le formateur 💊.</p>
+<p>Merci de garder pour vous les ressources que vous y trouverez et de ne pas les diffuser 😏<br>
+Merci de m&rsquo;avertir de toute erreur ou coquille qui m&rsquo;auraient échapées 😍</p>
+<p>©️ 🚫 Do not distribute    😌</p>
 
         </div>
 
         
         
           <div class="btn-improve-page">
-              <a href="https://github.com/Francis-Panzani/francis-panzani.github.io/edit//content/posts%5cWSL_W10%5cindex.md" title="" target="_blank" rel="noopener">
+              <a href="https://github.com/Francis-Panzani/francis-panzani.github.io/edit//content/posts%5cFormation_Uml%5cindex.md" title="" target="_blank" rel="noopener">
                 <i class="fas fa-code-branch"></i>
                 
               </a>
@@ -288,12 +362,22 @@ Afin de suivre l&rsquo;installation ensemble vous aurez besoin de suivre les ins
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
     
       
       <div class="col-md-6 previous-article">
-        <a href="/posts/creation_compte_phpstorm/" title="Creation d&#39;un compte étudiant avec l&#39;IDE PhpStorm" class="btn btn-outline-info">
+        <a href="/posts/welcome/" title="Bienvenue :)" class="btn btn-outline-info">
           <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-          <div class="next-prev-text">Creation d&#39;un compte étudiant avec l&#39;IDE PhpStorm</div>
+          <div class="next-prev-text">Bienvenue :)</div>
         </a>
       </div>
       
@@ -307,23 +391,13 @@ Afin de suivre l&rsquo;installation ensemble vous aurez besoin de suivre les ins
           
         
         <div class="col-md-6 next-article">
-          <a href="/posts/formation_git/" title="Formation Git et Github" class="btn btn-outline-info">
+          <a href="/posts/referencement/" title="Formation en Référencement, SEO, Conseils et TP à faire" class="btn btn-outline-info">
             <div>Next <i class="fas fa-chevron-circle-right"></i></div>
-            <div class="next-prev-text">Formation Git et Github</div>
+            <div class="next-prev-text">Formation en Référencement, SEO, Conseils et TP à faire</div>
           </a>
         </div>
       
     
-  
-
-  
-
-  
-
-  
-
-  
-
   
 
 </div>
@@ -350,7 +424,7 @@ Afin de suivre l&rsquo;installation ensemble vous aurez besoin de suivre les ins
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
         
-        <a class="dropdown-item nav-link languages-item" href="/fr/posts/wsl_w10">
+        <a class="dropdown-item nav-link languages-item" href="/fr/posts/formation_uml">
             
             <img class="flag" src="https://www.countryflags.io/fr/flat/24.png" alt="fr">
             Français
@@ -373,7 +447,19 @@ Afin de suivre l&rsquo;installation ensemble vous aurez besoin de suivre les ins
         <nav id="TableOfContents">
   <ol>
     <li><a href="#center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></a></li>
-    <li><a href="#todo--">TODO  🎢:</a></li>
+    <li><a href="#bienvenue-sur-cette-partie-traitant-de-la-formation-à-uml-">Bienvenue sur cette partie traitant de la formation à UML 😃</a>
+      <ol>
+        <li><a href="#diagramme-de-cas-dutilisation">Diagramme de Cas d’utilisation</a></li>
+        <li><a href="#diagramme-de-séquence">Diagramme de séquence</a></li>
+        <li><a href="#diagramme-de-classe">Diagramme de Classe</a></li>
+        <li><a href="#diagramme-détat-transition">Diagramme d’état transition</a></li>
+        <li><a href="#diagramme-de-paquetages">Diagramme de paquetages</a></li>
+        <li><a href="#diagramme-dactivité">Diagramme d’Activité</a></li>
+        <li><a href="#diagramme-de-composants">Diagramme de composants</a></li>
+        <li><a href="#diagramme-de-déploiement">Diagramme de déploiement</a></li>
+      </ol>
+    </li>
+    <li><a href="#220px-staruml_logopng220px-staruml_logopng-débuter-la-formation"><img src="220px-Staruml_logo.png" alt="220px-Staruml_logo.png"> Débuter la formation</a></li>
   </ol>
 </nav>
       </div>
