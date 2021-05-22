@@ -1,15 +1,301 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Francis Panzani E-porteFolio</title>
+    <title>Francis Panzani&#39;s E-PorteFolio</title>
     <link>https://francis-panzani.github.io/</link>
-    <description>Recent content on Francis Panzani E-porteFolio</description>
+    <description>Recent content on Francis Panzani&#39;s E-PorteFolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
     <lastBuildDate>Sat, 22 May 2021 05:05:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Resultados de Búsqueda</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
+    </item>
+    
+    <item>
+      <title>Resultados de Búsqueda</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
+    </item>
+    
+    <item>
       <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>অনুসন্ধানের ফলাফল</title>
+      <link>https://francis-panzani.github.io/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>অনুসন্ধানের ফলাফল</title>
       <link>https://francis-panzani.github.io/search/</link>
       <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
       
@@ -27,18 +313,7 @@ Initial setup Search depends on additional output content type of JSON in config
       <pubDate>Sat, 22 May 2021 05:05:25 +0000</pubDate>
       
       <guid>https://francis-panzani.github.io/posts/formations/formation_bootstrap/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et utiliser  Bootstrap V4, faire du responsive Web Design, utiliser ses éléments typographiques, l&amp;rsquo;utiliser pour nous aider à faire la mise en page de nos sites internets et utiliser les éléments avancés (carroussel et autres) qu&amp;rsquo;apportent ce framrwork front gratuit (encore merci à tous ceux qui contribuent ou qui ont contribués à ce très beau projet).</description>
-    </item>
-    
-    <item>
-      <title>Bienvenue :)</title>
-      <link>https://francis-panzani.github.io/posts/welcome/</link>
-      <pubDate>Wed, 19 May 2021 11:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/posts/welcome/</guid>
-      <description>[](https://getbootstrap.com/)--📢 Bonjour à tous et à toutes ❗  Bienvenue sur mon espace personnel sur GitHub 😃
-C&amp;rsquo;était l&amp;rsquo;occasion pour moi de faire mon eportefolio et de tester les pages GitHub pages en découvrant Markdown, je n&amp;rsquo;ai pas pu résister 😄
- D&amp;rsquo;ailleurs un petit lien pour ceux qui ne connaissent pas les GitHub pages (Hébergement de pages statiques gratuites, si si 😍) et Markdown avec GitHub (n&amp;rsquo;oubliez pas le raw html et les frameworks JS ) :Pages GitHub - Mastering Markdown  Vous trouverez essentiellement un début de ressources pour les formations que je donne et des liens sécurisés pour les documents à destination de mes stagiaires.</description>
+      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et utiliser Bootstrap V4, faire du responsive Web Design, utiliser ses éléments typographiques, l&amp;rsquo;utiliser pour nous aider à faire la mise en page de nos sites internets et utiliser les éléments avancés (carroussel et autres) qu&amp;rsquo;apportent ce framrwork front gratuit (encore merci à tous ceux qui contribuent ou qui ont contribués à ce très beau projet).</description>
     </item>
     
     <item>
@@ -52,6 +327,17 @@ Unified Modeling Language ou en français Langage de Modélisation Unifié est
     </item>
     
     <item>
+      <title>Welcome :)</title>
+      <link>https://francis-panzani.github.io/posts/welcome/</link>
+      <pubDate>Wed, 19 May 2021 11:06:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/posts/welcome/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Bienvenue sur mon espace personnel sur GitHub 😃
+C&amp;rsquo;était l&amp;rsquo;occasion pour moi de faire mon eportefolio et de tester les pages GitHub pages en découvrant Markdown, je n&amp;rsquo;ai pas pu résister 😄
+ D&amp;rsquo;ailleurs un petit lien pour ceux qui ne connaissent pas les GitHub pages (Hébergement de pages statiques gratuites, si si 😍) et Markdown avec GitHub (n&amp;rsquo;oubliez pas le raw html et les frameworks JS ) :Pages GitHub - Mastering Markdown  Vous trouverez essentiellement un début de ressources pour les formations que je donne et des liens sécurisés pour les documents à destination de mes stagiaires.</description>
+    </item>
+    
+    <item>
       <title>Formation en Référencement, SEO, Conseils et TP à faire</title>
       <link>https://francis-panzani.github.io/posts/formations/referencement/</link>
       <pubDate>Sun, 16 May 2021 08:06:25 +0000</pubDate>
@@ -60,7 +346,7 @@ Unified Modeling Language ou en français Langage de Modélisation Unifié est
       <description>📢 Bonjour à tous et à toutes ❗   Le référencement est l&amp;rsquo;action de référencer, c&amp;rsquo;est-à-dire mentionner quelque chose ou y faire référence.
 Sur Internet, le travail de référencement consiste à améliorer le positionnement et la visibilité de sites dans des pages de résultats de moteurs de recherche ou d&amp;rsquo;annuaires.
 Le référencement web s&amp;rsquo;articule autour de deux stratégies distinctes et complémentaires :
-😎 le référencement naturel (ou organique)  SEO</description>
+😎 le référencement naturel (ou organique) SEO 💰 le référencement payant (ou liens sponsorisés).</description>
     </item>
     
     <item>
@@ -121,12 +407,12 @@ La fonctionnalité Git qui le distingue vraiment de presque tous les autres SCM 
     </item>
     
     <item>
-      <title>Panzani&#39;s Francis Courses </title>
-      <link>https://francis-panzani.github.io/posts/formations/liste_formations/</link>
+      <title>Panzani Francis&#39;s Courses </title>
+      <link>https://francis-panzani.github.io/posts/formations/premier/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:20 +0600</pubDate>
       
-      <guid>https://francis-panzani.github.io/posts/formations/liste_formations/</guid>
-      <description>Complete Post Coming Soon&amp;hellip; </description>
+      <guid>https://francis-panzani.github.io/posts/formations/premier/</guid>
+      <description>Voilà les indications sur les slides que l&amp;rsquo;on va utiliser ainsi que les consignes à suivre pour les formations : Pour les plus curieux et motivés : https://dailygeekshow.com/7-conseils-mieux-apprendre-etudiant/</description>
     </item>
     
     <item>

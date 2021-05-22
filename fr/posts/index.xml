@@ -9,6 +9,19 @@
     <copyright>Everything is mine</copyright>
     <lastBuildDate>Sat, 22 May 2021 05:05:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Recherche</title>
+      <link>https://francis-panzani.github.io/fr/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>https://francis-panzani.github.io/fr/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
       <title>Bienvenue :)</title>
       <link>https://francis-panzani.github.io/fr/posts/welcome/</link>
       <pubDate>Wed, 19 May 2021 11:06:25 +0000</pubDate>

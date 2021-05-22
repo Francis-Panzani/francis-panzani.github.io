@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Categories</title>
+    <title>Notes</title>
     
 
 
@@ -40,8 +40,12 @@
 <link rel="stylesheet" href="/css/style.css"/>
 
     
-    <link rel="stylesheet" href="/css/layouts/list.css">
-    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+  />
+  <link rel="stylesheet" href="/css/layouts/notes.css">
+  <link rel="stylesheet" href="/css/navigators/sidebar.css">
 
 
     
@@ -96,8 +100,8 @@ if (!doNotTrack) {
       <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/">
-      <img src="/images/FP_hu3ae20cad08449069c904874d7c47399b_50071_42x0_resize_box.gif" alt="Logo">Francis Panzani&#39;s E-PorteFolio</a>
+    <a class="navbar-brand" href="/fr">
+      <img src="/images/FP_hu3ae20cad08449069c904874d7c47399b_50071_42x0_resize_box.gif" alt="Logo">FPanzani PorteFolio</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -113,15 +117,15 @@ if (!doNotTrack) {
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       
-      <span class="flag-icon flag-icon-gb"></span>
-      English
+      <span class="flag-icon flag-icon-fr"></span>
+      Français
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/fr/categories">
+        <a class="dropdown-item nav-link languages-item" href="/notes">
           
-          <span class="flag-icon flag-icon-fr"></span>
-          Français
+          <span class="flag-icon flag-icon-gb"></span>
+          English
         </a>
       
     </div>
@@ -148,136 +152,14 @@ if (!doNotTrack) {
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
-        <form class="mx-auto" method="get" action="/search">
+        <form class="mx-auto" method="get" action="/fr/search">
           <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/categories" data-filter="all"></a></li>
+            <li id="list-heading"><a href="/fr/notes" data-filter="all">Remarques</a></li>
             <div class="subtree">
                 
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/welcome/" title="Introduction">Introduction</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/formations/">The Courses</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/formations/premier/" title="-Read Me First">-Read Me First</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/formations/formation_bootstrap/" title="Formation Bootstrap">Formation Bootstrap</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/formations/formation_git/" title="Formation Git &amp; Github">Formation Git &amp; Github</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/formations/formation_nodejs/" title="Formation NodeJS">Formation NodeJS</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/formations/referencement/" title="Formation Référencement de Site Web">Formation Référencement de Site Web</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/formations/formation_typescript/" title="Formation TypeScript">Formation TypeScript</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/formations/formation_uml/" title="Formation Uml">Formation Uml</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/divers/">Various Posts</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/divers/creation_compte_phpstorm/" title="Creation_compte_PhpStorm">Creation_compte_PhpStorm</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/divers/wsl_w10/" title="Ubuntu_Wsl_LAMP_Win10">Ubuntu_Wsl_LAMP_Win10</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
 
             </div>
           </ul>
@@ -291,9 +173,12 @@ if (!doNotTrack) {
       
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
-    <div class="container-fluid post-card-holder" id="post-card-holder">
+    <div class="container-fluid note-card-holder" id="note-card-holder">
       
       
+        
+        
+        
       
     </div>
     <div class="paginator">
@@ -378,7 +263,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#about">About</a>
+                  <a class="smooth-scroll" href="/#about">A propos</a>
                 </li>
               
               
@@ -387,7 +272,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                  <a class="smooth-scroll" href="/#skills">Compétences</a>
                 </li>
               
               
@@ -396,7 +281,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                  <a class="smooth-scroll" href="/#experiences">Expériences</a>
                 </li>
               
               
@@ -405,7 +290,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#education">Education</a>
+                  <a class="smooth-scroll" href="/#education">Éducation</a>
                 </li>
               
               
@@ -414,7 +299,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                  <a class="smooth-scroll" href="/#projects">Projets</a>
                 </li>
               
               
@@ -423,7 +308,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#accomplishments">Accomplishments</a>
+                  <a class="smooth-scroll" href="/#recent-posts">Posts</a>
                 </li>
               
               
@@ -432,7 +317,16 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                  <a class="smooth-scroll" href="/#accomplishments">Certifications</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Réalisations</a>
                 </li>
               
           </ul>
@@ -441,12 +335,12 @@ if (!doNotTrack) {
         
         
         <div class="col-md-4 col-sm-12">
-          <h5>Contact me:</h5>
+          <h5>Contactez moi :</h5>
           <ul>
             
             <li><span>Email: </span> <span>francis.panzani@gmail.com</span></li>
             
-            <li><span>Phone: </span> <span>&#43;06 first contact via mail</span></li>
+            <li><span>Phone: </span> <span>&#43;06 jamais la premiere fois, d&#39;abord par mail ;)</span></li>
             
           </ul>
         </div>
@@ -466,9 +360,9 @@ if (!doNotTrack) {
             Toha
           </a>
         </div>
-        <div class="col-md-4 text-center">© 2021 Copyright Francis Panzani.</div>
+        <div class="col-md-4 text-center">© 2021 Tous droits réservés.</div>
         <div class="col-md-4 text-right">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
           <img
             src="/images/hugo-logo.svg"
             alt="Hugo Logo"
@@ -493,7 +387,13 @@ if (!doNotTrack) {
 
     
     
-    <script src="/js/list.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+  <script src="/js/imagesloaded.pkgd.min.js"></script>
+  <script src="/js/note.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
 
   </body>
 </html>
