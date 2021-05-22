@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Divers Post on FPanzani PorteFolio</title>
+    <link>https://francis-panzani.github.io/fr/posts/divers/</link>
+    <description>Recent content in Divers Post on FPanzani PorteFolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Everything is mine</copyright>
+    <lastBuildDate>Sat, 06 Feb 2021 18:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/divers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creation d&#39;un compte étudiant avec l&#39;IDE PhpStorm</title>
+      <link>https://francis-panzani.github.io/fr/posts/divers/creation_compte_phpstorm/</link>
+      <pubDate>Sat, 06 Feb 2021 18:06:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/fr/posts/divers/creation_compte_phpstorm/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  TODO 🎢: Afin de vous créez un compte pour l&amp;rsquo;IDE PhPStorm rendez-vous : -&amp;gt;ICI&amp;lt;-
+  Puis aller dans Enseignement .
+  Puis dans Étudiants et enseignants -&amp;gt;ICI&amp;lt;-
+  Et enfin cliquez sur postuler maintenant
+  Remplissez les champs Étudiant, Enseignement professionnel
+  Le reste puis vous cochez avoir lu et accepter l&#39;accord de compte
+  Puis finissez par cliquer sur DEMANDER DES PRODUITS GRATUITS</description>
+    </item>
+    
+    <item>
+      <title>Installer LAMP &amp; Ubuntu sur Windows 10</title>
+      <link>https://francis-panzani.github.io/fr/posts/divers/wsl_w10/</link>
+      <pubDate>Fri, 05 Feb 2021 18:06:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/fr/posts/divers/wsl_w10/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  🎓 Afin de suivre l&amp;rsquo;installation ensemble vous aurez besoin de suivre les instructions du support suivant : 📙-&amp;gt;Install-LAMP-WSL-WINDOWS&amp;lt;-
+TODO 🎢:  On suivra ensemble les instructions du fichier 📙 Install-LAMP-WSL-WINDOWS.pdf . Pour ceux qui ont vraiment du mal vous installerez Xampp.  Sources et aides diverses (à lire en cas hein :P): ℹ️ https://doc.ubuntu-fr.org/wsl ℹ️ https://docs.microsoft.com/fr-fr/windows/wsl/install-win10 ©️ 🚫 Do not distribute 😌  </description>
+    </item>
+    
+  </channel>
+</rss>

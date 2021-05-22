@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Wed, 19 May 2021 11:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 05:05:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bienvenue :)</title>
       <link>https://francis-panzani.github.io/fr/posts/welcome/</link>
@@ -17,85 +17,6 @@
       <description>📢 Bonjour à tous et à toutes ❗  Bienvenue sur mon espace personnel sur GitHub 😃
 C&amp;rsquo;était l&amp;rsquo;occasion pour moi de faire mon eportefolio et de tester les pages GitHub pages en découvrant Markdown, je n&amp;rsquo;ai pas pu résister 😄
  D&amp;rsquo;ailleurs un petit lien pour ceux qui ne connaissent pas les GitHub pages (Hébergement de pages statiques gratuites, si si 😍) et Markdown avec GitHub (n&amp;rsquo;oubliez pas le raw html et les frameworks JS ) :Pages GitHub - Mastering Markdown  Vous trouverez essentiellement un début de ressources pour les formations que je donne et des liens sécurisés pour les documents à destination de mes stagiaires.</description>
-    </item>
-    
-    <item>
-      <title>Formation Uml</title>
-      <link>https://francis-panzani.github.io/fr/posts/formation_uml/</link>
-      <pubDate>Wed, 19 May 2021 11:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/formation_uml/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Bienvenue sur cette partie traitant de la formation à UML 😃 On verra ici ce qu&amp;rsquo;est UML (dispensé jusqu&amp;rsquo;en bac +3 /4 et oui, vous n&amp;rsquo;avez pas fini d&amp;rsquo;en entendre parler).
-Unified Modeling Language ou en français Langage de Modélisation Unifié est un langage de modélisation graphique à base de pictogrammes conçu pour fournir une méthode normalisée pour visualiser la conception d&amp;rsquo;un système.</description>
-    </item>
-    
-    <item>
-      <title>Formation en Référencement, SEO, Conseils et TP à faire</title>
-      <link>https://francis-panzani.github.io/fr/posts/referencement/</link>
-      <pubDate>Sun, 16 May 2021 08:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/referencement/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Le référencement est l&amp;rsquo;action de référencer, c&amp;rsquo;est-à-dire mentionner quelque chose ou y faire référence.
-Sur Internet, le travail de référencement consiste à améliorer le positionnement et la visibilité de sites dans des pages de résultats de moteurs de recherche ou d&amp;rsquo;annuaires.
-Le référencement web s&amp;rsquo;articule autour de deux stratégies distinctes et complémentaires :
-😎 le référencement naturel (ou organique)  SEO</description>
-    </item>
-    
-    <item>
-      <title>Formation sur TypeScript</title>
-      <link>https://francis-panzani.github.io/fr/posts/formation_typescript/</link>
-      <pubDate>Wed, 05 May 2021 19:05:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/formation_typescript/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et configurer TypeScript, le prendre en main, faire un tour de ce qu&amp;rsquo;il a apporté a Javascript (ECMA 6), ça sera une bonne préparation pour la Formation sur Angular.
-Passons en revue ses caractéristiques :
- TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d&amp;rsquo;améliorer et de sécuriser la production de code JavaScript.</description>
-    </item>
-    
-    <item>
-      <title>Formation sur Node Js</title>
-      <link>https://francis-panzani.github.io/fr/posts/formation_nodejs/</link>
-      <pubDate>Wed, 05 May 2021 18:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/formation_nodejs/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et configurer NodeJS, le prendre en main, l&amp;rsquo;utiliser avec MongoDB, Jade/Pug et Express JS, on m&amp;rsquo;utilisera en mode CLI, si on a du temps on fera une API/REST
-Tout d&amp;rsquo;abord un petit historique des frameworks web jusqu&amp;rsquo;à 2019 (merci Dr Jawa ) Si on regarde l&amp;rsquo;état du JS en 2020 on se rends compte qu&amp;rsquo;il est extremement populaire : https://2020.</description>
-    </item>
-    
-    <item>
-      <title>Creation d&#39;un compte étudiant avec l&#39;IDE PhpStorm</title>
-      <link>https://francis-panzani.github.io/fr/posts/creation_compte_phpstorm/</link>
-      <pubDate>Sat, 06 Feb 2021 18:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/creation_compte_phpstorm/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  TODO 🎢: Afin de vous créez un compte pour l&amp;rsquo;IDE PhPStorm rendez-vous : -&amp;gt;ICI&amp;lt;-
-  Puis aller dans Enseignement .
-  Puis dans Étudiants et enseignants -&amp;gt;ICI&amp;lt;-
-  Et enfin cliquez sur postuler maintenant
-  Remplissez les champs Étudiant, Enseignement professionnel
-  Le reste puis vous cochez avoir lu et accepter l&#39;accord de compte
-  Puis finissez par cliquer sur DEMANDER DES PRODUITS GRATUITS</description>
-    </item>
-    
-    <item>
-      <title>Installer LAMP &amp; Ubuntu sur Windows 10</title>
-      <link>https://francis-panzani.github.io/fr/posts/wsl_w10/</link>
-      <pubDate>Fri, 05 Feb 2021 18:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/wsl_w10/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  🎓 Afin de suivre l&amp;rsquo;installation ensemble vous aurez besoin de suivre les instructions du support suivant : 📙-&amp;gt;Install-LAMP-WSL-WINDOWS&amp;lt;-
-TODO 🎢:  On suivra ensemble les instructions du fichier 📙 Install-LAMP-WSL-WINDOWS.pdf . Pour ceux qui ont vraiment du mal vous installerez Xampp.  Sources et aides diverses (à lire en cas hein :P): ℹ️ https://doc.ubuntu-fr.org/wsl ℹ️ https://docs.microsoft.com/fr-fr/windows/wsl/install-win10 ©️ 🚫 Do not distribute 😌  </description>
-    </item>
-    
-    <item>
-      <title>Formation Git et Github</title>
-      <link>https://francis-panzani.github.io/fr/posts/formation_git/</link>
-      <pubDate>Thu, 04 Feb 2021 12:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/formation_git/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Créé en 1995 par Linus Torvalds (le fondateur de Linux) il a su s&amp;rsquo;implanter rapidement comme le logiciel de versionning le plus populaire depuis 2016.
-La fonctionnalité Git qui le distingue vraiment de presque tous les autres SCM est son modèle de branche :
- Git permet et je vous recommande d&amp;rsquo;à avoir plusieurs branches locales (qui peuvent être entièrement indépendantes les unes des autres).</description>
     </item>
     
   </channel>

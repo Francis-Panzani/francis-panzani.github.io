@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formation sur Bootstrap 4</title>
+    
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/images/secnumacademie_toque_hu0bafe9617c055c18a20b10731675393c_9811_42x0_resize_box_2.png" />
+
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+    
+<meta name="description" content="Installer Bootstrap 4 formation framework HTML CSS Javascript grille" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+
+    
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-L8WV0RBRYG', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fr">
+      <img src="/images/avatar_cercle_huac9278d397fdb4837c1ab592c91306a8_179083_42x0_resize_box_2.png" alt="Logo">FPanzani PorteFolio</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+      <span class="flag-icon flag-icon-fr"></span>
+      Français
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/posts/formations/formation_bootstrap">
+          
+          <span class="flag-icon flag-icon-gb"></span>
+          English
+        </a>
+      
+    </div>
+</li>
+      
+      </ul>
+    </div>
+  </div>
+  
+  <img src="/images/avatar_cercle_huac9278d397fdb4837c1ab592c91306a8_179083_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  <img src="/images/avatar_cercle_huac9278d397fdb4837c1ab592c91306a8_179083_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="https://francis-panzani.github.io/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/fr/posts" data-filter="all">News</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/welcome/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/fr/posts/formations/">Mes Formations</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/liste_formations/" title="-A Lire En Premier">-A Lire En Premier</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/fr/posts/formations/formation_bootstrap/" title="Formation Bootstrap">Formation Bootstrap</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_git/" title="Formation Git &amp; Github">Formation Git &amp; Github</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_nodejs/" title="Formation NodeJS">Formation NodeJS</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/referencement/" title="Formation Référencement de Site Web">Formation Référencement de Site Web</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_typescript/" title="Formation TypeScript">Formation TypeScript</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_uml/" title="Formation Uml">Formation Uml</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/fr/posts/divers/">Posts Variés</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/divers/creation_compte_phpstorm/" title="Creation_compte_PhpStorm">Creation_compte_PhpStorm</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/divers/wsl_w10/" title="Ubuntu_Wsl_LAMP_Win10">Ubuntu_Wsl_LAMP_Win10</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://francis-panzani.github.io/fr/posts/formations/formation_bootstrap/hero.svg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/avatar_cercle2.png' alt="Author Image">
+          <h5 class="author-name">Panzani Francis</h5>
+          <p>May 22, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Formation sur Bootstrap 4</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <h2 id="center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></h2>
+<hr>
+<p>Dans cette formation on verra comment installer et utiliser <mark> Bootstrap V4</mark>, faire du responsive Web Design, utiliser ses éléments typographiques, l&rsquo;utiliser pour nous aider à faire la mise en page de nos sites internets  et utiliser les éléments avancés (carroussel et autres) qu&rsquo;apportent ce framrwork front gratuit (encore merci à tous ceux qui contribuent ou qui ont contribués à ce très beau projet).
+Ce sera une formation essentiellement pratique avec pas mal d&rsquo;exercices, de TP /TD et on aura des résultats assez rapidement.</p>
+<p><a href="https://getbootstrap.com/"><img src="bootstrap.png" alt="[image bootstrap 4]" width="50" title="le framework le plus connu" style="float:left" /> </a><br>
+<span style="text-align: justify; clear:both">
+<em>Passons en revue ses caractéristiques</em> :</span></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Bootstrap est le framework HTML5, CSS et JS le plus populaire au monde actuellement pour la création de pages web interactives et responsives.</li>
+<li><input checked="" disabled="" type="checkbox"> Il est entièrement gratuit. Des millions de sites sur le Web sont réalisés avec Bootstrap.</li>
+<li><input checked="" disabled="" type="checkbox"> Il y a énormément de thèmes et de templates gratuits à utiliser.</li>
+<li><input checked="" disabled="" type="checkbox"> Bootstrap est Mobile First, Responsive et utilise un système de Grille.</li>
+<li><input checked="" disabled="" type="checkbox"> Il utilise Reboot afin d’avoir un thème unique pour chaque navigateur.</li>
+<li><input checked="" disabled="" type="checkbox"> Bootstrap c’est un ensemble de fichiers (html, css, et javascript) qui va servir de bases pour la création de pages web.</li>
+</ul>
+<p>En gros c&rsquo;est un ensemble de fichiers que l&rsquo;on va utiliser pour nous simplifier la vie et rendre tout joli nos sites quelque soit le &lsquo;device&rsquo; que l&rsquo;on utilise pour visualiser les pages que l&rsquo;on a créées (Smartphones, Tablettes ou Pcs).</p>
+<hr>
+<h2 id="todo--">TODO  🎢:</h2>
+<ul>
+<li><img src="bootstrap.png" alt="[image bootstrap 4]" width="25" title="le framework le plus connu"/> En premier on télécharge le framework <a href="https://getbootstrap.com/docs/4.0/getting-started/download/">-&gt;ici&lt;-</a>  et on le dézippe dans un dossier de travail (idéalement dans un dossier du répertoire de publication de votre serveur web mais c&rsquo;est pas obligé)</li>
+<li><img src="Atom_1.0_icon.png" alt="[icone atom]" width="25" title="logiciel front très customizable"/>Installez un éditeur de code typé front, ici on utilisera Atom <a href="https://atom.io/">-&gt;ICI&lt;-</a>
+<img src="atom.png" alt="atom.png"> (On cliquera sur download puis next* quand même)</li>
+<li>Installer le plugin pour atom : atom-html-preview ici : <a href="https://atom.io/packages/atom-html-preview">https://atom.io/packages/atom-html-preview</a>
+<ul>
+<li>Là c&rsquo;est plus dur :
+<ul>
+<li>Soit on clique sur le bouton install en vert en haut</li>
+<li>Soit on fait <KBD>CTRL+SHIFT+H</KBD> dans l&rsquo;éditeur et on cherche atom-html-preview puis on l&rsquo;installe</li>
+<li>Soit on tappe la ligne de commande suivante :</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">apm install atom-html-preview
+</code></pre></div></li>
+<li>Puis on tappe du code et avec le preview on voit directement les modifications (CTRL SHIFT H ou clic droit dans la page de code et PREVIEW HTML)</li>
+<li>Avec un peu de temps vous arriverez a ce type de résultat (vous inquiétez si vous n&rsquo;y arrivez pas tout de suite, on le refera en cours) : 
+<img src="atom_preview.png" alt="image atom avec preview"></li>
+</ul>
+</li>
+</ul>
+<p>🎓 <a href="http://franpan.free.fr/formation/_bootstrap421">&mdash;&gt; Afin de débuter la formation Bootstrap ensemble, vous aurez besoin de suivre les instructions du support suivant :  📚 (Logins  &amp; Passswords 🔐 donnés par le formateur) 💊 &lt;&mdash;</a>.</p>
+<p>Pour aller plus loin vous pouvez consulter ces sites qui sont très bien fait et vous apporteront des éléments et des compétences non négligeables dans votre utilisation du framework :</p>
+<ul>
+<li>L&rsquo;officiel : <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">https://getbootstrap.com/docs/4.0/getting-started/introduction/</a></li>
+<li>Un très bon tutoriel (le site est très interressant, parcourez-le ) : <a href="https://laravel.sillo.org/bootstrap-4/">https://laravel.sillo.org/bootstrap-4/</a></li>
+</ul>
+<p>Merci de garder pour vous les ressources que vous y trouverez et de ne pas les diffuser 😏<br>
+Merci de m&rsquo;avertir de toute erreur ou coquille qui m&rsquo;auraient échapées 😍</p>
+<p>©️ 🚫 Do not distribute    😌</p>
+
+        </div>
+
+        
+        
+
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        
+        
+        <div class="col-md-12 next-article">
+          <a href="/fr/posts/welcome/" title="Bienvenue :)" class="btn btn-outline-info">
+            <div>Suivant <i class="fas fa-chevron-circle-right"></i></div>
+            <div class="next-prev-text">Bienvenue :)</div>
+          </a>
+        </div>
+      
+    
+  
+
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        <img class="flag" src="https://www.countryflags.io/fr/flat/16.png" alt="fr">
+        Français
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/posts/formations/formation_bootstrap">
+            
+            <img class="flag" src="https://www.countryflags.io/gb/flat/24.png" alt="gb">
+            English
+        </a>
+        
+    </div>
+</div>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table des matières</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></a></li>
+    <li><a href="#todo--">TODO  🎢:</a></li>
+  </ol>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">A propos</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Compétences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Expériences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Éducation</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projets</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#accomplishments">Certifications</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Réalisations</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contactez moi :</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>francis.panzani@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;06 jamais la premiere fois, d&#39;abord par mail ;)</span></li>
+            
+          </ul>
+        </div>
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2021 Tous droits réservés.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>
