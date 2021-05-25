@@ -941,7 +941,7 @@ if (!doNotTrack) {
         
             <li>Educational engineering (Construction of a training project, Animation of a training action, Evaluation of a training action ).</li>
         
-            <li>Approach to a customer problem, creation of Product Vision Board, Product Backlog, Sprint and project management in <a href="https://www.scrum.org/">Scrum methodology</a>.</li>
+            <li>Approach to a customer problem, creation of Product Vision Board, Product Backlog, Sprint and project management in <a href="https://www.scrum.org/">Scrum methodology</a>. <style type="text/css"> <!-- @import url("/css/perso/listetab.css"); @import url("/css/perso/bootstrap-table.min.css"); @import url("/css/perso/animate.css@3.5.1.css"); --> </style> <div id="appdemo"> <div class="col-12 "> <h2 class="text-center">List of current &amp; upcoming trainings</h2> <table class="table mb-0"> <thead> <tr> <th scope="col">Course title</th> <th scope="col">Duration min (hour(s))</th> <th scope="col">Duration max (hour(s))</th> <th scope="col">Projects</th> </tr> </thead> <tbody name="formation-table" is="transition-group"> <tr class="formation-table-item" v-for="item in items" :key="item.id"> <th scope="row"><img v-bind:src=item.icon> {{ item.name }}</th> <td>{{ item.dureemin }}</td> <td>{{ item.dureemax }}</td> <td>{{ item.projet }} </td> </tr> </tbody> <tfoot> <td> Sum = {{ items.length }}</td> <td > {{ totalDureemin }} </td> <td> {{ totalDureemax }} </td> <td> {{ totalProjets }} </td> </tfoot> </table> </div> </div> <center> <button type="button" class="btn btn-info  dropdown-toggle" data-toggle="collapse" data-target="#demo">→ Expand to see the courses list (up to 24/05/2021)←</button></center> <div id="demo" class="collapse"> <div id="app" > <div> <div id="toolbar"></div> <h2 class="text-center">List of current &amp; upcoming trainings</h2> <table id="table" class="table mb-0" data-toolbar="#toolbar" data-show-refresh="false" data-show-toggle="true"  data-show-fullscreen="false" data-toggle="table" data-show-columns="true" data-detail-view="false"  data-detail-formatter="detailFormatter" data-show-pagination-switch="false" data-search="true" data-pagination="true" data-flat="true" data-page-list="[15, 30, all]" data-show-footer="true" data-show-export="false" > <thead> <tr> <th  data-field="icon_name" data-sortable="true" scope="col">Course title</th> <!--    <th scope="col">Durée min (heure(s))</th> <th data-field="dureemax" data-sortable="true" scope="col">Durée max (heure(s))</th> --> <th data-field="projets" data-sortable="true" scope="col">Projects</th> <th data-field="descriptif" data-sortable="true" scope="col">Project description</th> </tr> </thead> <tbody> <tr v-for="item in items" :key="item.id"> <th scope="row"><img v-bind:src=item.icon> {{ item.name }}</th> <!--      <td >{{ item.dureemin }}</td> <td>{{ item.dureemax }}</td> --> <td>{{ item.projet }}</td> <td>{{ item.projetdescriptif_fr }} </td> </tr> </tbody> <tfoot> <td> Total = {{ items.length -3}}</td> <!--     <td> {{ totalDureemin }} </td> <td> {{ totalDureemax }} </td> --> <td> {{ totalProjets }} </td> <td> </td> </tfoot> </table> </div> </div> </div> <script src="/js/perso/vue.min.js"></script> <script src="/js/jquery-3.4.1.min.js"></script> <script src="/js/perso/bootstrap-table.min.js"></script> <script src="/js/perso/liste_tab.js" ></script></li>
         
         </ul>
     
@@ -1797,6 +1797,216 @@ if (!doNotTrack) {
               <a
                 class="btn btn-outline-info btn-sm"
                 href="files/alone_in_the_code.jpg"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Project,professional,Java,MVC,Desktop,JEE'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="images/project/CDH_diag_cas_utilisation.png" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/projects/CDH_diag_cas_utilisation_hubcae6a26fd7f1a40cc44614205cf5831_34604_24x24_fit_box_2.png" alt="Project Coeur Des Hommes" />
+            
+            
+            <h5 class="card-title mb-0">Project Coeur Des Hommes</h5>
+          </div>
+          <div class="sub-title">
+            <span>Product Owner - Team Leader</span>
+            <span>2018 - 2021</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>I led students in the realization of a java JEE project as PO and / or Team Leader</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Project
+                  </span>
+              
+                  <span class="badge btn-info">
+                    professional
+                  </span>
+              
+                  <span class="badge btn-info">
+                    Java
+                  </span>
+              
+                  <span class="badge btn-info">
+                    MVC
+                  </span>
+              
+                  <span class="badge btn-info">
+                    Desktop
+                  </span>
+              
+                  <span class="badge btn-info">
+                    JEE
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="images/project/CDH_diag_cas_utilisation.png"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, professional,Adobe,Scratch'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="images/project/seriousgame_reseau.png" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/projects/seriousgame_reseau_hud7114783d22baa33f7ef368d6940ab10_198025_24x24_fit_box_2.png" alt="Serious Game (with little fun)" />
+            
+            
+            <h5 class="card-title mb-0">Serious Game (with little fun)</h5>
+          </div>
+          <div class="sub-title">
+            <span>Developper and trainer</span>
+            <span>2018 - 2020</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>I developed littles Serious Game for my trainees with Adobe Flash or Scratch</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    professional
+                  </span>
+              
+                  <span class="badge btn-info">
+                    Adobe
+                  </span>
+              
+                  <span class="badge btn-info">
+                    Scratch
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="images/project/seriousgame_reseau.png"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, hobby,professional,robotic'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="images/project/RobotSalonetudiant.PNG" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/projects/RobotSalonetudiant_hub25ed3816fff5519abe904574b48d2f9_287713_24x24_fit_box_2.PNG" alt="Robotic and Poppy Ergo" />
+            
+            
+            <h5 class="card-title mb-0">Robotic and Poppy Ergo</h5>
+          </div>
+          <div class="sub-title">
+            <span>Developper, user and trainer in robotic with Poppy or Raspberry Pi</span>
+            <span>2018 - 2020</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>I developed  or  taught my trainees notions of robotics with <em><a href="https://www.poppy-project.org/fr/robots/poppy-ergo-jr/">Poppy Ergo Jr</a></em> or <em><a href="https://www.thingiverse.com/thing:1113796">Raspberry Pi</a></em> (Python or Snap!) with the help of my 3D Printer</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    hobby
+                  </span>
+              
+                  <span class="badge btn-info">
+                    professional
+                  </span>
+              
+                  <span class="badge btn-info">
+                    robotic
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="images/project/RobotSalonetudiant.PNG"
                 target="#"
                 >Details</a
               >
