@@ -431,7 +431,7 @@ var vanim = new Vue({
         this.items.splice(3, 0, {
           id: 7,
           name: "VueJs 2",
-          icon: "/images/icones/w30/zzvuejs2_30.png",
+          icon: "/images/icones/w30/vuejs2_30.png",
           quantity: 1,
           dureemin: 21,
           dureemax: 49,
