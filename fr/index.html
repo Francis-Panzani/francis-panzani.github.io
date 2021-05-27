@@ -887,6 +887,30 @@ if (!doNotTrack) {
 </div>
 
       
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.firediy.fr/article/montage-starter-guide-de-limprimante-3d-anet-a8" title="IT - 3d printer and Raspberry Pi" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+
+          
+          
+            
+          
+
+          <img class="card-img-xs" src="/images/sections/skills/8biticon_mod_circle.png" alt="IT - 3d printer and Raspberry Pi" />
+        
+        <h5 class="card-title">IT - 3d printer and Raspberry Pi</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Passionné par l&rsquo;informatique par mon plus jeune age j&rsquo;ai acquis une imprimante 3d Anet A8 donc j&rsquo;ai fait un petit meuble à peu de frais grâce à IKEA et au tuto mis en lien. Je m&rsquo;amuse de temps en temps avec mes raspberry pi mais c&rsquo;est plus histoire de sensibiliser ma fille à la prog et à me souvenir de mes cours de technos</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
     </div>
   </div>
 </div>
@@ -933,7 +957,7 @@ if (!doNotTrack) {
             Villeurbanne / Télétravail
         </p>
         
-        <p><img src="http://franpan.free.fr/ressources/gihub_portefolio/afiplogo3030.jpg" alt="img centre formation" title="École et centre de formation"> AFIP Formations est une école privée d&rsquo;enseignement supérieur, proposant des formations post-bac jusqu&rsquo;au Master en alternance et en initial</p>
+        <p><img src="/images/icones/afiplogo3030.jpg" alt="img centre formation" title="École et centre de formation"> AFIP Formations est une école privée d&rsquo;enseignement supérieur, proposant des formations post-bac jusqu&rsquo;au Master en alternance et en initial</p>
     </div>
     
     <div class="positions">
@@ -943,7 +967,7 @@ if (!doNotTrack) {
         
         <ul class="justify-content-around">
         
-            <li>Assurer la formation (partie Développement Informatique Techno :\ Web Desktop Mobile &amp; Agile) d’étudiants (SIO ou bachelors), de demandeurs d&rsquo;emploi (via validation titre RNCP de niveau Bac+2 a Bac +5) ou de professionnels (liste plus bas).</li>
+            <li>Assurer la formation (partie Développement Informatique Techno : Web Desktop Mobile &amp; Agile) d’étudiants (SIO ou bachelors), de demandeurs d&rsquo;emploi (via validation titre RNCP de niveau Bac+2 a Bac +5) ou de professionnels <a href="#listeformation">(liste plus bas)</a> .</li>
         
             <li>Suivi pédagogique et suivi des présences, animation d’ateliers, Gestion de projets (personnels ou en groupe).</li>
         
@@ -951,7 +975,9 @@ if (!doNotTrack) {
         
             <li>Ingénierie pédagogique (Construction d&rsquo;un projet de formation, Animation d&rsquo;une action de formation, Evaluation d&rsquo;une action de formation).</li>
         
-            <li>Gestion de projet Agiles -&gt; Approche d&rsquo;un problème client, création de Product Vision Board, Product Backlog, Sprint et gestion de projet en <a href="https://www.scrum.org/">méthodologie Scrum</a>. <style type="text/css"> <!-- @import url("/css/perso/listetab.css"); @import url("/css/perso/bootstrap-table.min.css"); @import url("/css/perso/animate.css@3.5.1.css"); --> </style> <div id="appdemo"> <div class="col-12 "> <h2 class="text-center">Liste des formations actuelles &amp; à venir </h2> <table class="table mb-0"> <thead> <tr> <th scope="col">Intitulé de la formation</th> <th scope="col">Durée min (heure(s))</th> <th scope="col">Durée max (heure(s))</th> <th scope="col">Projets</th> </tr> </thead> <tbody name="formation-table" is="transition-group"> <tr class="formation-table-item" v-for="item in items" :key="item.id"> <th scope="row"><img v-bind:src=item.icon> {{ item.name }}</th> <td>{{ item.dureemin }}</td> <td>{{ item.dureemax }}</td> <td>{{ item.projet }} </td> </tr> </tbody> <tfoot> <td> Total = {{ items.length }}</td> <td > {{ totalDureemin }} </td> <td> {{ totalDureemax }} </td> <td> {{ totalProjets }} </td> </tfoot> </table> </div> </div> <center> <button type="button" class="btn btn-info  dropdown-toggle" data-toggle="collapse" data-target="#demo">→ Voir la viste des formations (up au 24/05/2021)←</button></center> <div id="demo" class="collapse"> <div id="app" > <div> <div id="toolbar"></div> <h2 class="text-center">Liste des formations actuelles &amp; à venir </h2> <table id="table" class="table mb-0" data-locale="fr-FR" data-toolbar="#toolbar" data-show-refresh="false" data-show-toggle="true"  data-show-fullscreen="false" data-toggle="table" data-show-columns="true" data-detail-view="false"  data-detail-formatter="detailFormatter" data-show-pagination-switch="false" data-search="true" data-pagination="true" data-flat="true" data-page-list="[15, 30, all]" data-show-footer="true" data-show-export="false" > <thead> <tr> <th  data-field="icon_name" data-sortable="true" scope="col">Intitulé de la formation</th> <!--    <th scope="col">Durée min (heure(s))</th> <th data-field="dureemax" data-sortable="true" scope="col">Durée max (heure(s))</th> --> <th data-field="projets" data-sortable="true" scope="col">Projets</th> <th data-field="descriptif" data-sortable="true" scope="col">Descriptif du projet</th> </tr> </thead> <tbody> <tr v-for="item in items" :key="item.id"> <th scope="row"><img v-bind:src=item.icon> {{ item.name }}</th> <!--      <td >{{ item.dureemin }}</td> <td>{{ item.dureemax }}</td> --> <td>{{ item.projet }}</td> <td>{{ item.projetdescriptif_fr }} </td> </tr> </tbody> <tfoot> <td> Total = {{ items.length -3}}</td> <!--     <td> {{ totalDureemin }} </td> <td> {{ totalDureemax }} </td> --> <td> {{ totalProjets }} </td> <td> </td> </tfoot> </table> </div> </div> </div> <script src="/js/perso/vue.min.js"></script> <script src="/js/jquery-3.4.1.min.js"></script> <script src="/js/perso/bootstrap-table.min.js"></script> <script src="/js/perso/bootstrap-table-fr-FR.js"></script> <script src="/js/perso/liste_tab.js" ></script></li>
+            <li><p>Gestion de projet Agiles -&gt; Approche d&rsquo;un problème client, création de Product Vision Board, Product Backlog, Sprint et gestion de projet en <a href="https://www.scrum.org/">méthodologie Scrum</a>. <style type="text/css"> <!-- @import url("/css/perso/listetab.css"); @import url("/css/perso/bootstrap-table.min.css"); @import url("/css/perso/animate.css@3.5.1.css"); --> </style> <a name="listeformation"></a> <!-- apparait juste pour devices >md  class="d-none d-md-block" --> <div id="appdemo" class="d-none d-md-block"> <div class="col-12 "> <table class="table mb-0"> <thead> <tr> <th scope="col">Intitulé de la formation</th> <th scope="col">Durée min (heure(s))</th> <th scope="col">Durée max (heure(s))</th> <th scope="col">Projets</th> </tr> </thead> <tbody name="formation-table" is="transition-group"> <tr class="formation-table-item" v-for="item in items" :key="item.id"> <th scope="row"><img v-bind:src=item.icon> {{ item.name }}</th> <td>{{ item.dureemin }}</td> <td>{{ item.dureemax }}</td> <td>{{ item.projet }} </td> </tr> </tbody> <tfoot> <td> Total = {{ items.length }}</td> <td > {{ totalDureemin }} </td> <td> {{ totalDureemax }} </td> <td> {{ totalProjets }} </td> </tfoot> </table> </div> </div></p>
+<!-- apparait uniquement pour les sm --> <div style="margin:15px warning" class="alert alert-warning d-sm-none" role="alert"><strong><i class="fas fa-laptop"></i> De préférence lire la liste avec un PC ou un écran plus large pour une meilleure expérience!</strong> </div>
+<!-- apparait juste pour devices >md  d-none d-md-block  --> <center style="margin-top:15px" class="table-sm col order-1"> <button id="list" type="button" class="btn btn-info  dropdown-toggle" data-toggle="collapse" data-target="#demo">&rarr;Voir la viste des formations</button></center> <div id="demo" class="collapse"> <div id="app" > <div> <div id="toolbar"></div> <h2 class="text-center">Liste des formations actuelles & à venir (up au 24/05/2021)</h2> <table id="table" class="table mb-0" data-locale="fr-FR" data-toolbar="#toolbar" data-show-refresh="false" data-show-toggle="true"  data-show-fullscreen="false" data-toggle="table" data-show-columns="true" data-detail-view="false"  data-detail-formatter="detailFormatter" data-show-pagination-switch="false" data-search="true" data-pagination="true" data-flat="true" data-page-list="[15, 30, all]" data-show-footer="true" data-show-export="false" > <thead> <tr> <th  data-field="icon_name" data-sortable="true" scope="col">Intitulé de la formation</th> <!--    <th scope="col">Durée min (heure(s))</th> <th data-field="dureemax" data-sortable="true" scope="col">Durée max (heure(s))</th> --> <th data-field="projets" data-sortable="true" scope="col">Projets</th> <th data-field="descriptif" data-sortable="true" scope="col">Descriptif du projet</th> </tr> </thead> <tbody> <tr v-for="item in items" :key="item.id"> <th scope="row"><img v-bind:src=item.icon> {{ item.name }}</th> <!--      <td >{{ item.dureemin }}</td> <td>{{ item.dureemax }}</td> --> <td>{{ item.projet }}</td> <td>{{ item.projetdescriptif_fr }} </td> </tr> </tbody> <tfoot> <td> Total = {{ items.length -3}}</td> <!--     <td> {{ totalDureemin }} </td> <td> {{ totalDureemax }} </td> --> <td> {{ totalProjets }} </td> <td> </td> </tfoot> </table> </div> </div> <br/> </div> <script src="/js/perso/vue.min.js"></script> <script src="/js/jquery-3.4.1.min.js"></script> <script src="/js/perso/bootstrap-table.min.js"></script> <script src="/js/perso/bootstrap-table-fr-FR.js"></script> <script src="/js/perso/liste_tab.js" ></script></li>
         
         </ul>
     

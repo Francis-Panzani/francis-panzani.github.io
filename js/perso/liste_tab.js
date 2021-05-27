@@ -118,7 +118,7 @@ var v1 = new Vue({
         dureemin: 1,
         dureemax: 1,
         projet: 0,
-        projetdescriptif_fr: "Vide Grenier (N-tiers)"
+        projetdescriptif_fr: ""
       }, {
         id: 13,
         name: "JEE 8",
@@ -359,34 +359,7 @@ var vanim = new Vue({
 
     return {
       etatanim: 3,
-      items: [{
-        id: 8,
-        name: "PhP 7",
-        icon: "/images/icones/w30/php_30.png",
-        quantity: 1,
-        dureemin: 35,
-        dureemax: 105,
-        projet: 2,
-        projetdescriptif_fr: "Attable, Vide Grenier (N-tiers)"
-      }, {
-        id: 11,
-        name: "Java SE 8",
-        icon: "/images/icones/w30/java1_30.png",
-        quantity: 1,
-        dureemin: 35,
-        dureemax: 70,
-        projet: 2,
-        projetdescriptif_fr: "Vide Grenier (N-tiers), Cœur des hommes"
-      }, {
-        id: 21,
-        name: "Gestion de projet Agile : Scrum",
-        icon: "/images/icones/w30/scrum_30.png",
-        quantity: 1,
-        dureemin: 7,
-        dureemax: 35,
-        projet: 1,
-        projetdescriptif_fr: "Tous les projets peuvent être réalisés via Scrum"
-      }]
+      items: [{}]
     }
   },
 
@@ -414,10 +387,28 @@ var vanim = new Vue({
   },
 
   mounted() {
-    //this.addItem() //inutile car on check si on est dessus afin de l'arreter quand on est plus dessus
-    //pour arretter els modification de la pages
+    rand=0;//monte l'animation avec des éléments au hazard en en évitant certains
+    listforma=[6,7,8,22,23,24];
+    for (let index = 0; index < 3; index++) {
+     do { 
+        rand = Math.floor(Math.random() * (v1.items.length-1)) ;
+        console.log(rand)
+     }while ( listforma.indexOf(rand)!=-1)
+     listforma.push(rand);
+     this.items.splice(1, 0, {
+        id: v1.items[rand].id,
+        name: v1.items[rand].name,
+        icon: v1.items[rand].icon,
+        quantity: v1.items[rand].quantity,
+        dureemin: v1.items[rand].dureemin,
+        dureemax: v1.items[rand].dureemax,
+        projet: v1.items[rand].projet,
+        projetdescriptif_fr: v1.items[rand].projetdescriptif_fr
+      });
+    }
+    
+  
   },
-
   methods: {
     donne_etatanim() {
       return this.items.length;
@@ -426,21 +417,21 @@ var vanim = new Vue({
     if (vanim.donne_etatanim()<4){//pour eviter qu'on en lance trop en //
       if (flaganim == 7) {//change avec le precedent si jamais on a été arreté en cours
         this.items.splice(3, 0, {
-          id: 8,
-          name: "PhP 7",
-          icon: "/images/icones/w30/php_30.png",
+          id: 11,
+          name: "Java SE 8",
+          icon: "/images/icones/w30/java1_30.png",
           quantity: 1,
           dureemin: 35,
-          dureemax: 105,
+          dureemax: 70,
           projet: 2,
-          projetdescriptif_fr: "Attable, Vide Grenier (N-tiers)"
+          projetdescriptif_fr: "Vide Grenier (N-tiers), Cœur des hommes"
         });
         flaganim = 8;
       } else if (flaganim == 0 || flaganim == 8) {
         this.items.splice(3, 0, {
           id: 7,
           name: "VueJs 2",
-          icon: "/images/icones/w30/vuejs2_30.png",
+          icon: "/images/icones/w30/zzvuejs2_30.png",
           quantity: 1,
           dureemin: 21,
           dureemax: 49,
