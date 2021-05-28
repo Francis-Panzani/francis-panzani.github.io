@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Sat, 06 Feb 2021 18:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/divers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 May 2021 08:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/divers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TP E-PorteFolio</title>
+      <link>https://francis-panzani.github.io/fr/posts/divers/portefolio/</link>
+      <pubDate>Fri, 28 May 2021 08:06:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/fr/posts/divers/portefolio/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗   Résumé du cahier des charges d&#39;un E-portfolio : Le contexte : Le portfolio est un témoin et un instrument de développement des compétences de l’élève, c’est « une collection des travaux d&amp;rsquo;un élève qui fait foi de ses compétences en conservant des traces pertinentes de ses réalisations ». Il nous servira donc tout au long de la formation de mise en pratique des apprentissages vus en cours et travaillés lors des TD (c’est à l’élève, en autonomie, de le construire au fur et à mesure).</description>
+    </item>
+    
     <item>
       <title>Creation d&#39;un compte étudiant avec l&#39;IDE PhpStorm</title>
       <link>https://francis-panzani.github.io/fr/posts/divers/creation_compte_phpstorm/</link>
