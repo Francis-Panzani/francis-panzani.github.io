@@ -30,21 +30,21 @@
                 href="https://francis-panzani.github.io/fr/search/"
                 />
   </url><url>
-    <loc>https://francis-panzani.github.io/fr/posts/divers/</loc>
-    <lastmod>2021-05-28T08:06:25+00:00</lastmod>
+    <loc>https://francis-panzani.github.io/fr/posts/formations/formation_python/</loc>
+    <lastmod>2021-05-31T09:05:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://francis-panzani.github.io/posts/divers/"
+                href="https://francis-panzani.github.io/posts/formations/formation_python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://francis-panzani.github.io/fr/posts/divers/"
+                href="https://francis-panzani.github.io/fr/posts/formations/formation_python/"
                 />
   </url><url>
     <loc>https://francis-panzani.github.io/fr/</loc>
-    <lastmod>2021-05-28T08:06:25+00:00</lastmod>
+    <lastmod>2021-05-31T09:05:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -56,8 +56,21 @@
                 href="https://francis-panzani.github.io/fr/"
                 />
   </url><url>
+    <loc>https://francis-panzani.github.io/fr/posts/formations/</loc>
+    <lastmod>2021-05-31T09:05:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://francis-panzani.github.io/posts/formations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://francis-panzani.github.io/fr/posts/formations/"
+                />
+  </url><url>
     <loc>https://francis-panzani.github.io/fr/posts/</loc>
-    <lastmod>2021-05-28T08:06:25+00:00</lastmod>
+    <lastmod>2021-05-31T09:05:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -67,6 +80,19 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://francis-panzani.github.io/fr/posts/"
+                />
+  </url><url>
+    <loc>https://francis-panzani.github.io/fr/posts/divers/</loc>
+    <lastmod>2021-05-28T08:06:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://francis-panzani.github.io/posts/divers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://francis-panzani.github.io/fr/posts/divers/"
                 />
   </url><url>
     <loc>https://francis-panzani.github.io/fr/posts/divers/portefolio/</loc>
@@ -93,19 +119,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://francis-panzani.github.io/fr/posts/formations/formation_bootstrap/"
-                />
-  </url><url>
-    <loc>https://francis-panzani.github.io/fr/posts/formations/</loc>
-    <lastmod>2021-05-22T05:05:25+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://francis-panzani.github.io/posts/formations/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://francis-panzani.github.io/fr/posts/formations/"
                 />
   </url><url>
     <loc>https://francis-panzani.github.io/fr/posts/welcome/</loc>

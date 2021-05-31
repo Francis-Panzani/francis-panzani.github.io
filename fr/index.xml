@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Fri, 28 May 2021 08:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 May 2021 09:05:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recherche</title>
       <link>https://francis-panzani.github.io/fr/search/</link>
@@ -32,6 +32,17 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Formation sur Python</title>
+      <link>https://francis-panzani.github.io/fr/posts/formations/formation_python/</link>
+      <pubDate>Mon, 31 May 2021 09:05:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/fr/posts/formations/formation_python/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer, configurer Python V3 et le prendre en main.
+Que l&amp;rsquo;on soit débutant, avec une mise en relation poussée avec l&amp;rsquo;algorithmique, jusqu&amp;rsquo;à un niveau avancé afin de l&amp;rsquo;utiliser pour faire des scripts d&amp;rsquo;utilisation et des logiciels graphiques (si si c&amp;rsquo;est possible) vous pourrez progresser et prendre plaisir à l&amp;rsquo;utiliser.
+ “ Python est un langage de programmation interprété, multi-paradigme et multiplateformes.</description>
     </item>
     
     <item>
