@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Mon, 31 May 2021 09:05:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 07:05:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resultados de Búsqueda</title>
       <link>https://francis-panzani.github.io/search/</link>
@@ -305,6 +305,26 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Formation sur XML</title>
+      <link>https://francis-panzani.github.io/posts/formations/formation_xml/</link>
+      <pubDate>Tue, 01 Jun 2021 07:05:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/posts/formations/formation_xml/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation, on verra comment créer, valider (via DTD ou Schéma) , requêter (via XPATH) et transformer (via XSLT et CSS) des documents Extensible Markup Language  et on aura de nombreuses occasion de s&amp;rsquo;exercer et de produire des pages html très optimisées.
+ “ Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879).</description>
+    </item>
+    
+    <item>
+      <title>Formation sur Ajax</title>
+      <link>https://francis-panzani.github.io/posts/formations/formation_ajax/</link>
+      <pubDate>Mon, 31 May 2021 10:05:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/posts/formations/formation_ajax/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Dans cette courte formation (après une bonne maitrise du tryptique HTML  CSS &amp;amp; Javascript), on verra comment utiliser  : Asynchronous JavaScript and XML  et l&amp;rsquo;utiliser dans un TP assez pratique pour les formulaires d&amp;rsquo;inscriptions 😄.
+ “ AJAX (Asynchronous JavaScript + XML) n&amp;rsquo;est pas une technologie en soi, mais un terme désignant une « nouvelle » approche utilisant un ensemble de technologies existantes, dont : HTML ou XHTML, les feuilles de styles CSS, JavaScript, le modèle objet de document (DOM), XML, XSLT, et l&amp;rsquo;objet XMLHttpRequest.</description>
     </item>
     
     <item>

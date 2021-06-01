@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formation sur XML</title>
+    
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/images/secnumacademie_toque_hu0bafe9617c055c18a20b10731675393c_9811_42x0_resize_box_2.png" />
+
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+    
+<meta name="description" content="xml XML w3C formation bases initiation cours BDD" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+
+    
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-L8WV0RBRYG', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fr">
+      <img src="/images/FP_hu3ae20cad08449069c904874d7c47399b_50071_42x0_resize_box.gif" alt="Logo">FPanzani PorteFolio</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+      <span class="flag-icon flag-icon-fr"></span>
+      Français
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/posts/formations/formation_xml">
+          
+          <span class="flag-icon flag-icon-gb"></span>
+          English
+        </a>
+      
+    </div>
+</li>
+
+      
+      </ul>
+    </div>
+  </div>
+  
+  <img src="/images/FP_hu3ae20cad08449069c904874d7c47399b_50071_42x0_resize_box.gif" class="d-none" id="main-logo" alt="Logo">
+  <img src="/images/FP_hu3ae20cad08449069c904874d7c47399b_50071_42x0_resize_box.gif" class="d-none" id="inverted-logo" alt="Inverted Logo">
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/fr/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/fr/posts" data-filter="all">News</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/welcome/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/fr/posts/formations/">Mes Formations</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/premier/" title="-A Lire En Premier">-A Lire En Premier</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_ajax/" title="Formation Ajax">Formation Ajax</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_bootstrap/" title="Formation Bootstrap">Formation Bootstrap</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_git/" title="Formation Git &amp; Github">Formation Git &amp; Github</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_nodejs/" title="Formation NodeJS">Formation NodeJS</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_python/" title="Formation Python">Formation Python</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/referencement/" title="Formation Référencement de Site Web">Formation Référencement de Site Web</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_typescript/" title="Formation TypeScript">Formation TypeScript</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/formations/formation_uml/" title="Formation Uml">Formation Uml</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/fr/posts/formations/formation_xml/" title="Formation XML">Formation XML</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/fr/posts/divers/">Posts Variés</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/divers/creation_compte_phpstorm/" title="Creation_compte_PhpStorm">Creation_compte_PhpStorm</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/divers/portefolio/" title="TP_E_PorteFolio">TP_E_PorteFolio</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/fr/posts/divers/wsl_w10/" title="Ubuntu_Wsl_LAMP_Win10">Ubuntu_Wsl_LAMP_Win10</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://francis-panzani.github.io/fr/posts/formations/formation_xml/hero.svg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/avatar_cercle2.png' alt="Author Image">
+          <h5 class="author-name">Panzani Francis</h5>
+          <p>June 1, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Formation sur XML</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <h2 id="center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></h2>
+<hr>
+<p>Dans cette  formation, on verra comment créer, valider (via <em>DTD</em> ou <em>Schéma</em>) , requêter (via <em>XPATH</em>) et transformer (via <em>XSLT et CSS</em>) des documents <mark>Extensible Markup Language  <img style="vertical-align: middle;" src="/images/icones/w30/xml_30.png"> </mark> et on aura de nombreuses occasion de s&rsquo;exercer et de produire des pages html très optimisées.</p>
+<blockquote>
+<p><img style="-webkit-user-select: none; margin: auto;" src="https://www.w3.org/2008/site/images/logo-w3c-mobile-lg"> “ Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing, XML is also playing an increasingly important role in the exchange of a wide variety of data<i class="fas fa-database"></i> on the Web and elsewhere.”</p>
+<p>&ndash; <cite><a href="https://www.w3.org/XML/">W3C <i class="fas fa-external-link-alt"></i></a></cite></p>
+</blockquote>
+<p>XML est un méta-language (un language qui permet de générer d&rsquo;autre langage).<br>
+Il est issu de SGML, pour résumer il est un peu comme HTML mais permet de faire beaucoup plus de choses, d&rsquo;être plus précis, de définir nos balises par nous mêmes et on peut utiliser d&rsquo;autres langages pour associer à nos documents XML du style ou les transformer selon nos besoins).</p>
+<p>Il est l&rsquo;un des formats d&rsquo;échange de données <i class="fas fa-database"></i> les plus utilisés avec le format JSon.<br>
+Il a fait ses preuves et est très couramment utilisé même si d&rsquo;une façon générale on va utiliser des APIs afin de nous simplifier l&rsquo;extraction et la transformation des datas qu&rsquo;il contient.</p>
+<p>Paramétrons notre environnement de développement (ça va être rapide 😄) afin de pouvoir démarrer la formation :</p>
+<h2 id="todo--">TODO  🎢:</h2>
+<ul>
+<li>
+<p><code>Télécharger</code> <em>PUIS</em> <code>installer</code> Xampp (peu importe la version) :<a href="https://www.apachefriends.org/fr/index.html">-&gt;ICI <i class="fas fa-external-link-alt"></i>&lt;-</a>.</p>
+</li>
+<li>
+<p><code>Télécharger</code> <em>PUIS</em> <code>installer</code> l’éditeur Xml <img style="vertical-align: bottom;" width="50px" src="mex.png"> <a href="https://media4.obspm.fr/outils/mex/index.html">-&gt;ICI <i class="fas fa-external-link-alt"></i>&lt;- </a>.</p>
+</li>
+<li>
+<p><code>Télécharger</code> <em>PUIS</em> <code>installer</code>  Visual Studio Code :<a href="https://code.visualstudio.com/">-&gt;ICI <i class="fas fa-external-link-alt"></i>&lt;- </a>.</p>
+</li>
+<li>
+<p>Installer les 2 extensions XML (celle de Red Hat pour le linter intégré et celle de Josh Johnson pour le formatting et la validation des expressions XPath et autres) pour VSC : <kbd>CTRL + SHIFT + X</kbd> puis tapez XML, c&rsquo;est simple ce sont les 2 les plus téléchargées (donc tout en haut).
+<img src="xml_install1.png" alt="image install1"></p>
+</li>
+<li>
+<p>Il faudra peut-être redémarrer entre-temps VSC, faites lui plaisir, faites le s&rsquo;il vous le demande.</p>
+</li>
+<li>
+<p>Ouvrez un répertoire de travail File -&gt; Open Folder puis</p>
+<ul>
+<li>On va dans le menu des fichiers en haut a gauche <kbd>CTRL + SHIFT + E</kbd> et</li>
+<li>Ensuite soit on clique sur le symbole situé en 1 soit on fait File -&gt; New file, soit on fait <kbd>CTRL + N</kbd> pour  créer un nouveau fichier que l&rsquo;on va enregistrer <kbd>CTRL + S</kbd> en tant que helloworld<code>.xml</code></li>
+<li>Et ensuite on entre à l&rsquo;intérieur le code suivant :</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"> <span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+   <span style="color:#f92672">&lt;a_root&gt;</span>
+       <span style="color:#f92672">&lt;message&gt;</span>
+           <span style="color:#f92672">&lt;to&gt;</span>All<span style="color:#f92672">&lt;/to&gt;</span>
+           <span style="color:#f92672">&lt;from&gt;</span>an unknow dev<span style="color:#f92672">&lt;/from&gt;</span>
+           <span style="color:#f92672">&lt;body&gt;</span>Hello World!<span style="color:#f92672">&lt;/body&gt;</span>
+       <span style="color:#f92672">&lt;/message&gt;</span>
+   <span style="color:#f92672">&lt;/a_root&gt;</span>
+</code></pre></div><p><span class="d-sm-block alert alert-warning text-center" role="alert"> Si vous avez des erreurs dans le fichier ou que rien ne s&rsquo;affiche quand vous essayez de le lire avec votre navigateur (FireFox (en direct) ou Chrome (via votre serveur web en local)) c&rsquo;est probablement que se sont glissés des caractères non-conformes lors de la copie ou <kbd>CTRL+C CTRL+V</kbd>.<br/> Pour y pallier il faut supprimez et recréez les espaces(l&rsquo;encodage du caractère peut poser problème)</span></p>
+<ul>
+<li>
+<p>Au besoin voilà le fichier <mark> helloworld.xml </mark> (qui est ok 👅) et que vous pouvez récupérer <a href="helloworld.xml">-&gt;ICI <i class="fas fa-external-link-alt"></i>&lt;- </a>.</p>
+</li>
+<li>
+<p>Volà le rendu une fois le document helloworld.xml chargé depuis votre navigateur (pour le style, le requêtage et les transformations on va voir tout ça avec la formation 🎓) :
+<img src="xml_install2.png" alt="image install2"></p>
+</li>
+</ul>
+<p>🎓 <a href="http://franpan.free.fr/formation/_xml323">Afin de débuter la formation XML ensemble, vous aurez besoin de suivre les instructions du support suivant :  📚 (Logins  &amp; Passswords 🔐 donnés par le formateur) 💊</a>.</p>
+<p>Crédit image de fond (et si vous souhaitez en voir plus) : <a href="https://mamchenkov.net/wordpress/2004/09/03/the-xml-family-of-specifications-the-big-picture/">https://mamchenkov.net/wordpress/2004/09/03/the-xml-family-of-specifications-the-big-picture/</a></p>
+<p>©️ 🚫 Do not distribute    😌</p>
+
+        </div>
+
+        
+        
+
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+      
+    
+    
+      
+        
+        
+          
+        
+        <div class="col-md-12 next-article">
+          <a href="/fr/posts/formations/formation_ajax/" title="Formation sur AJAX" class="btn btn-outline-info">
+            <div>Suivant <i class="fas fa-chevron-circle-right"></i></div>
+            <div class="next-prev-text">Formation sur AJAX</div>
+          </a>
+        </div>
+      
+    
+  
+
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        <img class="flag" src="https://www.countryflags.io/fr/flat/16.png" alt="fr">
+        Français
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/posts/formations/formation_xml">
+            
+            <img class="flag" src="https://www.countryflags.io/gb/flat/24.png" alt="gb">
+            English
+        </a>
+        
+    </div>
+</div>
+
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table des matières</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#center-bonjour-à-tous-et-à-toutes-center"><em><center>📢 Bonjour à tous et à toutes ❗</center></em></a></li>
+    <li><a href="#todo--">TODO  🎢:</a></li>
+  </ol>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">A propos</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Compétences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Expériences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Éducation</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projets</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#accomplishments">Certifications</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Réalisations</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contactez moi :</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>francis.panzani@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;06 jamais la premiere fois, d&#39;abord par mail ;)</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2021 Tous droits réservés.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>
