@@ -30,21 +30,8 @@
                 href="https://francis-panzani.github.io/fr/search/"
                 />
   </url><url>
-    <loc>https://francis-panzani.github.io/fr/posts/formations/formation_xml/</loc>
-    <lastmod>2021-06-01T07:05:25+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://francis-panzani.github.io/posts/formations/formation_xml/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://francis-panzani.github.io/fr/posts/formations/formation_xml/"
-                />
-  </url><url>
     <loc>https://francis-panzani.github.io/fr/</loc>
-    <lastmod>2021-06-01T07:05:25+00:00</lastmod>
+    <lastmod>2021-06-01T07:15:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -57,7 +44,7 @@
                 />
   </url><url>
     <loc>https://francis-panzani.github.io/fr/posts/formations/</loc>
-    <lastmod>2021-06-01T07:05:25+00:00</lastmod>
+    <lastmod>2021-06-01T07:15:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -70,7 +57,7 @@
                 />
   </url><url>
     <loc>https://francis-panzani.github.io/fr/posts/</loc>
-    <lastmod>2021-06-01T07:05:25+00:00</lastmod>
+    <lastmod>2021-06-01T07:15:25+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -80,6 +67,32 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://francis-panzani.github.io/fr/posts/"
+                />
+  </url><url>
+    <loc>https://francis-panzani.github.io/fr/posts/formations/td_doctrine/</loc>
+    <lastmod>2021-06-01T07:15:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://francis-panzani.github.io/posts/formations/td_doctrine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://francis-panzani.github.io/fr/posts/formations/td_doctrine/"
+                />
+  </url><url>
+    <loc>https://francis-panzani.github.io/fr/posts/formations/formation_xml/</loc>
+    <lastmod>2021-06-01T07:05:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://francis-panzani.github.io/posts/formations/formation_xml/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://francis-panzani.github.io/fr/posts/formations/formation_xml/"
                 />
   </url><url>
     <loc>https://francis-panzani.github.io/fr/posts/formations/formation_ajax/</loc>

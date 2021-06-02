@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Tue, 01 Jun 2021 07:05:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/formations/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 07:15:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/formations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TD Doctrine 2</title>
+      <link>https://francis-panzani.github.io/posts/formations/td_doctrine/</link>
+      <pubDate>Tue, 01 Jun 2021 07:15:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/posts/formations/td_doctrine/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Une fois n&#39;est pas coutume, on va apprendre la technologie du cours via un Travail Dirigé en suivant l&#39;excellent tuto suivant : https://zestedesavoir.com/tutoriels/1713/doctrine-2-a-lassaut-de-lorm-phare-de-php/les-bases-de-doctrine-2/
+Pourquoi ce choix ? :
+ Pour vous faire travailler sur d&amp;rsquo;autres ressources que les miennes et découvrir que le web fourmille d&amp;rsquo;excellentes ressources (mais y a du buggé ou de l&amp;rsquo;outdated aussi, malheureusement ) Parce qu&amp;rsquo;il est très bien fait et qu&amp;rsquo;il nous servira de base pour Doctrine 2.</description>
+    </item>
+    
     <item>
       <title>Formation sur XML</title>
       <link>https://francis-panzani.github.io/posts/formations/formation_xml/</link>
