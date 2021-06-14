@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Fri, 28 May 2021 08:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/divers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jun 2021 03:06:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/divers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation d&#39;un serveur Web en local grâce à XAMPP</title>
+      <link>https://francis-panzani.github.io/posts/divers/installation_xampp/</link>
+      <pubDate>Sat, 12 Jun 2021 03:06:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/posts/divers/installation_xampp/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Vous allez avoir besoin durant les formations d&amp;rsquo;avoir un serveur web en local afin de tester vos développements AVANT de les publier sur le serveur de Production.
+XAMPP va nous aider à cela.
+Il nous permettra d&amp;rsquo;avoir une suite logicielle type LAMP hébergeant sur notre ordinateur en local un serveur web complet (Apache (pour l&amp;rsquo;envoi de fichiers), PhP, Mysql/MariaDb (pour gérer la persistence des données dans une Base de Donnée)).</description>
+    </item>
+    
     <item>
       <title>TP E-PorteFolio</title>
       <link>https://francis-panzani.github.io/posts/divers/portefolio/</link>
