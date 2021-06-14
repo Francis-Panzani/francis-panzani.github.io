@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 05:11:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jun 2021 07:05:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resultados de Búsqueda</title>
       <link>https://francis-panzani.github.io/search/</link>
@@ -167,7 +167,7 @@ Initial setup Search depends on additional output content type of JSON in config
     <item>
       <title>Welcome :)</title>
       <link>https://francis-panzani.github.io/posts/welcome/</link>
-      <pubDate>Wed, 19 May 2021 11:06:25 +0000</pubDate>
+      <pubDate>Sat, 08 May 2021 11:06:25 +0000</pubDate>
       
       <guid>https://francis-panzani.github.io/posts/welcome/</guid>
       <description>[](https://getbootstrap.com/)--📢 Bonjour à tous et à toutes ❗  Bienvenue sur mon espace personnel sur GitHub 😃

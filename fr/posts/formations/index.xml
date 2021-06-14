@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 05:11:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/formations/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jun 2021 07:05:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/formations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formation sur XML</title>
+      <link>https://francis-panzani.github.io/fr/posts/formations/formation_xml/</link>
+      <pubDate>Sat, 12 Jun 2021 07:05:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/fr/posts/formations/formation_xml/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation, on verra comment créer, valider (via DTD ou Schéma) , requêter (via XPATH) et transformer (via XSLT et CSS) des documents Extensible Markup Language  et on aura de nombreuses occasion de s&amp;rsquo;exercer et de produire des pages html très optimisées.
+ “ Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879).</description>
+    </item>
+    
     <item>
       <title>Formation HTML 5</title>
       <link>https://francis-panzani.github.io/fr/posts/formations/formation_html/</link>
@@ -48,19 +58,9 @@
     </item>
     
     <item>
-      <title>Formation sur XML</title>
-      <link>https://francis-panzani.github.io/fr/posts/formations/formation_xml/</link>
-      <pubDate>Tue, 01 Jun 2021 07:05:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/formations/formation_xml/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation, on verra comment créer, valider (via DTD ou Schéma) , requêter (via XPATH) et transformer (via XSLT et CSS) des documents Extensible Markup Language  et on aura de nombreuses occasion de s&amp;rsquo;exercer et de produire des pages html très optimisées.
- “ Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879).</description>
-    </item>
-    
-    <item>
       <title>Formation sur AJAX</title>
       <link>https://francis-panzani.github.io/fr/posts/formations/formation_ajax/</link>
-      <pubDate>Mon, 31 May 2021 10:05:25 +0000</pubDate>
+      <pubDate>Sun, 30 May 2021 10:05:25 +0000</pubDate>
       
       <guid>https://francis-panzani.github.io/fr/posts/formations/formation_ajax/</guid>
       <description>📢 Bonjour à tous et à toutes ❗  Dans cette courte formation (après une bonne maitrise du tryptique HTML  CSS &amp;amp; Javascript), on verra comment utiliser  : Asynchronous JavaScript and XML  et l&amp;rsquo;utiliser dans un TP assez pratique pour les formulaires d&amp;rsquo;inscriptions 😄.
@@ -70,7 +70,7 @@
     <item>
       <title>Formation sur Python</title>
       <link>https://francis-panzani.github.io/fr/posts/formations/formation_python/</link>
-      <pubDate>Mon, 31 May 2021 09:05:25 +0000</pubDate>
+      <pubDate>Sun, 30 May 2021 09:05:25 +0000</pubDate>
       
       <guid>https://francis-panzani.github.io/fr/posts/formations/formation_python/</guid>
       <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer, configurer Python V3 et le prendre en main.
@@ -88,16 +88,6 @@ Que l&amp;rsquo;on soit débutant, avec une mise en relation poussée avec l&amp
     </item>
     
     <item>
-      <title>Formation Uml</title>
-      <link>https://francis-panzani.github.io/fr/posts/formations/formation_uml/</link>
-      <pubDate>Wed, 19 May 2021 11:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/formations/formation_uml/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Bienvenue sur cette partie traitant de la formation à UML 😃 On verra ici ce qu&amp;rsquo;est UML (dispensé jusqu&amp;rsquo;en bac +3 /4 et oui, vous n&amp;rsquo;avez pas fini d&amp;rsquo;en entendre parler).
-Unified Modeling Language ou en français Langage de Modélisation Unifié est un langage de modélisation graphique à base de pictogrammes conçu pour fournir une méthode normalisée pour visualiser la conception d&amp;rsquo;un système.</description>
-    </item>
-    
-    <item>
       <title>Formation en Référencement, SEO, Conseils et TP à faire</title>
       <link>https://francis-panzani.github.io/fr/posts/formations/referencement/</link>
       <pubDate>Sun, 16 May 2021 08:06:25 +0000</pubDate>
@@ -110,9 +100,29 @@ Le référencement web s&amp;rsquo;articule autour de deux stratégies distincte
     </item>
     
     <item>
+      <title>Formation Uml</title>
+      <link>https://francis-panzani.github.io/fr/posts/formations/formation_uml/</link>
+      <pubDate>Sat, 15 May 2021 11:06:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/fr/posts/formations/formation_uml/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Bienvenue sur cette partie traitant de la formation à UML 😃 On verra ici ce qu&amp;rsquo;est UML (dispensé jusqu&amp;rsquo;en bac +3 /4 et oui, vous n&amp;rsquo;avez pas fini d&amp;rsquo;en entendre parler).
+Unified Modeling Language ou en français Langage de Modélisation Unifié est un langage de modélisation graphique à base de pictogrammes conçu pour fournir une méthode normalisée pour visualiser la conception d&amp;rsquo;un système.</description>
+    </item>
+    
+    <item>
+      <title>Formation sur Node Js</title>
+      <link>https://francis-panzani.github.io/fr/posts/formations/formation_nodejs/</link>
+      <pubDate>Sat, 08 May 2021 18:06:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/fr/posts/formations/formation_nodejs/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et configurer NodeJS, le prendre en main, l&amp;rsquo;utiliser avec MongoDB, Jade/Pug et Express JS, on m&amp;rsquo;utilisera en mode CLI, si on a du temps on fera une API/REST
+Tout d&amp;rsquo;abord un petit historique des frameworks web jusqu&amp;rsquo;à 2019 (merci Dr Jawa ) Si on regarde l&amp;rsquo;état du JS en 2020 on se rends compte qu&amp;rsquo;il est extremement populaire : https://2020.</description>
+    </item>
+    
+    <item>
       <title>Formation sur TypeScript</title>
       <link>https://francis-panzani.github.io/fr/posts/formations/formation_typescript/</link>
-      <pubDate>Wed, 05 May 2021 19:05:25 +0000</pubDate>
+      <pubDate>Fri, 07 May 2021 19:05:25 +0000</pubDate>
       
       <guid>https://francis-panzani.github.io/fr/posts/formations/formation_typescript/</guid>
       <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et configurer TypeScript, le prendre en main, faire un tour de ce qu&amp;rsquo;il a apporté a Javascript (ECMA 6), ça sera une bonne préparation pour la Formation sur Angular.
@@ -121,19 +131,9 @@ Passons en revue ses caractéristiques :
     </item>
     
     <item>
-      <title>Formation sur Node Js</title>
-      <link>https://francis-panzani.github.io/fr/posts/formations/formation_nodejs/</link>
-      <pubDate>Wed, 05 May 2021 18:06:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/formations/formation_nodejs/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et configurer NodeJS, le prendre en main, l&amp;rsquo;utiliser avec MongoDB, Jade/Pug et Express JS, on m&amp;rsquo;utilisera en mode CLI, si on a du temps on fera une API/REST
-Tout d&amp;rsquo;abord un petit historique des frameworks web jusqu&amp;rsquo;à 2019 (merci Dr Jawa ) Si on regarde l&amp;rsquo;état du JS en 2020 on se rends compte qu&amp;rsquo;il est extremement populaire : https://2020.</description>
-    </item>
-    
-    <item>
       <title>Formation Git et Github</title>
       <link>https://francis-panzani.github.io/fr/posts/formations/formation_git/</link>
-      <pubDate>Thu, 04 Feb 2021 12:06:25 +0000</pubDate>
+      <pubDate>Sat, 06 Feb 2021 12:06:25 +0000</pubDate>
       
       <guid>https://francis-panzani.github.io/fr/posts/formations/formation_git/</guid>
       <description>📢 Bonjour à tous et à toutes ❗  Créé en 1995 par Linus Torvalds (le fondateur de Linux) il a su s&amp;rsquo;implanter rapidement comme le logiciel de versionning le plus populaire depuis 2016.
@@ -144,7 +144,7 @@ La fonctionnalité Git qui le distingue vraiment de presque tous les autres SCM 
     <item>
       <title>Formations de Francis Panzani</title>
       <link>https://francis-panzani.github.io/fr/posts/formations/premier/</link>
-      <pubDate>Mon, 08 Jun 2020 06:00:20 +0600</pubDate>
+      <pubDate>Sat, 06 Jun 2020 06:00:20 +0600</pubDate>
       
       <guid>https://francis-panzani.github.io/fr/posts/formations/premier/</guid>
       <description>Voilà les indications sur les slides que l&amp;rsquo;on va utiliser ainsi que les consignes à suivre pour les formations : Pour les plus curieux et motivés : https://dailygeekshow.com/7-conseils-mieux-apprendre-etudiant/</description>
