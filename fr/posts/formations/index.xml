@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 05:11:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/formations/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 10:11:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/formations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formation sur XML</title>
       <link>https://francis-panzani.github.io/fr/posts/formations/formation_xml/</link>
@@ -37,12 +37,12 @@
     </item>
     
     <item>
-      <title>Formation MongoDB Base</title>
+      <title>Formation VueJS Base</title>
       <link>https://francis-panzani.github.io/fr/posts/formations/formation_vuejs/</link>
       <pubDate>Sun, 06 Jun 2021 07:10:25 +0000</pubDate>
       
       <guid>https://francis-panzani.github.io/fr/posts/formations/formation_vuejs/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  ue JS (Base)  , les fondamentaux, l’essentiel pour démarrer avec ce  Framework Front  qui prend de plus en plus d&#39;ampleur dans la communauté Javascript et sa myriade de  Frameworks 
+      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  Vue JS (Base)  , les fondamentaux, l’essentiel pour démarrer avec ce  Framework Front  qui prend de plus en plus d&#39;ampleur dans la communauté Javascript et sa myriade de  Frameworks 
  “VueJS a été créé par Evan You (尤雨溪) après avoir travaillé pour en utilisant dans plusieurs projets.</description>
     </item>
     

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 05:11:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/formations/formation_js/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 09:11:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/fr/posts/formations/formation_js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formation Javascript - Premier Niveau - </title>
+      <link>https://francis-panzani.github.io/fr/posts/formations/formation_js/lvl1/</link>
+      <pubDate>Sun, 13 Jun 2021 09:11:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/fr/posts/formations/formation_js/lvl1/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗  Nous verrons dans cette formation sur  JavaScript , les fondamentaux, l’essentiel pour démarrer avec ce langage utilisé pour les  sites internet,  pages web , logiciels ou même  applications smartphones (oui oui, on peut en trouver de partout 😄). C&#39;est la troisième couche des technologies standards du web, après HTML et CSS. “JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.</description>
+    </item>
+    
     <item>
       <title>Formation Javascript - Second Niveau - </title>
       <link>https://francis-panzani.github.io/fr/posts/formations/formation_js/lvl2/</link>
@@ -16,15 +25,6 @@
       <guid>https://francis-panzani.github.io/fr/posts/formations/formation_js/lvl2/</guid>
       <description>📢 Bonjour à tous et à toutes ❗  Nous verrons dans cette formation sur JavaScript Niveau 2 , les fonctions Avancées, l&#39;Objet dans sa version la plus récente en JS, les nouveautés apportées par ECMA V6, le JSON et bien d&#39;autres choses encore 🥞 TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment  :
   👉 Dans la partie Javascript Lvl 1 -&amp;gt;ICI&amp;lt;-</description>
-    </item>
-    
-    <item>
-      <title>Formation Javascript - Premier Niveau - </title>
-      <link>https://francis-panzani.github.io/fr/posts/formations/formation_js/lvl1/</link>
-      <pubDate>Sun, 06 Jun 2021 09:11:25 +0000</pubDate>
-      
-      <guid>https://francis-panzani.github.io/fr/posts/formations/formation_js/lvl1/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Nous verrons dans cette formation sur  JavaScript , les fondamentaux, l’essentiel pour démarrer avec ce langage utilisé pour les  sites internet,  pages web , logiciels ou même  applications smartphones (oui oui, on peut en trouver de partout 😄). C&#39;est la troisième couche des technologies standards du web, après HTML et CSS. “JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.</description>
     </item>
     
   </channel>

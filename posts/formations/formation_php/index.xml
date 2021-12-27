@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Formation Php on Francis Panzani&#39;s E-PorteFolio</title>
+    <link>https://francis-panzani.github.io/posts/formations/formation_php/</link>
+    <description>Recent content in Formation Php on Francis Panzani&#39;s E-PorteFolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Everything is mine</copyright>
+    <lastBuildDate>Sun, 13 Jun 2021 10:11:25 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/formations/formation_php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formation PhP - Premier Niveau</title>
+      <link>https://francis-panzani.github.io/posts/formations/formation_php/lvl1/</link>
+      <pubDate>Sun, 13 Jun 2021 10:11:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/posts/formations/formation_php/lvl1/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans ce premier niveau de la formation sur les fondamentaux, ses principales fonctions et structures de contrôle, ainsi que des explications sur la transmission des données entre les  pages et donc l’essentiel pour bien débuter avec ce langage de script coté  serveur  très utilisé pour les  sites internet et les  pages web.La formation dans ses débuts sera très axé sur l&#39;excellent travail de mon ancien collègue,  Olivier ROLLET, Ingénieur maître et auteur chez les éditions Eni dont vous pouvez trouver ses livres - 📚 ICI    :“ Hypertext Preprocessor, est un langage de programmation libre  , principalement utilisé pour produire des pages Web dynamiques via un  serveur HTTP, mais pouvant également fonctionner comme n&amp;rsquo;importe quel langage interprété de façon locale.</description>
+    </item>
+    
+    <item>
+      <title>Formation PhP - Second Niveau</title>
+      <link>https://francis-panzani.github.io/posts/formations/formation_php/lvl2/</link>
+      <pubDate>Sun, 13 Jun 2021 10:11:24 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/posts/formations/formation_php/lvl2/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans ce second niveau de la formation sur  Comment maîtriser les fonctions de base du PHP, c’est-à-dire, créer des fonctions en utilisant les tableaux, les boucles et différents opérateurs. Savoir générer dynamiquement du HTML à partir du PHP. Maîtriser les fonctions avancées du PHP, c’est-à-dire utiliser les variables super-globales en particulier les sessions et les cookies. Transmettre et contrôler des données d’une page à une autre et manipuler une image dynamiquement.</description>
+    </item>
+    
+    <item>
+      <title>Formation PhP - Troisieme Niveau</title>
+      <link>https://francis-panzani.github.io/posts/formations/formation_php/lvl3/</link>
+      <pubDate>Sun, 13 Jun 2021 10:11:23 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/posts/formations/formation_php/lvl3/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans ce troisieme niveau de la formation sur  Comment comprendre le langage MySQL et gérer la base de données à l’aide PHPMyAdmin Utiliser le langage SQL en visant une pratique optimale, pour développer des applications performantes accédant aux bases de données. Interagir entre les pages PHP et les bases de données MySQL en gérant la sécurité. et bien d&amp;rsquo;autres choses encore selon le temps et l&amp;rsquo;avancée 🥞  Liste non exhaustive de ce que l&#39;on pourra aborder : TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment  :</description>
+    </item>
+    
+    <item>
+      <title>Formation PhP - Quatrieme Niveau</title>
+      <link>https://francis-panzani.github.io/posts/formations/formation_php/lvl4/</link>
+      <pubDate>Sun, 13 Jun 2021 05:11:25 +0000</pubDate>
+      
+      <guid>https://francis-panzani.github.io/posts/formations/formation_php/lvl4/</guid>
+      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans ce troisieme niveau de la formation sur  Comment avoir une approche du développement orienté objet (POO) Savoir comprendre les fichiers de configuration et les techniques pour sécuriser son site web. Comprendre la notion d’Objet. Aller plus loin dans la sécurité avec PhP Découvrir le patron de conception MVC et bien d&amp;rsquo;autres choses encore selon le temps et l&amp;rsquo;avancée 🥞  Liste non exhaustive de ce que l&#39;on pourra aborder : TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment  :</description>
+    </item>
+    
+  </channel>
+</rss>
