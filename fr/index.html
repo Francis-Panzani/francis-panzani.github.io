@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
 	<meta name="generator" content="Hugo 0.91.2" />
-    <title>FPanzani PorteFolio</title>
+    <title>Francis Panzani&#39;s E-PorteFolio</title>
     
     
       
@@ -22,9 +22,10 @@
 <link rel="stylesheet" href="/css/navigators/navbar.css"/>
 <link rel="stylesheet" href="/css/plyr.css"/>
 <link rel="stylesheet" href="/css/flag-icon.min.css"/>
+<link rel="stylesheet" href="/css/katex.min.css">
 
 
-<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 
 
@@ -48,11 +49,11 @@
 
 
 
-<meta property="og:title" content="FPanzani PorteFolio"/>
+<meta property="og:title" content="Portfolio de Francis Panzani"/>
 <meta property="og:type" content="website"/>
-<meta property="og:description" content="Portfolio de Francis Panzani portefolio folio formation développement dévelopement developpement dev informatique info IT lyon villeurbanne NodeJS Scrum TypeScript Référencement referencement Node agile git github."/>
-<meta property="og:image" content="https://francis-panzani.github.io/images/author/avatar_cercle2.png">
-<meta property="og:url" content="https://francis-panzani.github.io/">
+<meta property="og:description" content="Portfolio et blog personnel de Francis Panzani."/>
+<meta property="og:image" content="https://fransee.github.io/images/author/avatar_cercle2.png">
+<meta property="og:url" content="https://Francis-Panzani.github.io/">
 
     <link rel="stylesheet" href="/css/sections/home.css"/>
     <link rel="stylesheet" href="/css/sections/about.css"/>
@@ -66,6 +67,7 @@
 
     
     <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/styleperso.css"/>
     
     
     
@@ -95,7 +97,6 @@ if (!doNotTrack) {
 
 
 
-  
 
 
 
@@ -142,7 +143,7 @@ if (!doNotTrack) {
     <a class="navbar-brand" href="/fr">
       
         <img src="/images/FP_hu3ae20cad08449069c904874d7c47399b_50071_42x0_resize_box.gif" id="logo" alt="Logo">
-      FPanzani PorteFolio</a>
+      Francis Panzani&#39;s E-PorteFolio</a>
     <button
       class="navbar-toggler navbar-dark"
       id="navbar-toggler"
@@ -166,7 +167,7 @@ if (!doNotTrack) {
               
               
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">A propos</a>
+                  <a class="nav-link" href="#about">A propos</a>
                 </li>
               
             
@@ -196,10 +197,6 @@ if (!doNotTrack) {
             
             
               
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projets</a>
-                </li>
               
             
             
@@ -239,6 +236,8 @@ if (!doNotTrack) {
                   
                     
                     
+                      <a class="dropdown-item" href="#projects">Projets</a>
+                    
                   
                   
                     
@@ -272,9 +271,11 @@ if (!doNotTrack) {
         
         
         
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/francispanzani/">Mon in</a>
-          </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/francispanzani/">Mon in</a>
+              </li>
+            
         
         
           <li class="nav-item dropdown">
@@ -285,16 +286,16 @@ if (!doNotTrack) {
 </a>
 <div class="dropdown-menu" aria-labelledby="languageSelector">
     
-    <a class="dropdown-item nav-link languages-item" href="/fr/">
-        
-        <span class="flag-icon flag-icon-fr"></span>
-        Français
-    </a>
-    
     <a class="dropdown-item nav-link languages-item" href="/">
         
         <span class="flag-icon flag-icon-gb"></span>
         English
+    </a>
+    
+    <a class="dropdown-item nav-link languages-item" href="/fr/">
+        
+        <span class="flag-icon flag-icon-fr"></span>
+        Français
     </a>
     
 </div>
@@ -306,7 +307,7 @@ if (!doNotTrack) {
   </div>
   
   
-    <img src="/images/FP_hu3ae20cad08449069c904874d7c47399b_50071_42x0_resize_box.gif" class="d-none" id="main-logo" alt="Logo">
+    <img src="/images/FPinv_hub7785d37f96429408167c7950b3a32e2_26787_42x0_resize_box.gif" class="d-none" id="main-logo" alt="Logo">
   
   
     <img src="/images/FP_hu3ae20cad08449069c904874d7c47399b_50071_42x0_resize_box.gif" class="d-none" id="inverted-logo" alt="Inverted Logo">
@@ -376,27 +377,27 @@ if (!doNotTrack) {
      
     #homePageBackgroundImageDivStyled {
         
-      background-image: url('https://francis-panzani.github.io/images/background_2620726_hudb7084465e1e1a2dd67994bb380b3141_239562_500x0_resize_q75_box.jpg');
+      background-image: url('https://fransee.github.io/images/background_2620726_hudb7084465e1e1a2dd67994bb380b3141_239562_500x0_resize_q75_box.jpg');
     }
      
     @media (min-width: 500px) and (max-width: 800px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://francis-panzani.github.io/images/background_2620726_hudb7084465e1e1a2dd67994bb380b3141_239562_800x0_resize_q75_box.jpg');
+          background-image: url('https://fransee.github.io/images/background_2620726_hudb7084465e1e1a2dd67994bb380b3141_239562_800x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 801px) and (max-width: 1200px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://francis-panzani.github.io/images/background_2620726_hudb7084465e1e1a2dd67994bb380b3141_239562_1200x0_resize_q75_box.jpg');
+          background-image: url('https://fransee.github.io/images/background_2620726_hudb7084465e1e1a2dd67994bb380b3141_239562_1200x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 1201px) and (max-width: 1500px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://francis-panzani.github.io/images/background_2620726_hudb7084465e1e1a2dd67994bb380b3141_239562_1500x0_resize_q75_box.jpg');
+          background-image: url('https://fransee.github.io/images/background_2620726_hudb7084465e1e1a2dd67994bb380b3141_239562_1500x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 1501px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://francis-panzani.github.io/images/background_2620726.jpg');
+          background-image: url('https://fransee.github.io/images/background_2620726.jpg');
         }
     }
     </style>
@@ -406,11 +407,11 @@ if (!doNotTrack) {
     class="background container-fluid"
   ></div>
   <div class="container content text-center">
-    <img src="/images/author/avatar_cercle2_hu39921f18f0ff8bbc6a410c8f78e073db_374994_148x148_fit_box_3.png"
+    <img src="/images/author/avatar_cercle_fp_hu39921f18f0ff8bbc6a410c8f78e073db_374994_148x148_fit_box_3.png"
       class="rounded-circle mx-auto d-block img-fluid"
       alt="Author Image"
     />
-    <h1 class="greeting"> Salut, je me prénomme  Francis et :</h1>
+    <h1 class="greeting"> 👋 Salut, je me prénomme  Francis et :</h1>
     
     <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>
@@ -419,13 +420,13 @@ if (!doNotTrack) {
     <ul id="typing-carousel-data">
       
         
-          <li>Je suis un Développeur Fullstack (Hautement Back) ...</li>
+          <li>Je suis un Développeur Fullstack (Hautement Back) ...   </li>
         
           <li>Je suis un Formateur en Développement Informatique   </li>
         
           <li>J&#39;aime Apprendre, Coder, Tester et Transmettre   </li>
         
-          <li>Je travaille actuellement dans une école qui fait aussi centre de formation pour adulte   </li>
+          <li>Je travaille actuellement dans une école qui fait aussi centre de formation pour adultes   </li>
         
           <li>Je suis bénévole dans mon association de quartier, le C.I.L de la Gravière   </li>
         
@@ -480,175 +481,189 @@ if (!doNotTrack) {
       </h5>
       
       <p class="p-1 text-justify">
-        Je suis un Développeur de logiciels passionné et un Formateur en Développement Informatique avec plus de 9 ans d&rsquo;expérience professionnelle dans le domaine. Anciennement jury des titres professionnels Développeur Logiciel et Concepteur Développeur Informatique, je suis bénévole dans une association de quartier, le Comité d&rsquo;Intérêt Local. Et je suis passionné d&rsquo;informatique depuis que j&rsquo;ai vu un Atari ST. Ouais ca date un peu &hellip;
+        👉Je suis un Développeur de 💻logiciels passionné et un 🎓Formateur en Développement Informatique avec plus de 9 ans d&rsquo;expérience professionnelle dans le domaine.<br>👉Anciennement jury des titres professionnels Développeur Logiciel et Concepteur Développeur Informatique, je suis bénévole dans une association de quartier, le Comité d&rsquo;Intérêt Local.<br>👉 Et je suis passionné d&rsquo;informatique depuis que j&rsquo;ai vu un Atari ST😻.<br> Ouais ca date un peu 👾👾👾
       </p>
-      <div class="text-container ml-auto">
+      <div class="text-container ml-auto ">
         <ul class="social-link d-flex">
           
           <li>
             
-              <a href="mailto:francis.panzani@gmail.com" title="Mail" target="_blank" rel="noopener"><i class="fas fa-at"></i></a>
+            <a href="mailto:francis.panzani@gmail.com" title="Mail" target="_blank" rel="noopener"><i class="fas fa-at"></i></a>
             
-          </li>
+          </li>           
           
           <li>
             
-              <a href="https://github.com/Francis-Panzani" title="Github" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/Francis-Panzani" title="Github" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
             
-          </li>
+          </li>           
           
           <li>
             
-              <a href="https://linkedin.com/in/francispanzani/" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://linkedin.com/in/francispanzani/" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
             
-          </li>
+          </li>           
           
+          
+          <span>
+          <a href="/files/CV_FRANCIS_PANZANI_2022.V1.5.pdf" title="Mon Curriculum Vitæ" target="#" ><button class="btn btn-dark">Mon Curriculum Vitæ</button></a>
+        </span>
+        
         </ul>
+
       </div>
-      
-      <a href="/files/CV%20FORMATEUR-DEVELOPPEUR%20FRANCIS%20PANZANI%202021.pdf" title="Mon Curriculum Vitæ" target="#"
-        ><button class="btn btn-dark">Mon Curriculum Vitæ</button></a
-      >
       
     </div>
     
     <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
       <div class="row">
         
-        
-        
-        
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress blue">
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    <div class="circular-progress blue">
     <span class="circular-progress-left">
-      <span
+        <span
         class="circular-progress-bar circular-progress-percentage-95"
         
-      ></span>
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Encadrement ☻</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress yellow">
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    <div class="circular-progress yellow">
     <span class="circular-progress-left">
-      <span
+        <span
         class="circular-progress-bar circular-progress-percentage-90"
         
-      ></span>
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Travail en Équipe</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress pink">
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    <div class="circular-progress pink">
     <span class="circular-progress-left">
-      <span
+        <span
         class="circular-progress-bar circular-progress-percentage-85"
         
-      ></span>
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Oeil critique²</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress green">
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    <div class="circular-progress green">
     <span class="circular-progress-left">
-      <span
+        <span
         class="circular-progress-bar circular-progress-percentage-90"
         
-      ></span>
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Autonomie α &amp; Ω</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress sky">
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    <div class="circular-progress sky">
     <span class="circular-progress-left">
-      <span
+        <span
         class="circular-progress-bar circular-progress-percentage-75"
         
-      ></span>
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Adaptabilité ◙</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress orange">
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    <div class="circular-progress orange">
     <span class="circular-progress-left">
-      <span
+        <span
         class="circular-progress-bar circular-progress-percentage-95"
         
-      ></span>
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Facilitateur ☼</div>
-  </div>
+    </div>
+
 </div>
 
+        
+        
+        
         
       </div>
     </div>
@@ -672,7 +687,7 @@ if (!doNotTrack) {
 <div class="container-fluid anchor pb-5 skills-section">
   
     <h1 class="text-center">
-      <span id="skills"></span>Compétences</h1>
+        <span id="skills"></span>Compétences</h1>
   
   <div class="container d-flex-block">
     <div class="row" id="primary-skills">
@@ -683,15 +698,14 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
-          <img class="card-img-xs" src="/images/sections/skills/cloud_hu7018b904f8bff0d4527e1c31c6d17334_6540_24x24_fit_box_3.png" alt="Formation en Développement Informatique présentiel et distanciel" />
         
-        <h5 class="card-title">Formation en Développement Informatique présentiel et distanciel</h5>
+          <img class="card-img-xs" src="/images/sections/skills/cloud_hu7018b904f8bff0d4527e1c31c6d17334_6540_24x24_fit_box_3.png" alt="Formation en Développement Informatique présentiel et distanciel" />
+          <h5 class="card-title">Formation en Développement Informatique présentiel et distanciel</h5>
+        
       </div>
       <div class="card-body">
         <p class="card-text"><a href="https://www.editions-hatier.fr/coin-pedago-la-classe-inversee" title="concept de la classe inversée par les éditions Hatier"><img align="left" style="margin-left:3px; background-color:lightgrey;" width="40%" src="/images/skills/classe-inversee-orange.png"></a> &ldquo;Côté pédagogie, je mixe Scrum <img src="/images/icones/w30/scrum_30.png" alt="-"> avec la <a href="https://www.editions-hatier.fr/coin-pedago-la-classe-inversee" title="concept de la classe inversée par les éditions Hatier" alt="-">Classe Inversée </a>dans le but d&rsquo;être le plus efficace dans la progression de mes élèves.<br/> J&rsquo;ai des supports de cours pour toutes mes formations <i>(demandez le programme complet, <a href="https://francis-panzani.github.io/fr/posts/formations/">une petite partie est listée ici :P)</a></i>, elles ont toutes des exercices TP / TD, la plupart peuvent être insérées dans des projets de groupes. </br> Le remote c&rsquo;est principalement Teams <img src="/images/icones/w30/teams_30.png" alt="-"> ou <img src="/images/icones/w30/discord_30.png" alt="-"> Discord,<a href="/images/skills/trelloJavaJFX.png"> <img src="/images/icones/w30/trello_30.png" alt="-"> Trello et certains outils de projet &hellip;</a><br/> <img src="/images/icones/capsule_40x40.png" alt="-"> <a href="https://francis-panzani.github.io/posts/formations/">L&rsquo;idée de base est de donner à mes élèves le minimum pour apprendre, s&rsquo;exercer, progresser selon les niveaux et aller plus loin. Je gére la montée en compétence du groupe selon les objectifs</a>&rdquo;</p>
@@ -702,23 +716,22 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://francis-panzani.github.io/fr/posts/formations/referencement/" title="SEO - Formateur / Utilisateur" target="_blank" rel="noopener">
+  <a class="skill-card-link" href="/images/skills/trelloVG.png" title="Product Owner - Gestion de projet" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
-          <img class="card-img-xs" src="/images/sections/skills/SEOkisspngsearchengine_hu17ec63a4c40f981e791aa4a2790d1528_6326_24x24_fit_box_3.png" alt="SEO - Formateur / Utilisateur" />
         
-        <h5 class="card-title">SEO - Formateur / Utilisateur</h5>
+          <img class="card-img-xs" src="/images/sections/skills/gdp_hue01f85c1aafba87b5958dba53e313364_2520_24x24_fit_box_3.png" alt="Product Owner - Gestion de projet" />
+          <h5 class="card-title">Product Owner - Gestion de projet</h5>
+        
       </div>
       <div class="card-body">
-        <p class="card-text">Capable de former et de déployer puis d&rsquo;enregistrer le site sur les moteurs de recherche, Google Analytics &amp; Adwords etc ..,utilisation de référencement naturel et de référencement payant</p>
+        <p class="card-text"><img src="/images/icones/w30/dev.png" alt="-">  Pour le travail ou les projets associatifs je joue très souvent le rôle du Product Owner <img src="/images/icones/w30/PO.png" alt="-"> / Scrum Master <img src="/images/icones/w30/SM.png" alt="-"> dans des projets agiles fortement typés Scrum<img src="/images/icones/w30/scrum_30.png" alt="-">. <br/>J&rsquo;utilise pour ce faire tout un tas d&rsquo;outils permettant <ul><li>d&rsquo;établir les cahiers des charges <img src="/images/icones/w30/word_30.png" alt="-"><img src="/images/icones/w30/PowerPoint_30.png" alt="-"><img src="/images/icones/w30/Excel_30.png" alt="-"><img src="/images/icones/w30/photoshop_30.png" alt="-"><img src="/images/icones/w30/Illustrator_30.png" alt="-"><img src="/images/icones/w30/Staruml_30.png" alt="-"><img src="/images/icones/w30/balsamiq_30.png" alt="-"></li><li>donner les directives <img src="/images/icones/w30/trello_30.png" alt="-"><img src="/images/icones/w30/GitLab_30.png" alt="-"><img src="/images/icones/w30/Paint_30.png" alt="-"></li><li>communiquer <img src="/images/icones/w30/gmail_30.png" alt="-"><img src="/images/icones/w30/discord_30.png" alt="-"><img src="/images/icones/w30/calendar_30.png" alt="-"><img src="/images/icones/w30/teams_30.png" alt="-"><img src="/images/icones/w30/linkedin_30.png" alt="-"></li><li>leader, aider <img src="/images/icones/w30/capsule_30.png" alt="-"><img src="/images/icones/w30/github_30.png" alt="-"></li><li>  échanger ou autre <img src="/images/icones/w30/drive_30.png" alt="-"> <img src="/images/icones/w30/degoo_30.png" alt="-"></li></ul> J&rsquo;y prends beaucoup de plaisir et j&rsquo;essaie de donner le plus de convivialité possible à ces moments.</p>
       </div>
     </div>
   </a>
@@ -731,15 +744,14 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
-          <img class="card-img-xs" src="/images/sections/skills/bootstrap_hua74c475952ba426015142be738b86c38_34250_24x24_fit_box_3.png" alt="Bootstrap - Formateur / Dev" />
         
-        <h5 class="card-title">Bootstrap - Formateur / Dev</h5>
+          <img class="card-img-xs" src="/images/sections/skills/bootstrap_hua74c475952ba426015142be738b86c38_34250_24x24_fit_box_3.png" alt="Bootstrap - Formateur / Dev" />
+          <h5 class="card-title">Bootstrap - Formateur / Dev</h5>
+        
       </div>
       <div class="card-body">
         <p class="card-text">Capable de former et de développer des pages webs responsives avec Bootstrap</p>
@@ -755,15 +767,14 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
-          <img class="card-img-xs" src="/images/sections/skills/node_hua6a4473e246ce3b258424e43e170a4a1_130356_24x24_fit_box_3.png" alt="Node JS - Formateur / Dev" />
         
-        <h5 class="card-title">Node JS - Formateur / Dev</h5>
+          <img class="card-img-xs" src="/images/sections/skills/node_hua6a4473e246ce3b258424e43e170a4a1_130356_24x24_fit_box_3.png" alt="Node JS - Formateur / Dev" />
+          <h5 class="card-title">Node JS - Formateur / Dev</h5>
+        
       </div>
       <div class="card-body">
         <p class="card-text">Capable de former et de produire des applications en CLI, côté serveur avec Mongoose, Jade / Pug, Express et EJS</p>
@@ -779,13 +790,12 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
-
-          <img class="card-img-xs" src="/images/sections/skills/docker.svg" alt="Docker - Notions" />
         
-        <h5 class="card-title">Docker - Notions</h5>
+          <img class="card-img-xs" src="/images/sections/skills/docker.svg" alt="Docker - Notions" />
+          <h5 class="card-title">Docker - Notions</h5>
+        
       </div>
       <div class="card-body">
         <p class="card-text">Débutant, connaissances de base. Impossible actuellement de former sur cette techno</p>
@@ -801,15 +811,14 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
-          <img class="card-img-xs" src="/images/sections/skills/linux_huf8888e89df43f58ab32b560cb211e230_26357_24x24_fit_box_3.png" alt="Linux" />
         
-        <h5 class="card-title">Linux</h5>
+          <img class="card-img-xs" src="/images/sections/skills/linux_huf8888e89df43f58ab32b560cb211e230_26357_24x24_fit_box_3.png" alt="Linux" />
+          <h5 class="card-title">Linux</h5>
+        
       </div>
       <div class="card-body">
         <p class="card-text">Utilisé il y a longtemps comme Système d&rsquo;Exploitation principal. Capable d&rsquo;écrire des scripts bash / shell.<br/> J&rsquo;y reviens de plus en plus, un peu obligé par certaines techno il faut dire ;)</p>
@@ -825,15 +834,14 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
-          <img class="card-img-xs" src="/images/sections/skills/git_hu6c1226675924c2f2e3476a81b4d03976_10660_24x24_fit_box_3.png" alt="Git &amp; GitHub - Formateur / Pratiquant :P" />
         
-        <h5 class="card-title">Git &amp; GitHub - Formateur / Pratiquant :P</h5>
+          <img class="card-img-xs" src="/images/sections/skills/git_hu6c1226675924c2f2e3476a81b4d03976_10660_24x24_fit_box_3.png" alt="Git &amp; GitHub - Formateur / Pratiquant :P" />
+          <h5 class="card-title">Git &amp; GitHub - Formateur / Pratiquant :P</h5>
+        
       </div>
       <div class="card-body">
         <p class="card-text">Capable de former et je suis expérimenté avec Git Github (essentiellement). De plus j&rsquo;ai une petite expérience avec GitLab.</p>
@@ -849,15 +857,14 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
-          <img class="card-img-xs" src="/images/sections/skills/secnumacademie_toque_hu0bafe9617c055c18a20b10731675393c_9811_24x24_fit_box_3.png" alt="Autonomie et apprentissage solo" />
         
-        <h5 class="card-title">Autonomie et apprentissage solo</h5>
+          <img class="card-img-xs" src="/images/sections/skills/secnumacademie_toque_hu0bafe9617c055c18a20b10731675393c_9811_24x24_fit_box_3.png" alt="Autonomie et apprentissage solo" />
+          <h5 class="card-title">Autonomie et apprentissage solo</h5>
+        
       </div>
       <div class="card-body">
         <p class="card-text">Je pris l&rsquo;habitude d&rsquo;être autonome dans mon travail et mes montée en compétences. <br/> J&rsquo;apprends toujours de nouvelles choses avec beaucoup de plaisir quasi quotidiennement</p>
@@ -873,15 +880,14 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
-          <img class="card-img-xs" src="/images/sections/skills/c&#43;&#43;_hue32fe91ddbd83e8e5585833667109ec5_57810_24x24_fit_box_3.png" alt="C / C&#43;&#43; - Notions" />
         
-        <h5 class="card-title">C / C&#43;&#43; - Notions</h5>
+          <img class="card-img-xs" src="/images/sections/skills/c&#43;&#43;_hue32fe91ddbd83e8e5585833667109ec5_57810_24x24_fit_box_3.png" alt="C / C&#43;&#43; - Notions" />
+          <h5 class="card-title">C / C&#43;&#43; - Notions</h5>
+        
       </div>
       <div class="card-body">
         <p class="card-text">Au tout début j&rsquo;avais appris ces 2 langages de base, inutile de dire qu&rsquo;il ne sont plus très frais à mon souvenir. <br/> Mais il risque d&rsquo;y avoir un gros rafraîchissement en vue ^^ ;;.</p>
@@ -897,18 +903,40 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
-          <img class="card-img-xs" src="/images/sections/skills/typescript_hu0792cf48c4a714f7cb8c838c4cfd013e_1972_24x24_fit_box_3.png" alt="TypeScript - Formateur / Dev" />
         
-        <h5 class="card-title">TypeScript - Formateur / Dev</h5>
+          <img class="card-img-xs" src="/images/sections/skills/typescript_hu0792cf48c4a714f7cb8c838c4cfd013e_1972_24x24_fit_box_3.png" alt="TypeScript - Formateur / Dev" />
+          <h5 class="card-title">TypeScript - Formateur / Dev</h5>
+        
       </div>
       <div class="card-body">
         <p class="card-text">Capable de former et produire de petits logiciels avec, utilisé principalement pour entraîner ou préparer les formations d&rsquo;Angular</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://francis-panzani.github.io/fr/posts/formations/referencement/" title="SEO - Formateur / Utilisateur" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/_hu1ba487f577687bb38abe1e0d5d37778c_22903_54e0a65a8e0f36c36d35706472e78bc5.png" alt="SEO - Formateur / Utilisateur" />
+          <h5 class="card-title">SEO - Formateur / Utilisateur</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">Capable de former et de déployer puis d&rsquo;enregistrer le site sur les moteurs de recherche, Google Analytics &amp; Adwords etc ..,utilisation de référencement naturel et de référencement payant</p>
       </div>
     </div>
   </a>
@@ -921,42 +949,17 @@ if (!doNotTrack) {
       <div class="card-head d-flex">
         
           
-
           
           
             
           
-
+        
           <img class="card-img-xs" src="/images/sections/skills/8biticoncircle_hu35ddc3ded3cb8e9879208d0fd2e405ce_103207_24x24_fit_box_3.png" alt="IT - 3d printer and Raspberry Pi" />
+          <h5 class="card-title">IT - 3d printer and Raspberry Pi</h5>
         
-        <h5 class="card-title">IT - 3d printer and Raspberry Pi</h5>
       </div>
       <div class="card-body">
-        <p class="card-text"><a href="images/skills/impression3D.jpg" title="a print from an unknow guy ^^;;"><img align="right" style="margin-left:3px;" width="30%" src="/images/skills/impression3D_50.png"></a>&ldquo;Passionné par l&rsquo;informatique par mon plus jeune age j&rsquo;ai acquis une imprimante 3d Anet A8 donc j&rsquo;ai fait un petit meuble à peu de frais grâce à IKEA et au tuto mis en lien.<br/> Je m&rsquo;amuse de temps en temps avec mes raspberry pi mais c&rsquo;est plus histoire de sensibiliser ma fille à la prog et à me souvenir de mes cours de technos&rdquo;</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="images/skills/trelloVG.png" title="Product Owner - Gestion de projet" target="_blank" rel="noopener">
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-
-          
-          
-            
-          
-
-          <img class="card-img-xs" src="/images/sections/skills/gdp_hue01f85c1aafba87b5958dba53e313364_2520_24x24_fit_box_3.png" alt="Product Owner - Gestion de projet" />
-        
-        <h5 class="card-title">Product Owner - Gestion de projet</h5>
-      </div>
-      <div class="card-body">
-        <p class="card-text"><img src="/images/icones/w30/dev.png" alt="-">  Pour le travail ou les projets associatifs je joue très souvent le rôle du Product Owner <img src="/images/icones/w30/PO.png" alt="-"> / Scrum Master <img src="/images/icones/w30/SM.png" alt="-"> dans des projets agiles fortement typés Scrum<img src="/images/icones/w30/scrum_30.png" alt="-">. <br/>J&rsquo;utilise pour ce faire tout un tas d&rsquo;outils permettant <ul><li>d&rsquo;établir les cahiers des charges <img src="/images/icones/w30/word_30.png" alt="-"><img src="/images/icones/w30/PowerPoint_30.png" alt="-"><img src="/images/icones/w30/Excel_30.png" alt="-"><img src="/images/icones/w30/photoshop_30.png" alt="-"><img src="/images/icones/w30/Illustrator_30.png" alt="-"><img src="/images/icones/w30/Staruml_30.png" alt="-"><img src="/images/icones/w30/balsamiq_30.png" alt="-"></li><li>donner les directives <img src="/images/icones/w30/trello_30.png" alt="-"><img src="/images/icones/w30/GitLab_30.png" alt="-"><img src="/images/icones/w30/Paint_30.png" alt="-"></li><li>communiquer <img src="/images/icones/w30/gmail_30.png" alt="-"><img src="/images/icones/w30/discord_30.png" alt="-"><img src="/images/icones/w30/calendar_30.png" alt="-"><img src="/images/icones/w30/teams_30.png" alt="-"><img src="/images/icones/w30/linkedin_30.png" alt="-"></li><li>leader, aider <img src="/images/icones/w30/capsule_30.png" alt="-"><img src="/images/icones/w30/github_30.png" alt="-"></li><li>  échanger ou autre <img src="/images/icones/w30/drive_30.png" alt="-"> <img src="/images/icones/w30/degoo_30.png" alt="-"></li></ul> J&rsquo;y prends beaucoup de plaisir et j&rsquo;essaie de donner le plus de convivialité possible à ces moments.</p>
+        <p class="card-text"><a href="/images/skills/impression3D.jpg" title="a print from an unknow guy ^^;;"><img align="right" style="margin-left:3px;" width="30%" src="/images/skills/impression3D_50.png"></a>&ldquo;Passionné par l&rsquo;informatique par mon plus jeune age j&rsquo;ai acquis une imprimante 3d Anet A8 donc j&rsquo;ai fait un petit meuble à peu de frais grâce à IKEA et au tuto mis en lien.<br/> Je m&rsquo;amuse de temps en temps avec mes raspberry pi mais c&rsquo;est plus histoire de sensibiliser ma fille à la prog et à me souvenir de mes cours de technos&rdquo;</p>
       </div>
     </div>
   </a>
@@ -984,8 +987,7 @@ if (!doNotTrack) {
 <div class="container-fluid anchor pb-5 experiences-section">
   
     <h1 class="text-center">
-      <span id="experiences"></span>Expériences
-    </h1>
+        <span id="experiences"></span>Expériences</h1>
   
 
   <div class="container timeline text-justify">
@@ -1134,7 +1136,7 @@ if (!doNotTrack) {
         
         
         <h5>Vous pouvez télécharger mon CV, me contacter pour plus d&#39;infos, ou attendre la prochaine itération</h5>
-        <h6><a href=/files/CV%20FORMATEUR-DEVELOPPEUR%20FRANCIS%20PANZANI%202021.pdf title="-&gt;CV FORMATEUR-DEVELOPPEUR FRANCIS PANZANI 2021.pdf&lt;-" target="_blank" rel="noopener">-&gt;CV FORMATEUR-DEVELOPPEUR FRANCIS PANZANI 2021.pdf&lt;-</a></h6>
+        <h6>A continuer ...</h6>
         
         <p class="text-muted">Décembre 2000 - Mars 2013,
             France
@@ -1159,6 +1161,7 @@ if (!doNotTrack) {
    
   </div>
 </div>
+
           </div>
           
           
@@ -1174,10 +1177,10 @@ if (!doNotTrack) {
 
 
 <div class="container-fluid anchor pb-5 education-section">
-    
+  
     <h1 class="text-center">
         <span id="education"></span>Éducation</h1>
-    
+  
 
     <div class="container">
         <table class="education-info-table">
@@ -1472,6 +1475,7 @@ if (!doNotTrack) {
         </table>
     </div>
 </div>
+
           </div>
           
           
@@ -1488,7 +1492,8 @@ if (!doNotTrack) {
 
 <div class="container-fluid anchor pb-5 projects-section" id="projects">
   
-    <h1 class="text-center">Projets</h1>
+    <h1 class="text-center">
+        <span id="projects"></span>Projets</h1>
   
   <div class="container ml-auto text-center">
     <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
@@ -1592,7 +1597,7 @@ if (!doNotTrack) {
               data-icon="octicon-standard"
               data-show-count="true"
               aria-label="Star Comité Intérêt Local"
-              >Github</a
+              >Star</a
             >
             
           </div>
@@ -1686,7 +1691,7 @@ if (!doNotTrack) {
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="files/testconnectiviteJava.png" target="_blank" rel="noopener">
+      <a class="card-header" href="/files/testconnectiviteJava.png" target="_blank" rel="noopener">
         <div>
           <div class="d-flex">
             
@@ -1743,7 +1748,7 @@ if (!doNotTrack) {
             <span>
               <a
                 class="btn btn-outline-info btn-sm"
-                href="files/testconnectiviteJava.png"
+                href="/files/testconnectiviteJava.png"
                 target="#"
                 >Détails</a
               >
@@ -1763,7 +1768,7 @@ if (!doNotTrack) {
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="files/Prise_appel_technicien_VBA.png" target="_blank" rel="noopener">
+      <a class="card-header" href="/files/Prise_appel_technicien_VBA.png" target="_blank" rel="noopener">
         <div>
           <div class="d-flex">
             
@@ -1828,7 +1833,7 @@ if (!doNotTrack) {
             <span>
               <a
                 class="btn btn-outline-info btn-sm"
-                href="files/Prise_appel_technicien_VBA.png"
+                href="/files/Prise_appel_technicien_VBA.png"
                 target="#"
                 >Détails</a
               >
@@ -1848,7 +1853,7 @@ if (!doNotTrack) {
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="files/alone_in_the_code.jpg" target="_blank" rel="noopener">
+      <a class="card-header" href="/files/alone_in_the_code.jpg" target="_blank" rel="noopener">
         <div>
           <div class="d-flex">
             
@@ -1897,7 +1902,7 @@ if (!doNotTrack) {
             <span>
               <a
                 class="btn btn-outline-info btn-sm"
-                href="files/alone_in_the_code.jpg"
+                href="/files/alone_in_the_code.jpg"
                 target="#"
                 >Détails</a
               >
@@ -1917,22 +1922,11 @@ if (!doNotTrack) {
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="images/project/CDH_diag_cas_utilisation.png" target="_blank" rel="noopener">
+      <a class="card-header" href="/images/project/CDH_diag_cas_utilisation.png" target="_blank" rel="noopener">
         <div>
           <div class="d-flex">
             
-
-            
-            
-            
-            
-              
-            
-
-            <img class="card-img-xs" src="/images/sections/projects/CDH_diag_cas_utilisation_hubcae6a26fd7f1a40cc44614205cf5831_34604_24x24_fit_box_3.png" alt="Projet Coeur Des Hommes" />
-            
-            
-            <h5 class="card-title mb-0">Projet Coeur Des Hommes</h5>
+            <h5 class="card-title mb-0">💓 Projet `Coeur Des Hommes`</h5>
           </div>
           <div class="sub-title">
             <span>Product Owner - Team Leader</span>
@@ -1978,7 +1972,7 @@ if (!doNotTrack) {
             <span>
               <a
                 class="btn btn-outline-info btn-sm"
-                href="images/project/CDH_diag_cas_utilisation.png"
+                href="/images/project/CDH_diag_cas_utilisation.png"
                 target="#"
                 >Détails</a
               >
@@ -1998,7 +1992,7 @@ if (!doNotTrack) {
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="images/project/seriousgame_reseau.png" target="_blank" rel="noopener">
+      <a class="card-header" href="/images/project/seriousgame_reseau.png" target="_blank" rel="noopener">
         <div>
           <div class="d-flex">
             
@@ -2047,7 +2041,7 @@ if (!doNotTrack) {
             <span>
               <a
                 class="btn btn-outline-info btn-sm"
-                href="images/project/seriousgame_reseau.png"
+                href="/images/project/seriousgame_reseau.png"
                 target="#"
                 >Détails</a
               >
@@ -2067,7 +2061,7 @@ if (!doNotTrack) {
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="images/project/RobotSalonetudiant.PNG" target="_blank" rel="noopener">
+      <a class="card-header" href="/images/project/RobotSalonetudiant.PNG" target="_blank" rel="noopener">
         <div>
           <div class="d-flex">
             
@@ -2116,7 +2110,7 @@ if (!doNotTrack) {
             <span>
               <a
                 class="btn btn-outline-info btn-sm"
-                href="images/project/RobotSalonetudiant.PNG"
+                href="/images/project/RobotSalonetudiant.PNG"
                 target="#"
                 >Détails</a
               >
@@ -2136,7 +2130,7 @@ if (!doNotTrack) {
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="files/GIFtappeclavier.gif" target="_blank" rel="noopener">
+      <a class="card-header" href="/files/GIFtappeclavier.gif" target="_blank" rel="noopener">
         <div>
           <div class="d-flex">
             
@@ -2209,7 +2203,7 @@ if (!doNotTrack) {
             <span>
               <a
                 class="btn btn-outline-info btn-sm"
-                href="files/GIFtappeclavier.gif"
+                href="/files/GIFtappeclavier.gif"
                 target="#"
                 >Détails</a
               >
@@ -2248,10 +2242,52 @@ if (!doNotTrack) {
 <div class="container-fluid anchor pb-5 recent-posts-section">
   
     <h1 class="text-center">
-      <span id="recent-posts"></span>Posts</h1>
+        <span id="recent-posts"></span>Posts</h1>
   
   <div class="container">
     <div class="row" id="recent-post-cards">
+      
+        <div class="col-lg-4 col-md-6 pt-2 post-card">
+  <a href="/fr/posts/formations/formation_css/base/" title="Formation CSS 3 - Premier Niveau - " class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/fr/posts/formations/formation_css/base/hero.svg'
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Formation CSS 3 - Premier Niveau - </h5>
+        <p class="card-text post-summary"> 📢 Bonjour à tous et à toutes ❗  Nous verrons dans cette formation sur  CSS (Feuilles de style en cascade)  , les fondamentaux, l’essentiel pour démarrer avec ce langage qui est présent quasiment depuis le début du WWWeb et est un incontournable de la création de sites internet, pages web ou même support de documentation  “ Les feuilles de style en cascade, généralement appelées CSS de l&rsquo;anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">February 13, 2022</span>
+        <a href="/fr/posts/formations/formation_css/base/" title="Lire" class="float-right btn btn-outline-info btn-sm">Lire</a>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-lg-4 col-md-6 pt-2 post-card">
+  <a href="/fr/posts/formations/formation_css/avance/" title="Formation CSS 3 - Deuxième Niveau - " class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/fr/posts/formations/formation_css/avance/hero.svg'
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Formation CSS 3 - Deuxième Niveau - </h5>
+        <p class="card-text post-summary"> 📢 Bonjour à tous et à toutes ❗  Nous verrons dans cette formation sur  CSS Avancé , des positionnements plus "touchy" (empilement et sticky), des menus divers et variés, le coté responsive avec les Media Queries ainsi que les conteneurs Flexbox et le module Css Grid Pour cette formation nous n'avons pas besoin de prérequis ni d'installation autres que ce que nous avons déjà vu ensemble dans la première partie.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">February 13, 2022</span>
+        <a href="/fr/posts/formations/formation_css/avance/" title="Lire" class="float-right btn btn-outline-info btn-sm">Lire</a>
+      </div>
+    </div>
+  </a>
+</div>
+
       
         <div class="col-lg-4 col-md-6 pt-2 post-card">
   <a href="/fr/posts/formations/formation_php/lvl1/" title="Formation PhP - Premier Niveau" class="post-card-link">
@@ -2268,48 +2304,6 @@ if (!doNotTrack) {
       <div class="card-footer">
         <span class="float-left">December 26, 2021</span>
         <a href="/fr/posts/formations/formation_php/lvl1/" title="Lire" class="float-right btn btn-outline-info btn-sm">Lire</a>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-lg-4 col-md-6 pt-2 post-card">
-  <a href="/fr/posts/formations/formation_php/lvl2/" title="Formation PhP - Second Niveau" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/fr/posts/formations/formation_php/lvl2/hero.svg'
-          alt="Card image cap"
-        />
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Formation PhP - Second Niveau</h5>
-        <p class="card-text post-summary"> 📢 Bonjour à tous et à toutes ❗  Nous verrons dans ce second niveau de la formation sur  Comment maîtriser les fonctions de base du PHP, c’est-à-dire, créer des fonctions en utilisant les tableaux, les boucles et différents opérateurs. Savoir générer dynamiquement du HTML à partir du PHP. Maîtriser les fonctions avancées du PHP, c’est-à-dire utiliser les variables super-globales en particulier les sessions et les cookies. Transmettre et contrôler des données d’une page à une autre et manipuler une image dynamiquement.</p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">December 26, 2021</span>
-        <a href="/fr/posts/formations/formation_php/lvl2/" title="Lire" class="float-right btn btn-outline-info btn-sm">Lire</a>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-lg-4 col-md-6 pt-2 post-card">
-  <a href="/fr/posts/formations/formation_php/lvl3/" title="Formation PhP - Troisieme Niveau" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/fr/posts/formations/formation_php/lvl3/hero.svg'
-          alt="Card image cap"
-        />
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Formation PhP - Troisieme Niveau</h5>
-        <p class="card-text post-summary"> 📢 Bonjour à tous et à toutes ❗  Nous verrons dans ce troisieme niveau de la formation sur  Comment comprendre le langage MySQL et gérer la base de données à l’aide PHPMyAdmin Utiliser le langage SQL en visant une pratique optimale, pour développer des applications performantes accédant aux bases de données. Interagir entre les pages PHP et les bases de données MySQL en gérant la sécurité. et bien d&rsquo;autres choses encore selon le temps et l&rsquo;avancée 🥞  Liste non exhaustive de ce que l'on pourra aborder : TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment  :</p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">December 26, 2021</span>
-        <a href="/fr/posts/formations/formation_php/lvl3/" title="Lire" class="float-right btn btn-outline-info btn-sm">Lire</a>
       </div>
     </div>
   </a>
@@ -2337,9 +2331,9 @@ if (!doNotTrack) {
 <div class="container-fluid anchor pb-5 accomplishments-section">
   
     <h1 class="text-center">
-      <span id="accomplishments"></span>Certifications</h1>
+        <span id="accomplishments"></span>Certifications</h1>
   
-
+  
   <div class="container">
     <div class="row" id="acomplishment-card-holder">
       
@@ -2399,7 +2393,7 @@ if (!doNotTrack) {
     </div>
     <div class="card-footer">
       
-        <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="http://franpan.free.fr/ressources/gihub_portefolio/certif_meilleurpapa.png" target="_blank" rel="noopener" role="button">Afficher le certificat</a>
+        <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="/files/certif_meilleurpapa.png" target="_blank" rel="noopener" role="button">Afficher le certificat</a>
       
     </div>
   </div>
@@ -2427,7 +2421,7 @@ if (!doNotTrack) {
 <div class="container-fluid anchor pb-5 achievements-section">
   
     <h1 class="text-center">
-      <span id="achievements"></span>Réalisations</h1>
+        <span id="achievements"></span>Réalisations</h1>
   
   <div class="container">
     <div class="row" id="gallery">
@@ -2450,7 +2444,7 @@ if (!doNotTrack) {
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('https://francis-panzani.github.io/images/sections/accomplishments/decollage_hu9d9b9b63cea6152c00f13532cfde939b_4397006_0x300_resize_box_3.png');"
+  style="background-image: url('https://fransee.github.io/images/sections/accomplishments/decollage_hu9d9b9b63cea6152c00f13532cfde939b_4397006_0x300_resize_box_3.png');"
 >
   <i class="fas fa-search-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Parapente Autonomie Niv 1 bloqué par le COVID ^^;;</h4>
@@ -2458,8 +2452,8 @@ if (!doNotTrack) {
     <h4>Parapente Autonomie Niv 1 bloqué par le COVID ^^;;</h4>
     <p>Avec les Passagers du vent sur Talloires - Stage Initiation 1 semaine puis Autonomie niv1 Week End 2j</p>
   </div>
-  <span style="background-image: url('https://francis-panzani.github.io/images/sections/accomplishments/decollage_hu9d9b9b63cea6152c00f13532cfde939b_4397006_0x300_resize_box_3.png');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('https://francis-panzani.github.io/images/sections/accomplishments/decollage_hu9d9b9b63cea6152c00f13532cfde939b_4397006_0x1500_resize_box_3.png');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('https://fransee.github.io/images/sections/accomplishments/decollage_hu9d9b9b63cea6152c00f13532cfde939b_4397006_0x300_resize_box_3.png');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('https://fransee.github.io/images/sections/accomplishments/decollage_hu9d9b9b63cea6152c00f13532cfde939b_4397006_0x1500_resize_box_3.png');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -2477,7 +2471,7 @@ if (!doNotTrack) {
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('https://francis-panzani.github.io/images/sections/achievements/jury_habilitation_huab8a63aa9c011bf5c07cbd54f6a3de85_153574_0x300_resize_box_3.png');"
+  style="background-image: url('https://fransee.github.io/images/sections/achievements/jury_habilitation_huab8a63aa9c011bf5c07cbd54f6a3de85_153574_0x300_resize_box_3.png');"
 >
   <i class="fas fa-search-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Jury des titre professionnel - Développeur Informatique - Concepteur Développeur Informatique (Accréditation)</h4>
@@ -2485,8 +2479,8 @@ if (!doNotTrack) {
     <h4>Jury des titre professionnel - Développeur Informatique - Concepteur Développeur Informatique (Accréditation)</h4>
     <p>Développeur Logiciel Bac+2 (RNCP 5927) / /	Concepteur Développeur Informatique Bac +3/4 (RNCP 6255) - Arrêt fin 2019</p>
   </div>
-  <span style="background-image: url('https://francis-panzani.github.io/images/sections/achievements/jury_habilitation_huab8a63aa9c011bf5c07cbd54f6a3de85_153574_0x300_resize_box_3.png');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('https://francis-panzani.github.io/images/sections/achievements/jury_habilitation_huab8a63aa9c011bf5c07cbd54f6a3de85_153574_0x1500_resize_box_3.png');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('https://fransee.github.io/images/sections/achievements/jury_habilitation_huab8a63aa9c011bf5c07cbd54f6a3de85_153574_0x300_resize_box_3.png');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('https://fransee.github.io/images/sections/achievements/jury_habilitation_huab8a63aa9c011bf5c07cbd54f6a3de85_153574_0x1500_resize_box_3.png');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -2504,7 +2498,7 @@ if (!doNotTrack) {
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('https://francis-panzani.github.io/images/sections/achievements/diplome_afip_EIL_hu1dd71375dff84f1c16d8a06f3ce2eb40_902988_0x300_resize_q75_box.jpg');"
+  style="background-image: url('https://fransee.github.io/images/sections/achievements/diplome_afip_EIL_hu1dd71375dff84f1c16d8a06f3ce2eb40_902988_0x300_resize_q75_box.jpg');"
 >
   <i class="fas fa-search-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Expert en Ingénierie du Logiciel (Diplôme)</h4>
@@ -2512,8 +2506,8 @@ if (!doNotTrack) {
     <h4>Expert en Ingénierie du Logiciel (Diplôme)</h4>
     <p>Received School Title of Software Engineering Expert from AFIP Higher Education in 2018.</p>
   </div>
-  <span style="background-image: url('https://francis-panzani.github.io/images/sections/achievements/diplome_afip_EIL_hu1dd71375dff84f1c16d8a06f3ce2eb40_902988_0x300_resize_q75_box.jpg');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('https://francis-panzani.github.io/images/sections/achievements/diplome_afip_EIL_hu1dd71375dff84f1c16d8a06f3ce2eb40_902988_0x1500_resize_q75_box.jpg');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('https://fransee.github.io/images/sections/achievements/diplome_afip_EIL_hu1dd71375dff84f1c16d8a06f3ce2eb40_902988_0x300_resize_q75_box.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('https://fransee.github.io/images/sections/achievements/diplome_afip_EIL_hu1dd71375dff84f1c16d8a06f3ce2eb40_902988_0x1500_resize_q75_box.jpg');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -2531,7 +2525,7 @@ if (!doNotTrack) {
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('https://francis-panzani.github.io/images/sections/achievements/bnps_hu7775a4e59a045a65cfb525dd5258cc95_546059_0x300_resize_box_3.png');"
+  style="background-image: url('https://fransee.github.io/images/sections/achievements/bnps_hu7775a4e59a045a65cfb525dd5258cc95_546059_0x300_resize_box_3.png');"
 >
   <i class="fas fa-search-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Attestation de Formation aux Premiers Secours avant BNPS</h4>
@@ -2539,8 +2533,8 @@ if (!doNotTrack) {
     <h4>Attestation de Formation aux Premiers Secours avant BNPS</h4>
     <p>Formation de base de premiers secours, apprentissage de gestes et la réalisation de situations concrètes où les formateurs simulent des accidents</p>
   </div>
-  <span style="background-image: url('https://francis-panzani.github.io/images/sections/achievements/bnps_hu7775a4e59a045a65cfb525dd5258cc95_546059_0x300_resize_box_3.png');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('https://francis-panzani.github.io/images/sections/achievements/bnps_hu7775a4e59a045a65cfb525dd5258cc95_546059_0x1500_resize_box_3.png');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('https://fransee.github.io/images/sections/achievements/bnps_hu7775a4e59a045a65cfb525dd5258cc95_546059_0x300_resize_box_3.png');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('https://fransee.github.io/images/sections/achievements/bnps_hu7775a4e59a045a65cfb525dd5258cc95_546059_0x1500_resize_box_3.png');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -2567,33 +2561,37 @@ if (!doNotTrack) {
 
 
 
+
+
+
   
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
       
-  
-
-
-
-  
-  
-    
-  
-
-  
-  
-    
-  
-
-  
-  
-    
-    
-      
     
   
 
 
   
   
+  
+    
   
 
   
@@ -2611,7 +2609,7 @@ if (!doNotTrack) {
   
   
 
-  <footer class="container-fluid text-center align-content-center footer pb-2">
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
       <div class="row text-left">
         
@@ -2625,7 +2623,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://francis-panzani.github.io/fr/#about">A propos</a>
+                  <a class="smooth-scroll" href="https://fransee.github.io/fr/#about">A propos</a>
                 </li>
               
               
@@ -2634,7 +2632,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://francis-panzani.github.io/fr/#skills">Compétences</a>
+                  <a class="smooth-scroll" href="https://fransee.github.io/fr/#skills">Compétences</a>
                 </li>
               
               
@@ -2643,7 +2641,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://francis-panzani.github.io/fr/#experiences">Expériences</a>
+                  <a class="smooth-scroll" href="https://fransee.github.io/fr/#experiences">Expériences</a>
                 </li>
               
               
@@ -2652,7 +2650,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://francis-panzani.github.io/fr/#education">Éducation</a>
+                  <a class="smooth-scroll" href="https://fransee.github.io/fr/#education">Éducation</a>
                 </li>
               
               
@@ -2661,7 +2659,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://francis-panzani.github.io/fr/#projects">Projets</a>
+                  <a class="smooth-scroll" href="https://fransee.github.io/fr/#projects">Projets</a>
                 </li>
               
               
@@ -2670,7 +2668,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://francis-panzani.github.io/fr/#recent-posts">Posts</a>
+                  <a class="smooth-scroll" href="https://fransee.github.io/fr/#recent-posts">Posts</a>
                 </li>
               
               
@@ -2679,7 +2677,7 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://francis-panzani.github.io/fr/#accomplishments">Certifications</a>
+                  <a class="smooth-scroll" href="https://fransee.github.io/fr/#accomplishments">Certifications</a>
                 </li>
               
               
@@ -2688,9 +2686,14 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://francis-panzani.github.io/fr/#achievements">Réalisations</a>
+                  <a class="smooth-scroll" href="https://fransee.github.io/fr/#achievements">Réalisations</a>
                 </li>
               
+            
+              
+                
+              
+            
           </ul>
           
         </div>
@@ -2703,6 +2706,18 @@ if (!doNotTrack) {
               
                 <li><a href=mailto:francis.panzani@gmail.com target="_blank" rel="noopener">
                   <span><i class="fas fa-envelope"></i></span> <span>francis.panzani@gmail.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/Francis-Panzani target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>Francis-Panzani</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/francispanzani target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Panzani Francis</span>
                 </a></li>
               
             
@@ -2728,7 +2743,7 @@ if (!doNotTrack) {
             Toha
           </a>
         </div>
-        <div class="col-md-4 text-center">© 2021 Tous droits réservés.</div>
+        <div class="col-md-4 text-center">© 2022 Copyright Francis Panzani.</div>
         <div class="col-md-4 text-right">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
           <img
@@ -2751,6 +2766,9 @@ if (!doNotTrack) {
 <script type="text/javascript" src="/js/navbar.js"></script>
 <script type="text/javascript" src="/js/plyr.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
+
+<script type="text/javascript" defer src="/js/katex.min.js"></script>
+<script type="text/javascript" defer src="/js/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 
 
     
