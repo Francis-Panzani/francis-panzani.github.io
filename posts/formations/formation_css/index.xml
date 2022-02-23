@@ -1,30 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Formation CSS (Cascading Style Sheets) on Francis Panzani&#39;s E-PorteFolio</title>
-    <link>https://fransee.github.io/posts/formations/formation_css/</link>
-    <description>Recent content in Formation CSS (Cascading Style Sheets) on Francis Panzani&#39;s E-PorteFolio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Everything is mine</copyright>
-    <lastBuildDate>Sun, 13 Feb 2022 08:11:26 +0000</lastBuildDate><atom:link href="https://fransee.github.io/posts/formations/formation_css/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Formation CSS 3 - First Level - </title>
-      <link>https://fransee.github.io/posts/formations/formation_css/base/</link>
-      <pubDate>Sun, 13 Feb 2022 08:11:26 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_css/base/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  CSS (Feuilles de style en cascade)  , les fondamentaux, l’essentiel pour démarrer avec ce langage qui est présent quasiment depuis le début du WWWeb et est un incontournable de la création de sites internet, pages web ou même support de documentation  “ Les feuilles de style en cascade, généralement appelées CSS de l&amp;rsquo;anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML.</description>
-    </item>
-    
-    <item>
-      <title>Formation CSS 3 - Second Level - </title>
-      <link>https://fransee.github.io/posts/formations/formation_css/avance/</link>
-      <pubDate>Sun, 13 Feb 2022 08:11:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_css/avance/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  CSS Avancé , des positionnements plus &#34;touchy&#34; (empilement et sticky), des menus divers et variés, le coté responsive avec les Media Queries ainsi que les conteneurs Flexbox et le module Css Grid Pour cette formation nous n&#39;avons pas besoin de prérequis ni d&#39;installation autres que ce que nous avons déjà vu ensemble dans la première partie.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Formation CSS (Cascading Style Sheets) on Francis Panzani's E-PorteFolio</title><link>https://francis-panzani.github.io/posts/formations/formation_css/</link><description>Recent content in Formation CSS (Cascading Style Sheets) on Francis Panzani's E-PorteFolio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Everything is mine</copyright><lastBuildDate>Sun, 13 Feb 2022 08:11:26 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/posts/formations/formation_css/index.xml" rel="self" type="application/rss+xml"/><item><title>Formation CSS 3 - First Level -</title><link>https://francis-panzani.github.io/posts/formations/formation_css/base/</link><pubDate>Sun, 13 Feb 2022 08:11:26 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_css/base/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans cette formation sur CSS (Feuilles de style en cascade) , les fondamentaux, l’essentiel pour démarrer avec ce langage qui est présent quasiment depuis le début du WWWeb et est un incontournable de la création de sites internet, pages web ou même support de documentation “ Les feuilles de style en cascade, généralement appelées CSS de l&amp;rsquo;anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML.</description></item><item><title>Formation CSS 3 - Second Level -</title><link>https://francis-panzani.github.io/posts/formations/formation_css/avance/</link><pubDate>Sun, 13 Feb 2022 08:11:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_css/avance/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans cette formation sur CSS Avancé , des positionnements plus "touchy" (empilement et sticky), des menus divers et variés, le coté responsive avec les Media Queries ainsi que les conteneurs Flexbox et le module Css Grid Pour cette formation nous n'avons pas besoin de prérequis ni d'installation autres que ce que nous avons déjà vu ensemble dans la première partie.</description></item></channel></rss>

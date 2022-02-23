@@ -1,695 +1,135 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Francis Panzani&#39;s E-PorteFolio</title>
-    <link>https://fransee.github.io/</link>
-    <description>Recent content on Francis Panzani&#39;s E-PorteFolio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Everything is mine</copyright>
-    <lastBuildDate>Sun, 13 Feb 2022 08:11:26 +0000</lastBuildDate><atom:link href="https://fransee.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Introduction</title>
-      <link>https://fransee.github.io/notes/go/basic/introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/notes/go/basic/introduction/</guid>
-      <description>Hello WorldA sample go program is show here.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Francis Panzani's E-PorteFolio</title><link>https://francis-panzani.github.io/</link><description>Recent content on Francis Panzani's E-PorteFolio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Everything is mine</copyright><lastBuildDate>Sun, 13 Feb 2022 08:11:26 +0000</lastBuildDate><atom:link href="https://francis-panzani.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://francis-panzani.github.io/notes/go/basic/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://francis-panzani.github.io/notes/go/basic/introduction/</guid><description>Hello World A sample go program is show here.
 package main import &amp;#34;fmt&amp;#34; func main() { message := greetMe(&amp;#34;world&amp;#34;) fmt.Println(message) } func greetMe(name string) string { return &amp;#34;Hello, &amp;#34; + name + &amp;#34;!&amp;#34; } Run the program as below:
-$ go run hello.go VariablesNormal Declaration:
-var msg string msg = &amp;#34;Hello&amp;#34; Shortcut:
-msg := &amp;#34;Hello&amp;#34; Constantsconst Phi = 1.</description>
-    </item>
-    
-    <item>
-      <title>Basic Types</title>
-      <link>https://fransee.github.io/notes/go/basic/types/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/notes/go/basic/types/</guid>
-      <description>Stringsstr := &amp;#34;Hello&amp;#34; Multiline string
-str := `Multiline string` NumbersTypical types
+$ go run hello.go Variables Normal Declaration:
+var msg string msg = &amp;#34;Hello&amp;#34; Shortcut:
+msg := &amp;#34;Hello&amp;#34; Constants const Phi = 1.</description></item><item><title>Basic Types</title><link>https://francis-panzani.github.io/notes/go/basic/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://francis-panzani.github.io/notes/go/basic/types/</guid><description>Strings str := &amp;#34;Hello&amp;#34; Multiline string
+str := `Multiline string` Numbers Typical types
 num := 3 // int num := 3. // float64 num := 3 + 4i // complex128 num := byte(&amp;#39;a&amp;#39;) // byte (alias for uint8) Other Types
-var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays// var numbers [5]int numbers := [.</description>
-    </item>
-    
-    <item>
-      <title>অ্যাডভান্সড</title>
-      <link>https://fransee.github.io/notes/go/advanced/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/notes/go/advanced/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flow Control</title>
-      <link>https://fransee.github.io/notes/go/basic/flow-control/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/notes/go/basic/flow-control/</guid>
-      <description>Conditionif day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;) Switchswitch day { case &amp;#34;sunday&amp;#34;: // cases don&amp;#39;t &amp;#34;fall through&amp;#34; by default!  fallthrough case &amp;#34;saturday&amp;#34;: rest() default: work() } Loopfor count := 0; count &amp;lt;= 10; count++ { fmt.</description>
-    </item>
-    
-    <item>
-      <title>ফাইল ম্যানিপুলেশন</title>
-      <link>https://fransee.github.io/notes/go/advanced/files/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/notes/go/advanced/files/</guid>
-      <description>Conditionif day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;) </description>
-    </item>
-    
-    <item>
-      <title>Bash Variables</title>
-      <link>https://fransee.github.io/notes/bash/basic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/notes/bash/basic/</guid>
-      <description>VariableNAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#34;${NAME}Conditionif [[ -z &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is empty&amp;#34; elif [[ -n &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is not empty&amp;#34; fi </description>
-    </item>
-    
-    <item>
-      <title>Resultados de Búsqueda</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays // var numbers [5]int numbers := [.</description></item><item><title>অ্যাডভান্সড</title><link>https://francis-panzani.github.io/notes/go/advanced/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://francis-panzani.github.io/notes/go/advanced/_index.bn/</guid><description/></item><item><title>Flow Control</title><link>https://francis-panzani.github.io/notes/go/basic/flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://francis-panzani.github.io/notes/go/basic/flow-control/</guid><description>Condition if day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;) Switch switch day { case &amp;#34;sunday&amp;#34;: // cases don&amp;#39;t &amp;#34;fall through&amp;#34; by default! fallthrough case &amp;#34;saturday&amp;#34;: rest() default: work() } Loop for count := 0; count &amp;lt;= 10; count++ { fmt.</description></item><item><title>ফাইল ম্যানিপুলেশন</title><link>https://francis-panzani.github.io/notes/go/advanced/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://francis-panzani.github.io/notes/go/advanced/files/</guid><description>Condition if day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;)</description></item><item><title>Bash Variables</title><link>https://francis-panzani.github.io/notes/bash/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://francis-panzani.github.io/notes/bash/basic/</guid><description>Variable NAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#34;${NAME} Condition if [[ -z &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is empty&amp;#34; elif [[ -n &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is not empty&amp;#34; fi</description></item><item><title>Resultados de Búsqueda</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
 No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
 Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
 Esta implementación utiliza Fusejs, jquery y mark.js
-Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
-    </item>
-    
-    <item>
-      <title>Resultados de Búsqueda</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description></item><item><title>Resultados de Búsqueda</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
 No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
 Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
 Esta implementación utiliza Fusejs, jquery y mark.js
-Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>অনুসন্ধানের ফলাফল</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>অনুসন্ধানের ফলাফল</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://francis-panzani.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Formation CSS 3 - First Level - </title>
-      <link>https://fransee.github.io/posts/formations/formation_css/base/</link>
-      <pubDate>Sun, 13 Feb 2022 08:11:26 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_css/base/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  CSS (Feuilles de style en cascade)  , les fondamentaux, l’essentiel pour démarrer avec ce langage qui est présent quasiment depuis le début du WWWeb et est un incontournable de la création de sites internet, pages web ou même support de documentation  “ Les feuilles de style en cascade, généralement appelées CSS de l&amp;rsquo;anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML.</description>
-    </item>
-    
-    <item>
-      <title>Formation CSS 3 - Second Level - </title>
-      <link>https://fransee.github.io/posts/formations/formation_css/avance/</link>
-      <pubDate>Sun, 13 Feb 2022 08:11:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_css/avance/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  CSS Avancé , des positionnements plus &#34;touchy&#34; (empilement et sticky), des menus divers et variés, le coté responsive avec les Media Queries ainsi que les conteneurs Flexbox et le module Css Grid Pour cette formation nous n&#39;avons pas besoin de prérequis ni d&#39;installation autres que ce que nous avons déjà vu ensemble dans la première partie.</description>
-    </item>
-    
-    <item>
-      <title>Formation PhP - Premier Niveau</title>
-      <link>https://fransee.github.io/posts/formations/formation_php/lvl1/</link>
-      <pubDate>Sun, 26 Dec 2021 10:11:59 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_php/lvl1/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans ce premier niveau de la formation sur les fondamentaux, ses principales fonctions et structures de contrôle, ainsi que des explications sur la transmission des données entre les  pages et donc l’essentiel pour bien débuter avec ce langage de script coté  serveur  très utilisé pour les  sites internet et les  pages web.La formation dans ses débuts sera très axé sur l&#39;excellent travail de mon ancien collègue,  Olivier ROLLET, Ingénieur maître et auteur chez les éditions Eni dont vous pouvez trouver ses livres - 📚 ICI    :“ Hypertext Preprocessor, est un langage de programmation libre  , principalement utilisé pour produire des pages Web dynamiques via un  serveur HTTP, mais pouvant également fonctionner comme n&amp;rsquo;importe quel langage interprété de façon locale.</description>
-    </item>
-    
-    <item>
-      <title>Formation PhP - Second Niveau</title>
-      <link>https://fransee.github.io/posts/formations/formation_php/lvl2/</link>
-      <pubDate>Sun, 26 Dec 2021 10:11:58 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_php/lvl2/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans ce second niveau de la formation sur  Comment maîtriser les fonctions de base du PHP, c’est-à-dire, créer des fonctions en utilisant les tableaux, les boucles et différents opérateurs. Savoir générer dynamiquement du HTML à partir du PHP. Maîtriser les fonctions avancées du PHP, c’est-à-dire utiliser les variables super-globales en particulier les sessions et les cookies. Transmettre et contrôler des données d’une page à une autre et manipuler une image dynamiquement.</description>
-    </item>
-    
-    <item>
-      <title>Formation PhP - Troisieme Niveau</title>
-      <link>https://fransee.github.io/posts/formations/formation_php/lvl3/</link>
-      <pubDate>Sun, 26 Dec 2021 10:11:57 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_php/lvl3/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans ce 3️⃣ieme niveau de la formation sur  Comment comprendre le langage MySQL et gérer la base de données à l’aide PHPMyAdmin Utiliser le langage SQL en visant une pratique optimale, pour développer des applications performantes accédant aux bases de données. Interagir entre les pages PHP et les bases de données MySQL en gérant la sécurité. et bien d&amp;rsquo;autres choses encore selon le temps et l&amp;rsquo;avancée 🥞  Liste non exhaustive de ce que l&#39;on pourra aborder : TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment  :</description>
-    </item>
-    
-    <item>
-      <title>Formation PhP - Quatrieme Niveau</title>
-      <link>https://fransee.github.io/posts/formations/formation_php/lvl4/</link>
-      <pubDate>Sun, 26 Dec 2021 10:11:56 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_php/lvl4/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans ce 4️⃣ieme niveau de la formation sur  Comment avoir une approche du développement orienté objet (POO) Savoir comprendre les fichiers de configuration et les techniques pour sécuriser son site web. Comprendre la notion d’Objet. Aller plus loin dans la sécurité avec PhP Découvrir le patron de conception MVC et bien d&amp;rsquo;autres choses encore selon le temps et l&amp;rsquo;avancée 🥞  Liste non exhaustive de ce que l&#39;on pourra aborder : TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment  :</description>
-    </item>
-    
-    <item>
-      <title>Formation Wordpress - Initiation</title>
-      <link>https://fransee.github.io/posts/formations/formation_wordpress/lvl1/</link>
-      <pubDate>Sun, 13 Jun 2021 10:11:31 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_wordpress/lvl1/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous débuterons cette formation par une initiation sur , on traitera les thématiques suivantes :  ordPress.com et ordPress.org C&amp;rsquo;est quoi WordPress ? ordPress comme Système de gestion de contenu ou CMS Pourquoi WordPress ? Les ressources WordPress et bien d&amp;rsquo;autres choses encore selon le temps et l&amp;rsquo;avancée 🥞   “WordPress est un système de gestion de contenu (SGC ou content management system (CMS) en anglais) gratuit, libre et open-source.</description>
-    </item>
-    
-    <item>
-      <title>Formation Wordpress - Avancé</title>
-      <link>https://fransee.github.io/posts/formations/formation_wordpress/lvl2/</link>
-      <pubDate>Sun, 13 Jun 2021 10:11:30 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_wordpress/lvl2/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous poursuivrons cette formation sur , en voyant les thématiques suivantes :  Les plugins avec ordpress, notamment :  L&amp;rsquo;obligatoire Yoast SEO, disponible ici : https://fr.wordpress.org/plugins/wordpress-seo/ L&amp;rsquo;indispensable Elementor Website Builder, disponible ici : https://fr.wordpress.org/plugins/elementor/ L&amp;rsquo;utile cause obligation RGPD, Cookie Notice &amp;amp; Compliance, disponible ici : https://wordpress.org/plugins/cookie-notice/ Le nécessaire All in One (ou Duplicator) pour les backups, disponible ici : https://wordpress.</description>
-    </item>
-    
-    <item>
-      <title>Formation Javascript - Premier Niveau - </title>
-      <link>https://fransee.github.io/posts/formations/formation_js/lvl1/</link>
-      <pubDate>Sun, 13 Jun 2021 09:11:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_js/lvl1/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  JavaScript , les fondamentaux, l’essentiel pour démarrer avec ce langage utilisé pour les  sites internet,  pages web , logiciels ou même  applications smartphones (oui oui, on peut en trouver de partout 😄). C&#39;est la troisième couche des technologies standards du web, après HTML et CSS. “JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.</description>
-    </item>
-    
-    <item>
-      <title>Formation Javascript - Second Niveau - </title>
-      <link>https://fransee.github.io/posts/formations/formation_js/lvl2/</link>
-      <pubDate>Sun, 13 Jun 2021 05:11:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_js/lvl2/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur JavaScript Niveau 2 , les fonctions Avancées, l&#39;Objet dans sa version la plus récente en JS, les nouveautés apportées par ECMA V6, le JSON et bien d&#39;autres choses encore 🥞 TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment  :</description>
-    </item>
-    
-    <item>
-      <title>Formation sur XML</title>
-      <link>https://fransee.github.io/posts/formations/formation_xml/</link>
-      <pubDate>Sat, 12 Jun 2021 07:05:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_xml/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation, on verra comment créer, valider (via DTD ou Schéma) , requêter (via XPATH) et transformer (via XSLT et CSS) des documents Extensible Markup Language  et on aura de nombreuses occasion de s&amp;rsquo;exercer et de produire des pages html très optimisées.
- “ Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879).</description>
-    </item>
-    
-    <item>
-      <title>Installation d&#39;un serveur Web en local grâce à XAMPP</title>
-      <link>https://fransee.github.io/posts/divers/installation_xampp/</link>
-      <pubDate>Sat, 12 Jun 2021 03:06:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/divers/installation_xampp/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Vous allez avoir besoin durant les formations d&amp;rsquo;avoir un serveur web en local afin de tester vos développements AVANT de les publier sur le serveur de Production.
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Formation CSS 3 - First Level -</title><link>https://francis-panzani.github.io/posts/formations/formation_css/base/</link><pubDate>Sun, 13 Feb 2022 08:11:26 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_css/base/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans cette formation sur CSS (Feuilles de style en cascade) , les fondamentaux, l’essentiel pour démarrer avec ce langage qui est présent quasiment depuis le début du WWWeb et est un incontournable de la création de sites internet, pages web ou même support de documentation “ Les feuilles de style en cascade, généralement appelées CSS de l&amp;rsquo;anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML.</description></item><item><title>Formation CSS 3 - Second Level -</title><link>https://francis-panzani.github.io/posts/formations/formation_css/avance/</link><pubDate>Sun, 13 Feb 2022 08:11:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_css/avance/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans cette formation sur CSS Avancé , des positionnements plus "touchy" (empilement et sticky), des menus divers et variés, le coté responsive avec les Media Queries ainsi que les conteneurs Flexbox et le module Css Grid Pour cette formation nous n'avons pas besoin de prérequis ni d'installation autres que ce que nous avons déjà vu ensemble dans la première partie.</description></item><item><title>Formation PhP - Premier Niveau</title><link>https://francis-panzani.github.io/posts/formations/formation_php/lvl1/</link><pubDate>Sun, 26 Dec 2021 10:11:59 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_php/lvl1/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans ce premier niveau de la formation sur les fondamentaux, ses principales fonctions et structures de contrôle, ainsi que des explications sur la transmission des données entre les pages et donc l’essentiel pour bien débuter avec ce langage de script coté serveur très utilisé pour les sites internet et les pages web. La formation dans ses débuts sera très axé sur l'excellent travail de mon ancien collègue, Olivier ROLLET, Ingénieur maître et auteur chez les éditions Eni dont vous pouvez trouver ses livres - 📚 ICI :“ Hypertext Preprocessor, est un langage de programmation libre , principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n&amp;rsquo;importe quel langage interprété de façon locale.</description></item><item><title>Formation PhP - Second Niveau</title><link>https://francis-panzani.github.io/posts/formations/formation_php/lvl2/</link><pubDate>Sun, 26 Dec 2021 10:11:58 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_php/lvl2/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans ce second niveau de la formation sur Comment maîtriser les fonctions de base du PHP, c’est-à-dire, créer des fonctions en utilisant les tableaux, les boucles et différents opérateurs. Savoir générer dynamiquement du HTML à partir du PHP. Maîtriser les fonctions avancées du PHP, c’est-à-dire utiliser les variables super-globales en particulier les sessions et les cookies. Transmettre et contrôler des données d’une page à une autre et manipuler une image dynamiquement.</description></item><item><title>Formation PhP - Troisieme Niveau</title><link>https://francis-panzani.github.io/posts/formations/formation_php/lvl3/</link><pubDate>Sun, 26 Dec 2021 10:11:57 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_php/lvl3/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans ce 3️⃣ieme niveau de la formation sur Comment comprendre le langage MySQL et gérer la base de données à l’aide PHPMyAdmin Utiliser le langage SQL en visant une pratique optimale, pour développer des applications performantes accédant aux bases de données. Interagir entre les pages PHP et les bases de données MySQL en gérant la sécurité. et bien d&amp;rsquo;autres choses encore selon le temps et l&amp;rsquo;avancée 🥞 Liste non exhaustive de ce que l'on pourra aborder : TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment :</description></item><item><title>Formation PhP - Quatrieme Niveau</title><link>https://francis-panzani.github.io/posts/formations/formation_php/lvl4/</link><pubDate>Sun, 26 Dec 2021 10:11:56 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_php/lvl4/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans ce 4️⃣ieme niveau de la formation sur Comment avoir une approche du développement orienté objet (POO) Savoir comprendre les fichiers de configuration et les techniques pour sécuriser son site web. Comprendre la notion d’Objet. Aller plus loin dans la sécurité avec PhP Découvrir le patron de conception MVC et bien d&amp;rsquo;autres choses encore selon le temps et l&amp;rsquo;avancée 🥞 Liste non exhaustive de ce que l'on pourra aborder : TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment :</description></item><item><title>Formation Wordpress - Initiation</title><link>https://francis-panzani.github.io/posts/formations/formation_wordpress/lvl1/</link><pubDate>Sun, 13 Jun 2021 10:11:31 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_wordpress/lvl1/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous débuterons cette formation par une initiation sur , on traitera les thématiques suivantes : ordPress.com et ordPress.org C&amp;rsquo;est quoi WordPress ? ordPress comme Système de gestion de contenu ou CMS Pourquoi WordPress ? Les ressources WordPress et bien d&amp;rsquo;autres choses encore selon le temps et l&amp;rsquo;avancée 🥞 “WordPress est un système de gestion de contenu (SGC ou content management system (CMS) en anglais) gratuit, libre et open-source.</description></item><item><title>Formation Wordpress - Avancé</title><link>https://francis-panzani.github.io/posts/formations/formation_wordpress/lvl2/</link><pubDate>Sun, 13 Jun 2021 10:11:30 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_wordpress/lvl2/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous poursuivrons cette formation sur , en voyant les thématiques suivantes : Les plugins avec ordpress, notamment : L&amp;rsquo;obligatoire Yoast SEO, disponible ici : https://fr.wordpress.org/plugins/wordpress-seo/ L&amp;rsquo;indispensable Elementor Website Builder, disponible ici : https://fr.wordpress.org/plugins/elementor/ L&amp;rsquo;utile cause obligation RGPD, Cookie Notice &amp;amp; Compliance, disponible ici : https://wordpress.org/plugins/cookie-notice/ Le nécessaire All in One (ou Duplicator) pour les backups, disponible ici : https://wordpress.</description></item><item><title>Formation Javascript - Premier Niveau -</title><link>https://francis-panzani.github.io/posts/formations/formation_js/lvl1/</link><pubDate>Sun, 13 Jun 2021 09:11:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_js/lvl1/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans cette formation sur JavaScript , les fondamentaux, l’essentiel pour démarrer avec ce langage utilisé pour les sites internet, pages web , logiciels ou même applications smartphones (oui oui, on peut en trouver de partout 😄). C'est la troisième couche des technologies standards du web, après HTML et CSS. “JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.</description></item><item><title>Formation Javascript - Second Niveau -</title><link>https://francis-panzani.github.io/posts/formations/formation_js/lvl2/</link><pubDate>Sun, 13 Jun 2021 05:11:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_js/lvl2/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans cette formation sur JavaScript Niveau 2 , les fonctions Avancées, l'Objet dans sa version la plus récente en JS, les nouveautés apportées par ECMA V6, le JSON et bien d'autres choses encore 🥞 TODO 🎢: 💬 Vous devez avoir obligatoirement configuré votre environnement de développement avec les intructions (partie TODO 🎢) données précédemment :</description></item><item><title>Formation sur XML</title><link>https://francis-panzani.github.io/posts/formations/formation_xml/</link><pubDate>Sat, 12 Jun 2021 07:05:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_xml/</guid><description>📢 Bonjour à tous et à toutes ❗ Dans cette formation, on verra comment créer, valider (via DTD ou Schéma) , requêter (via XPATH) et transformer (via XSLT et CSS) des documents Extensible Markup Language et on aura de nombreuses occasion de s&amp;rsquo;exercer et de produire des pages html très optimisées.
+“ Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879).</description></item><item><title>Installation d'un serveur Web en local grâce à XAMPP</title><link>https://francis-panzani.github.io/posts/divers/installation_xampp/</link><pubDate>Sat, 12 Jun 2021 03:06:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/divers/installation_xampp/</guid><description>📢 Bonjour à tous et à toutes ❗ Vous allez avoir besoin durant les formations d&amp;rsquo;avoir un serveur web en local afin de tester vos développements AVANT de les publier sur le serveur de Production.
 XAMPP va nous aider à cela.
-Il nous permettra d&amp;rsquo;avoir une suite logicielle type LAMP hébergeant sur notre ordinateur en local un serveur web complet (Apache (pour l&amp;rsquo;envoi de fichiers), PhP, Mysql/MariaDb (pour gérer la persistence des données dans une Base de Donnée)).</description>
-    </item>
-    
-    <item>
-      <title>Formation HTML 5</title>
-      <link>https://fransee.github.io/posts/formations/formation_html/</link>
-      <pubDate>Sun, 06 Jun 2021 08:10:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_html/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  HTML dans sa version 5 de 2014 , les fondamentaux, l’essentiel pour démarrer avec ce langage de &amp;lt;balisage&amp;gt; qui est un incontournable lors de la création de sites internet, pages web ou même support de documentation  “HTML5 (HyperText Markup Language 5) est la dernière révision majeure du HTML (format de données conçu pour représenter les pages web).</description>
-    </item>
-    
-    <item>
-      <title>Formation MongoDB Base</title>
-      <link>https://fransee.github.io/posts/formations/formation_mongodb/</link>
-      <pubDate>Sun, 06 Jun 2021 07:15:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_mongodb/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  Mongo DB (Base)  une nouvelle façon d&#39;exploiter des données sans SQL (et oui, fini la douce joie des clefs primaires et étrangères, adieu les jointures, fini Merise). On verra donc comment installer et exploiter l&amp;rsquo;un des acteurs majeurs du mouvement NO-SQL permettant de traiter des masses immenses de données, le Big Data  , à ne pas confondre avec notre version française, le Big Bisous  .</description>
-    </item>
-    
-    <item>
-      <title>Formation VueJS Base</title>
-      <link>https://fransee.github.io/posts/formations/formation_vuejs/</link>
-      <pubDate>Sun, 06 Jun 2021 07:10:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_vuejs/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Nous verrons dans cette formation sur  Vue JS (Base)  , les fondamentaux, l’essentiel pour démarrer avec ce  Framework Front  qui prend de plus en plus d&#39;ampleur dans la communauté Javascript et sa myriade de  Frameworks 
- “VueJS a été créé par Evan You (尤雨溪) après avoir travaillé pour en utilisant dans plusieurs projets.</description>
-    </item>
-    
-    <item>
-      <title>TD Doctrine 2</title>
-      <link>https://fransee.github.io/posts/formations/td_doctrine/</link>
-      <pubDate>Sat, 05 Jun 2021 07:15:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/td_doctrine/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Une fois n&#39;est pas coutume, on va apprendre la technologie du cours via un Travail Dirigé en suivant l&#39;excellent tuto suivant : https://zestedesavoir.com/tutoriels/1713/doctrine-2-a-lassaut-de-lorm-phare-de-php/les-bases-de-doctrine-2/
-Pourquoi ce choix ? :
- Pour vous faire travailler sur d&amp;rsquo;autres ressources que les miennes et découvrir que le web fourmille d&amp;rsquo;excellentes ressources (mais y a du buggé ou de l&amp;rsquo;outdated aussi, malheureusement ) Parce qu&amp;rsquo;il est très bien fait et qu&amp;rsquo;il nous servira de base pour Doctrine 2.</description>
-    </item>
-    
-    <item>
-      <title>Formation sur Ajax</title>
-      <link>https://fransee.github.io/posts/formations/formation_ajax/</link>
-      <pubDate>Sun, 30 May 2021 10:05:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_ajax/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette courte formation (après une bonne maitrise du tryptique HTML  CSS &amp;amp; Javascript), on verra comment utiliser  : Asynchronous JavaScript and XML  et l&amp;rsquo;utiliser dans un TP assez pratique pour les formulaires d&amp;rsquo;inscriptions 😄.
- “ AJAX (Asynchronous JavaScript + XML) n&amp;rsquo;est pas une technologie en soi, mais un terme désignant une « nouvelle » approche utilisant un ensemble de technologies existantes, dont : HTML ou XHTML, les feuilles de styles CSS, JavaScript, le modèle objet de document (DOM), XML, XSLT, et l&amp;rsquo;objet XMLHttpRequest.</description>
-    </item>
-    
-    <item>
-      <title>Formation sur Python</title>
-      <link>https://fransee.github.io/posts/formations/formation_python/</link>
-      <pubDate>Sun, 30 May 2021 09:05:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_python/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer, configurer Python V3 et le prendre en main.
+Il nous permettra d&amp;rsquo;avoir une suite logicielle type LAMP hébergeant sur notre ordinateur en local un serveur web complet (Apache (pour l&amp;rsquo;envoi de fichiers), PhP, Mysql/MariaDb (pour gérer la persistence des données dans une Base de Donnée)).</description></item><item><title>Formation HTML 5</title><link>https://francis-panzani.github.io/posts/formations/formation_html/</link><pubDate>Sun, 06 Jun 2021 08:10:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_html/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans cette formation sur HTML dans sa version 5 de 2014 , les fondamentaux, l’essentiel pour démarrer avec ce langage de &amp;lt;balisage&amp;gt; qui est un incontournable lors de la création de sites internet, pages web ou même support de documentation “HTML5 (HyperText Markup Language 5) est la dernière révision majeure du HTML (format de données conçu pour représenter les pages web).</description></item><item><title>Formation MongoDB Base</title><link>https://francis-panzani.github.io/posts/formations/formation_mongodb/</link><pubDate>Sun, 06 Jun 2021 07:15:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_mongodb/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans cette formation sur Mongo DB (Base) une nouvelle façon d'exploiter des données sans SQL (et oui, fini la douce joie des clefs primaires et étrangères, adieu les jointures, fini Merise). On verra donc comment installer et exploiter l&amp;rsquo;un des acteurs majeurs du mouvement NO-SQL permettant de traiter des masses immenses de données, le Big Data , à ne pas confondre avec notre version française, le Big Bisous .</description></item><item><title>Formation VueJS Base</title><link>https://francis-panzani.github.io/posts/formations/formation_vuejs/</link><pubDate>Sun, 06 Jun 2021 07:10:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_vuejs/</guid><description>📢 Bonjour à tous et à toutes ❗ Nous verrons dans cette formation sur Vue JS (Base) , les fondamentaux, l’essentiel pour démarrer avec ce Framework Front qui prend de plus en plus d'ampleur dans la communauté Javascript et sa myriade de Frameworks
+“VueJS a été créé par Evan You (尤雨溪) après avoir travaillé pour en utilisant dans plusieurs projets.</description></item><item><title>TD Doctrine 2</title><link>https://francis-panzani.github.io/posts/formations/td_doctrine/</link><pubDate>Sat, 05 Jun 2021 07:15:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/td_doctrine/</guid><description>📢 Bonjour à tous et à toutes ❗ Une fois n'est pas coutume, on va apprendre la technologie du cours via un Travail Dirigé en suivant l'excellent tuto suivant : https://zestedesavoir.com/tutoriels/1713/doctrine-2-a-lassaut-de-lorm-phare-de-php/les-bases-de-doctrine-2/
+Pourquoi ce choix ? :
+Pour vous faire travailler sur d&amp;rsquo;autres ressources que les miennes et découvrir que le web fourmille d&amp;rsquo;excellentes ressources (mais y a du buggé ou de l&amp;rsquo;outdated aussi, malheureusement ) Parce qu&amp;rsquo;il est très bien fait et qu&amp;rsquo;il nous servira de base pour Doctrine 2.</description></item><item><title>Formation sur Ajax</title><link>https://francis-panzani.github.io/posts/formations/formation_ajax/</link><pubDate>Sun, 30 May 2021 10:05:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_ajax/</guid><description>📢 Bonjour à tous et à toutes ❗ Dans cette courte formation (après une bonne maitrise du tryptique HTML CSS &amp;amp; Javascript), on verra comment utiliser : Asynchronous JavaScript and XML et l&amp;rsquo;utiliser dans un TP assez pratique pour les formulaires d&amp;rsquo;inscriptions 😄.
+“ AJAX (Asynchronous JavaScript + XML) n&amp;rsquo;est pas une technologie en soi, mais un terme désignant une « nouvelle » approche utilisant un ensemble de technologies existantes, dont : HTML ou XHTML, les feuilles de styles CSS, JavaScript, le modèle objet de document (DOM), XML, XSLT, et l&amp;rsquo;objet XMLHttpRequest.</description></item><item><title>Formation sur Python</title><link>https://francis-panzani.github.io/posts/formations/formation_python/</link><pubDate>Sun, 30 May 2021 09:05:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_python/</guid><description>📢 Bonjour à tous et à toutes ❗ Dans cette formation on verra comment installer, configurer Python V3 et le prendre en main.
 Que l&amp;rsquo;on soit débutant, avec une mise en relation poussée avec l&amp;rsquo;algorithmique, jusqu&amp;rsquo;à un niveau avancé afin de l&amp;rsquo;utiliser pour faire des scripts d&amp;rsquo;utilisation et des logiciels graphiques (si si c&amp;rsquo;est possible) vous pourrez progresser et prendre plaisir à l&amp;rsquo;utiliser.
- “ Python est un langage de programmation interprété, multi-paradigme et multiplateformes.</description>
-    </item>
-    
-    <item>
-      <title>TP E-PorteFolio</title>
-      <link>https://fransee.github.io/posts/divers/portefolio/</link>
-      <pubDate>Fri, 28 May 2021 08:06:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/divers/portefolio/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Résumé du cahier des charges d&#39;un E-portfolio : Le contexte : Le portfolio est un témoin et un instrument de développement des compétences de l’élève, c’est « une collection des travaux d&amp;rsquo;un élève qui fait foi de ses compétences en conservant des traces pertinentes de ses réalisations ». Il nous servira donc tout au long de la formation de mise en pratique des apprentissages vus en cours et travaillés lors des TD (c’est à l’élève, en autonomie, de le construire au fur et à mesure).</description>
-    </item>
-    
-    <item>
-      <title>Formation sur Bootstrap 4</title>
-      <link>https://fransee.github.io/posts/formations/formation_bootstrap/</link>
-      <pubDate>Sat, 22 May 2021 05:05:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_bootstrap/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et utiliser  Bootstrap V4, faire du responsive Web Design, utiliser ses éléments typographiques, l&amp;rsquo;utiliser pour nous aider à faire la mise en page de nos sites internets et utiliser les éléments avancés (carroussel et autres) qu&amp;rsquo;apportent ce framrwork front gratuit (encore merci à tous ceux qui contribuent ou qui ont contribués à ce très beau projet).</description>
-    </item>
-    
-    <item>
-      <title>Formation en Référencement, SEO, Conseils et TP à faire</title>
-      <link>https://fransee.github.io/posts/formations/referencement/</link>
-      <pubDate>Sun, 16 May 2021 08:06:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/referencement/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗   Le référencement est l&amp;rsquo;action de référencer, c&amp;rsquo;est-à-dire mentionner quelque chose ou y faire référence.
+“ Python est un langage de programmation interprété, multi-paradigme et multiplateformes.</description></item><item><title>TP E-PorteFolio</title><link>https://francis-panzani.github.io/posts/divers/portefolio/</link><pubDate>Fri, 28 May 2021 08:06:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/divers/portefolio/</guid><description>📢 Bonjour à tous et à toutes ❗ Résumé du cahier des charges d'un E-portfolio : Le contexte : Le portfolio est un témoin et un instrument de développement des compétences de l’élève, c’est « une collection des travaux d&amp;rsquo;un élève qui fait foi de ses compétences en conservant des traces pertinentes de ses réalisations ». Il nous servira donc tout au long de la formation de mise en pratique des apprentissages vus en cours et travaillés lors des TD (c’est à l’élève, en autonomie, de le construire au fur et à mesure).</description></item><item><title>Formation sur Bootstrap 4</title><link>https://francis-panzani.github.io/posts/formations/formation_bootstrap/</link><pubDate>Sat, 22 May 2021 05:05:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_bootstrap/</guid><description>📢 Bonjour à tous et à toutes ❗ Dans cette formation on verra comment installer et utiliser Bootstrap V4, faire du responsive Web Design, utiliser ses éléments typographiques, l&amp;rsquo;utiliser pour nous aider à faire la mise en page de nos sites internets et utiliser les éléments avancés (carroussel et autres) qu&amp;rsquo;apportent ce framrwork front gratuit (encore merci à tous ceux qui contribuent ou qui ont contribués à ce très beau projet).</description></item><item><title>Formation en Référencement, SEO, Conseils et TP à faire</title><link>https://francis-panzani.github.io/posts/formations/referencement/</link><pubDate>Sun, 16 May 2021 08:06:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/referencement/</guid><description>📢 Bonjour à tous et à toutes ❗ Le référencement est l&amp;rsquo;action de référencer, c&amp;rsquo;est-à-dire mentionner quelque chose ou y faire référence.
 Sur Internet, le travail de référencement consiste à améliorer le positionnement et la visibilité de sites dans des pages de résultats de moteurs de recherche ou d&amp;rsquo;annuaires.
 Le référencement web s&amp;rsquo;articule autour de deux stratégies distinctes et complémentaires :
-😎 le référencement naturel (ou organique)  SEO</description>
-    </item>
-    
-    <item>
-      <title>Formation Uml</title>
-      <link>https://fransee.github.io/posts/formations/formation_uml/</link>
-      <pubDate>Sat, 15 May 2021 11:06:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_uml/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Bienvenue sur cette partie traitant de la formation à UML 😃 On verra ici ce qu&amp;rsquo;est UML (dispensé jusqu&amp;rsquo;en bac +3 /4 et oui, vous n&amp;rsquo;avez pas fini d&amp;rsquo;en entendre parler).
-Unified Modeling Language ou en français Langage de Modélisation Unifié est un langage de modélisation graphique à base de pictogrammes conçu pour fournir une méthode normalisée pour visualiser la conception d&amp;rsquo;un système.</description>
-    </item>
-    
-    <item>
-      <title>Formation sur Node Js</title>
-      <link>https://fransee.github.io/posts/formations/formation_nodejs/</link>
-      <pubDate>Sat, 08 May 2021 18:06:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_nodejs/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et configurer NodeJS, le prendre en main, l&amp;rsquo;utiliser avec MongoDB, Jade/Pug et Express JS, on m&amp;rsquo;utilisera en mode CLI, si on a du temps on fera une API/REST
-Tout d&amp;rsquo;abord un petit historique des frameworks web jusqu&amp;rsquo;à 2019 (merci Dr Jawa ) Si on regarde l&amp;rsquo;état du JS en 2020 on se rends compte qu&amp;rsquo;il est extremement populaire : https://2020.</description>
-    </item>
-    
-    <item>
-      <title>Welcome :)</title>
-      <link>https://fransee.github.io/posts/welcome/</link>
-      <pubDate>Sat, 08 May 2021 11:06:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/welcome/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Bienvenue sur mon espace personnel sur GitHub 😃
+😎 le référencement naturel (ou organique) SEO</description></item><item><title>Formation Uml</title><link>https://francis-panzani.github.io/posts/formations/formation_uml/</link><pubDate>Sat, 15 May 2021 11:06:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_uml/</guid><description>📢 Bonjour à tous et à toutes ❗ Bienvenue sur cette partie traitant de la formation à UML 😃 On verra ici ce qu&amp;rsquo;est UML (dispensé jusqu&amp;rsquo;en bac +3 /4 et oui, vous n&amp;rsquo;avez pas fini d&amp;rsquo;en entendre parler).
+Unified Modeling Language ou en français Langage de Modélisation Unifié est un langage de modélisation graphique à base de pictogrammes conçu pour fournir une méthode normalisée pour visualiser la conception d&amp;rsquo;un système.</description></item><item><title>Formation sur Node Js</title><link>https://francis-panzani.github.io/posts/formations/formation_nodejs/</link><pubDate>Sat, 08 May 2021 18:06:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_nodejs/</guid><description>📢 Bonjour à tous et à toutes ❗ Dans cette formation on verra comment installer et configurer NodeJS, le prendre en main, l&amp;rsquo;utiliser avec MongoDB, Jade/Pug et Express JS, on m&amp;rsquo;utilisera en mode CLI, si on a du temps on fera une API/REST
+Tout d&amp;rsquo;abord un petit historique des frameworks web jusqu&amp;rsquo;à 2019 (merci Dr Jawa ) Si on regarde l&amp;rsquo;état du JS en 2020 on se rends compte qu&amp;rsquo;il est extremement populaire : https://2020.</description></item><item><title>Welcome :)</title><link>https://francis-panzani.github.io/posts/welcome/</link><pubDate>Sat, 08 May 2021 11:06:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/welcome/</guid><description>📢 Bonjour à tous et à toutes ❗ Bienvenue sur mon espace personnel sur GitHub 😃
 C&amp;rsquo;était l&amp;rsquo;occasion pour moi de faire mon eportefolio et de tester les pages GitHub pages en découvrant Markdown, je n&amp;rsquo;ai pas pu résister 😄
- D&amp;rsquo;ailleurs un petit lien pour ceux qui ne connaissent pas les GitHub pages (Hébergement de pages statiques gratuites, si si 😍) et Markdown avec GitHub (n&amp;rsquo;oubliez pas le raw html et les frameworks JS ) :  Pages GitHub Mastering Markdown    Vous trouverez ici essentiellement un début des ressources pour les formations que je donne et des liens sécurisés pour les documents à destination de mes stagiaires.</description>
-    </item>
-    
-    <item>
-      <title>Formation sur TypeScript</title>
-      <link>https://fransee.github.io/posts/formations/formation_typescript/</link>
-      <pubDate>Fri, 07 May 2021 19:05:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_typescript/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Dans cette formation on verra comment installer et configurer TypeScript, le prendre en main, faire un tour de ce qu&amp;rsquo;il a apporté a Javascript (ECMA 6), ça sera une bonne préparation pour la Formation sur Angular.
+D&amp;rsquo;ailleurs un petit lien pour ceux qui ne connaissent pas les GitHub pages (Hébergement de pages statiques gratuites, si si 😍) et Markdown avec GitHub (n&amp;rsquo;oubliez pas le raw html et les frameworks JS ) : Pages GitHub Mastering Markdown Vous trouverez ici essentiellement un début des ressources pour les formations que je donne et des liens sécurisés pour les documents à destination de mes stagiaires.</description></item><item><title>Formation sur TypeScript</title><link>https://francis-panzani.github.io/posts/formations/formation_typescript/</link><pubDate>Fri, 07 May 2021 19:05:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_typescript/</guid><description>📢 Bonjour à tous et à toutes ❗ Dans cette formation on verra comment installer et configurer TypeScript, le prendre en main, faire un tour de ce qu&amp;rsquo;il a apporté a Javascript (ECMA 6), ça sera une bonne préparation pour la Formation sur Angular.
 Passons en revue ses caractéristiques :
- TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d&amp;rsquo;améliorer et de sécuriser la production de code JavaScript.</description>
-    </item>
-    
-    <item>
-      <title>Creation d&#39;un compte étudiant avec l&#39;IDE PhpStorm</title>
-      <link>https://fransee.github.io/posts/divers/creation_compte_phpstorm/</link>
-      <pubDate>Sat, 06 Feb 2021 18:06:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/divers/creation_compte_phpstorm/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  TODO 🎢: Afin de vous créez un compte pour l&amp;rsquo;IDE PhPStorm rendez-vous : -&amp;gt;ICI&amp;lt;-
-  Puis aller dans Enseignement .
-  Puis dans Étudiants et enseignants -&amp;gt;ICI&amp;lt;-
-  Et enfin cliquez sur postuler maintenant
-  Remplissez les champs Étudiant, Enseignement professionnel
-  Le reste puis vous cochez avoir lu et accepter l&#39;accord de compte
-  Puis finissez par cliquer sur DEMANDER DES PRODUITS GRATUITS</description>
-    </item>
-    
-    <item>
-      <title>Formation Git et Github</title>
-      <link>https://fransee.github.io/posts/formations/formation_git/</link>
-      <pubDate>Sat, 06 Feb 2021 12:06:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/formation_git/</guid>
-      <description>📢 Bonjour à tous et à toutes ❗  Créé en 1995 par Linus Torvalds (le fondateur de Linux) il a su s&amp;rsquo;implanter rapidement comme le logiciel de versionning le plus populaire depuis 2016.
+TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d&amp;rsquo;améliorer et de sécuriser la production de code JavaScript.</description></item><item><title>Creation d'un compte étudiant avec l'IDE PhpStorm</title><link>https://francis-panzani.github.io/posts/divers/creation_compte_phpstorm/</link><pubDate>Sat, 06 Feb 2021 18:06:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/divers/creation_compte_phpstorm/</guid><description>📢 Bonjour à tous et à toutes ❗ TODO 🎢: Afin de vous créez un compte pour l&amp;rsquo;IDE PhPStorm rendez-vous : -&amp;gt;ICI&amp;lt;-
+Puis aller dans Enseignement .
+Puis dans Étudiants et enseignants -&amp;gt;ICI&amp;lt;-
+Et enfin cliquez sur postuler maintenant
+Remplissez les champs Étudiant, Enseignement professionnel
+Le reste puis vous cochez avoir lu et accepter l'accord de compte
+Puis finissez par cliquer sur DEMANDER DES PRODUITS GRATUITS</description></item><item><title>Formation Git et Github</title><link>https://francis-panzani.github.io/posts/formations/formation_git/</link><pubDate>Sat, 06 Feb 2021 12:06:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/formations/formation_git/</guid><description>📢 Bonjour à tous et à toutes ❗ Créé en 1995 par Linus Torvalds (le fondateur de Linux) il a su s&amp;rsquo;implanter rapidement comme le logiciel de versionning le plus populaire depuis 2016.
 La fonctionnalité Git qui le distingue vraiment de presque tous les autres SCM est son modèle de branche :
- Git permet et je vous recommande d&amp;rsquo;à avoir plusieurs branches locales (qui peuvent être entièrement indépendantes les unes des autres).</description>
-    </item>
-    
-    <item>
-      <title>Installer LAMP &amp; Ubuntu sur Windows 10</title>
-      <link>https://fransee.github.io/posts/divers/wsl_w10/</link>
-      <pubDate>Fri, 05 Feb 2021 18:06:25 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/posts/divers/wsl_w10/</guid>
-      <description> 📢 Bonjour à tous et à toutes ❗ 🎓 Afin de suivre l&amp;rsquo;installation ensemble vous aurez besoin de suivre les instructions du support suivant : 📙-&amp;gt;Install-LAMP-WSL-WINDOWS&amp;lt;-
-TODO 🎢:  On suivra ensemble les instructions du fichier 📙 Install-LAMP-WSL-WINDOWS.pdf . Pour ceux qui ont vraiment du mal vous installerez [Xampp] (https://www.apachefriends.org/fr/index.html ). Sources : ℹ️ https://doc.ubuntu-fr.org/wsl ℹ️ https://docs.microsoft.com/fr-fr/windows/wsl/install-win10 ©️ 🚫 Do not distribute 😌  </description>
-    </item>
-    
-    <item>
-      <title>Markdown Samples</title>
-      <link>https://fransee.github.io/posts/divers/markdown-sample/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/posts/divers/markdown-sample/</guid>
-      <description>This is a sample post intended to test the followings:
- A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering.   Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
-    </item>
-    
-    <item>
-      <title>Shortcodes Samples</title>
-      <link>https://fransee.github.io/posts/divers/shortcodes/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/posts/divers/shortcodes/</guid>
-      <description>This is a sample post intended to test the followings:
- Default hero image. Different shortcodes.  Alert The following alerts are available in this theme.
-This is sample alert with type=&amp;quot;success&amp;quot;.This is sample alert with type=&amp;quot;danger&amp;quot;.This is sample alert with type=&amp;quot;warning&amp;quot;.This is sample alert with type=&amp;quot;info&amp;quot;.This is sample alert with type=&amp;quot;dark&amp;quot;.This is sample alert with type=&amp;quot;primary&amp;quot;.This is sample alert with type=&amp;quot;secondary&amp;quot;.</description>
-    </item>
-    
-    <item>
-      <title>Panzani Francis&#39;s Courses </title>
-      <link>https://fransee.github.io/posts/formations/premier/</link>
-      <pubDate>Sat, 06 Jun 2020 06:00:20 +0600</pubDate>
-      
-      <guid>https://fransee.github.io/posts/formations/premier/</guid>
-      <description>Voilà les indications sur les slides que l&amp;rsquo;on va utiliser ainsi que les consignes à suivre pour les formations : Pour les plus curieux et motivés : https://dailygeekshow.com/7-conseils-mieux-apprendre-etudiant/</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://fransee.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fransee.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
+Git permet et je vous recommande d&amp;rsquo;à avoir plusieurs branches locales (qui peuvent être entièrement indépendantes les unes des autres).</description></item><item><title>Installer LAMP &amp; Ubuntu sur Windows 10</title><link>https://francis-panzani.github.io/posts/divers/wsl_w10/</link><pubDate>Fri, 05 Feb 2021 18:06:25 +0000</pubDate><guid>https://francis-panzani.github.io/posts/divers/wsl_w10/</guid><description> 📢 Bonjour à tous et à toutes ❗ 🎓 Afin de suivre l&amp;rsquo;installation ensemble vous aurez besoin de suivre les instructions du support suivant : 📙-&amp;gt;Install-LAMP-WSL-WINDOWS&amp;lt;-
+TODO 🎢: On suivra ensemble les instructions du fichier 📙 Install-LAMP-WSL-WINDOWS.pdf . Pour ceux qui ont vraiment du mal vous installerez [Xampp] (https://www.apachefriends.org/fr/index.html ). Sources : ℹ️ https://doc.ubuntu-fr.org/wsl ℹ️ https://docs.microsoft.com/fr-fr/windows/wsl/install-win10 ©️ 🚫 Do not distribute 😌</description></item><item><title>Markdown Samples</title><link>https://francis-panzani.github.io/posts/divers/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/posts/divers/markdown-sample/</guid><description>This is a sample post intended to test the followings:
+A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering. Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
+H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description></item><item><title>Shortcodes Samples</title><link>https://francis-panzani.github.io/posts/divers/shortcodes/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://francis-panzani.github.io/posts/divers/shortcodes/</guid><description>This is a sample post intended to test the followings:
+Default hero image. Different shortcodes. Alert The following alerts are available in this theme.
+This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert with type=&amp;quot;danger&amp;quot;. This is sample alert with type=&amp;quot;warning&amp;quot;. This is sample alert with type=&amp;quot;info&amp;quot;. This is sample alert with type=&amp;quot;dark&amp;quot;. This is sample alert with type=&amp;quot;primary&amp;quot;. This is sample alert with type=&amp;quot;secondary&amp;quot;.</description></item><item><title>Panzani Francis's Courses</title><link>https://francis-panzani.github.io/posts/formations/premier/</link><pubDate>Sat, 06 Jun 2020 06:00:20 +0600</pubDate><guid>https://francis-panzani.github.io/posts/formations/premier/</guid><description>Voilà les indications sur les slides que l&amp;rsquo;on va utiliser ainsi que les consignes à suivre pour les formations : Pour les plus curieux et motivés : https://dailygeekshow.com/7-conseils-mieux-apprendre-etudiant/</description></item><item><title>Search Results</title><link>https://francis-panzani.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://francis-panzani.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-  </channel>
-</rss>
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item></channel></rss>
