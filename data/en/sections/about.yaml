@@ -1,0 +1,88 @@
+# section information https://fr.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode_(0000-0FFF)
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Trainer and coordination of regional actions/employment center in IT Development
+# your company information
+company:
+  name: AFIP Formation.
+  url: "https://afip-formations.com/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/CV_FRANCIS_PANZANI_2022.V1.5.pdf"
+
+# a summary about you
+# 'Je suis un développeur de logiciels passionné et un formateur en développement Informatique avec plus de 9 ans d'expérience professionnelle dans l'informatique. Je suis bénévole dans une association de quartier. Et je suis passionné d'informatique depuis que j'ai vu un Atari ST'
+summary: "👉I am a passionate 💻Software Developper and 🎓IT Former with more of 9 years of working experience in IT.<br>👉Former judging panel of professional software developer (DL) and computer developer designer (CDI) titles, i am a volunteer in a neighborhood association (Local Interest Committee - CIL Gravière).<br>👉 And I have been passionate about computers since I saw an Atari ST😻, ok it's a bite long 👾👾👾 "
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Mail
+  icon: "fas fa-at"
+  url: "mailto:francis.panzani@gmail.com"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/Francis-Panzani"
+- name: LinkedIn
+  icon: "fab fa-linkedin-in"
+  url: "https://linkedin.com/in/francispanzani/" 
+# - name: Contact form
+#   icon: "fas fa-file-signature"
+#   url: "#"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: Leadership ☻
+  percentage: 85
+  color: blue
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+#esprit critique
+- type: soft-skill-indicator
+  name: Critical mind²
+  percentage: 85
+  color: pink
+#puissance de travail
+- type: soft-skill-indicator
+  name: Ηard Ɯorking
+  percentage: 90
+  color: green
+  #capacité d'adaptation
+- type: soft-skill-indicator
+  name: Adaptability  ◙
+  percentage: 75
+  color: sky
+  #Résolution de probleme
+- type: soft-skill-indicator  
+  name: PrѺblem S☼lving
+  percentage: 95
+  color: orange
+
+# - type: certification
+#   name: Certifications Open Classrooms
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://upload.wikimedia.org/wikipedia/fr/thumb/0/0d/Logo_OpenClassrooms.png/150px-Logo_OpenClassrooms.png"
+
+# - type: certification
+#   name: Certifications Free code camp
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0"
+
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
