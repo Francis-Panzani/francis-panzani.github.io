@@ -122,6 +122,7 @@ params:
   #Info du formulaire de contact protégé par google
   contact_form: 
     enable: true
+    footer: true
     url: http://franpan.free.fr/sendmail/mail.php
     #google recapthca ID
     data_sitekey: 6LcF6vUdAAAAAF0buCEfK2kyuTcmyl2tPp5Uhyuh
