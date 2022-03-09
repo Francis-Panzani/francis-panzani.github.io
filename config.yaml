@@ -125,7 +125,7 @@ params:
     footer: false 
     # url: http://localhost/_test/FORMENVOIE%20MAIL/surfree/contactv1/mail.php
     #url: https://copieauto.000webhostapp.com/formulaire/mail.php
-    url: https://site-cecisoweb-preprod.herokuapp.com/mail.php
+    url: https://copieauto.000webhostapp.com/formulaire/mailwebhost.php
     #google recapthca ID
     data_sitekey: 6LcF6vUdAAAAAF0buCEfK2kyuTcmyl2tPp5Uhyuh
 
