@@ -122,7 +122,7 @@ params:
   #Info du formulaire de contact protégé par google
   contact_form: 
     enable: true
-    footer: false 
+    footer: true 
     # url: http://localhost/_test/FORMENVOIE%20MAIL/surfree/contactv1/mail.php
     #url: https://copieauto.000webhostapp.com/formulaire/mail.php
     url: https://copieauto.000webhostapp.com/formulaire/mailwebhost.php
