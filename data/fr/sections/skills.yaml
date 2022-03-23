@@ -23,6 +23,10 @@ skills:
   summary: "![-](/images/icones/w30/dev.png)  Pour le travail ou les projets associatifs je joue très souvent le rôle du Product Owner ![-](/images/icones/w30/PO.png) / Scrum Master ![-](/images/icones/w30/SM.png) dans des projets agiles fortement typés Scrum![-](/images/icones/w30/scrum_30.png). <br/>J'utilise pour ce faire tout un tas d'outils permettant <ul><li>d'établir les cahiers des charges ![-](/images/icones/w30/word_30.png)![-](/images/icones/w30/PowerPoint_30.png)![-](/images/icones/w30/Excel_30.png)![-](/images/icones/w30/photoshop_30.png)![-](/images/icones/w30/Illustrator_30.png)![-](/images/icones/w30/Staruml_30.png)![-](/images/icones/w30/balsamiq_30.png)</li><li>donner les directives ![-](/images/icones/w30/trello_30.png)![-](/images/icones/w30/GitLab_30.png)![-](/images/icones/w30/Paint_30.png)</li><li>communiquer ![-](/images/icones/w30/gmail_30.png)![-](/images/icones/w30/discord_30.png)![-](/images/icones/w30/calendar_30.png)![-](/images/icones/w30/teams_30.png)![-](/images/icones/w30/linkedin_30.png)</li><li>leader, aider ![-](/images/icones/w30/capsule_30.png)![-](/images/icones/w30/github_30.png)</li><li>  échanger ou autre ![-](/images/icones/w30/drive_30.png) ![-](/images/icones/w30/degoo_30.png)</li></ul> J'y prends beaucoup de plaisir et j'essaie de donner le plus de convivialité possible à ces moments."
   url: "/images/skills/trelloVG.png"
 
+- name: Autonomie et apprentissage solo
+  logo: /images/sections/skills/secnumacademie_toque.png
+  summary: "J'ai pris l'habitude d'être autonome dans mon travail et mes montées en compétences. <br/> J'apprends toujours de nouvelles choses avec beaucoup de plaisir quasi quotidiennement<br> Par exemple, je suis inscrit chez ![OpenClassrooms](/images/OC-1.png) depuis 2015, j'ai acquis plus d'une 50 aine de certifications en suivant leur formations.<br> J'apprécie aussi beaucoup ![freeCodeCamp](/images/freeCodeCamp-1.png) , dont je mettrai prochainement mes challenges en ligne 🦾  "
+  url: "http://franpan.free.fr/listeFormationOC/"
 - name: Bootstrap - Formateur / Dev
   logo: /images/sections/skills/bootstrap.png
   summary: "Capable de former et de développer des pages webs responsives avec Bootstrap"
@@ -46,10 +50,6 @@ skills:
   logo: /images/sections/skills/git.png
   summary: "Capable de former et je suis expérimenté avec Git Github (essentiellement). De plus j'ai une petite expérience avec GitLab. "
   url: "https://francis-panzani.github.io/fr/posts/formations/formation_git/"
-
-- name: Autonomie et apprentissage solo
-  logo: /images/sections/skills/secnumacademie_toque.png
-  summary: "Je pris l'habitude d'être autonome dans mon travail et mes montée en compétences. <br/> J'apprends toujours de nouvelles choses avec beaucoup de plaisir quasi quotidiennement"
 
 - name: C / C++ - Notions 
   logo: /images/sections/skills/c++.png

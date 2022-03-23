@@ -25,8 +25,8 @@ skills:
 
 - name: Learn by myself
   logo: /images/sections/skills/secnumacademie_toque.png
-  summary: "I am very used to learning on my own. I still learn new things with a lot of pleasure every day"
-  #url: "https://github.com/Francis-Panzani/Formation_Git/"
+  summary: "I got used to being independent in my work and my skills development. <br/> I always learn new things with great pleasure almost daily<br> For example, I have been registered with ![OpenClassrooms](/images/OC-1.png) since 2015, I have acquired more around 50 certifications by following their trainings.<br> I also really appreciate ![freeCodeCamp](/images/freeCodeCamp-1.png) , from I will soon put my challenges online 🦾  "
+  url: "http://franpan.free.fr/listeFormationOC/"
 
 #Faire web et rajouter icone et texte <img src="/images/icones/logoNorsys30p30.png">
 - name: Bootstrap
