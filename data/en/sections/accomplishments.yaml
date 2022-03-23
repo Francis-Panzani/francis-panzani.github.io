@@ -27,6 +27,15 @@ accomplishments:
   courseOverview: "The Scrum Product Owner Accredited Certification™ Program is a multiple-choice online test examination that you can participate in from your device from anywhere around the world. The test contains 50 questions, and you have 60 minutes in a single session to answer your questions."
   certificateURL: "https://www.scrum-institute.org/badges/23620840935967"
 
+- name: Certifications OpenClassrooms
+  timeline: "2015 - Now"
+  organization:
+    name: OpenClassrooms
+    url: http://franpan.free.fr/listeFormationOC/
+  courseOverview: " Since 2015, I have acquired more than 50 certifications by following ![OpenClassrooms](/images/OC-1.png)'s trainings, you will find the entire list with my certifications here 🧐"
+  certificateURL: "http://franpan.free.fr/listeFormationOC/"
+
+
 - name: Certification Best Daddy of The World
   timeline: "27 December 2007 - Teenage Years"
   organization:
