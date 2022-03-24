@@ -32,17 +32,17 @@ skills:
 - name: Bootstrap
   logo: /images/sections/skills/bootstrap.png
   summary:  "Able to train people and produce responsive Web Page with Bootstrap  " 
-  url: "https://getbootstrap.com/"
+  url: "../posts/formations/formation_bootstrap/"
 
 - name: Node JS
   logo: /images/sections/skills/node.png
   summary: "Able to train people and produce sofwtare in CLI, Serveur Side with Mongoose, Jade/Pug, Express & EJS"
-  url: "https://nodejs.org/en/"
+  url: "../posts/formations/formation_nodejs/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
   summary: "Beginner, basic knowledge. Currently not able to train people on it"
-  url: "https://www.docker.com/"
+  #url: "https://www.docker.com/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -51,7 +51,7 @@ skills:
 - name: Git & GitHub
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  url: "../posts/formations/formation_git/"
 
 - name: C++
   logo: /images/sections/skills/c++.png
@@ -60,12 +60,12 @@ skills:
 - name: TypeScript
   logo: /images/sections/skills/typescript.png
   summary: "Able to train people and produce little sofwtare with it, mainly use to train or prepare Angular's training"
-  url: "https://www.typescriptlang.org/"
+  url: "../posts/formations/formation_typescript/"
 
 - name: SEO 
   logo: /images/sections/skills/SEOkisspng-search-engine-optimization-computer-icons-web-sear-seo-icon-png-5ab053f026b5e3.0083853915215052641586.png
   summary: "Able to train people and register site on mostly search engine, Google Analytics Adwords, SEO and Paid referencing"
-  url: "https://francis-panzani.github.io/fr/posts/formations/referencement/"
+  url: "../posts/formations/referencement/"
 
 - name: IT - 3d printer and Raspberry Pi
   logo: /images/sections/skills/8biticoncircle.png

@@ -30,17 +30,17 @@ skills:
 - name: Bootstrap - Formateur / Dev
   logo: /images/sections/skills/bootstrap.png
   summary: "Capable de former et de développer des pages webs responsives avec Bootstrap"
-  url: "https://francis-panzani.github.io/fr/posts/formations/formation_bootstrap/"
+  url: "../posts/formations/formation_bootstrap/"
 
 - name: Node JS - Formateur / Dev
   logo: /images/sections/skills/node.png
   summary: "Capable de former et de produire des applications en CLI, côté serveur avec Mongoose, Jade / Pug, Express et EJS "
-  url: "https://francis-panzani.github.io/fr/posts/formations/formation_nodejs/"
+  url: "../posts/formations/formation_nodejs/"
 
 - name: Docker - Notions
   logo: /images/sections/skills/docker.svg
   summary: "Débutant, connaissances de base. Impossible actuellement de former sur cette techno"
-  url: "https://www.docker.com/"
+ # url: "https://www.docker.com/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -49,7 +49,7 @@ skills:
 - name: Git & GitHub - Formateur / Pratiquant :P
   logo: /images/sections/skills/git.png
   summary: "Capable de former et je suis expérimenté avec Git Github (essentiellement). De plus j'ai une petite expérience avec GitLab. "
-  url: "https://francis-panzani.github.io/fr/posts/formations/formation_git/"
+  url: "../posts/formations/formation_git/"
 
 - name: C / C++ - Notions 
   logo: /images/sections/skills/c++.png
@@ -58,12 +58,12 @@ skills:
 - name: TypeScript - Formateur / Dev 
   logo: /images/sections/skills/typescript.png
   summary: "Capable de former et produire de petits logiciels avec, utilisé principalement pour entraîner ou préparer les formations d'Angular"
-  url: "https://francis-panzani.github.io/fr/posts/formations/formation_typescript/"
+  url: "../posts/formations/formation_typescript/"
 
 - name: SEO - Formateur / Utilisateur
   logo: /images/sections/skills/SEOkisspng-search-engine-optimization-computer-icons-web-sear-seo-icon-png-5ab053f026b5e3.0083853915215052641586.png
   summary: "Capable de former et de déployer puis d'enregistrer le site sur les moteurs de recherche, Google Analytics & Adwords etc ..,utilisation de référencement naturel et de référencement payant"
-  url: "https://francis-panzani.github.io/fr/posts/formations/referencement/"
+  url: "../posts/formations/referencement/"
 
 - name: IT - 3d printer and Raspberry Pi
   logo: /images/sections/skills/8biticoncircle.png
