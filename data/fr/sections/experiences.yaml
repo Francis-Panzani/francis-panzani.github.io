@@ -33,9 +33,9 @@ experiences:
     - Gestion de projet Agiles -> Approche d'un problème client, création de Product Vision Board, Product Backlog, Sprint et gestion de projet en [méthodologie Scrum](https://www.scrum.org/).
       <style type="text/css">
         <!--
-          @import url("/css/perso/listetab.css");
-          @import url("/css/perso/bootstrap-table.min.css");
-          @import url("/css/perso/animate.css@3.5.1.css");
+         @import-once url("/css/perso/listetab.css");
+          @import-once url("/css/perso/bootstrap-table.min.css");
+          @import-once url("/css/perso/animate.css@3.5.1.css");
           -->
         </style>  
         <a name="listeformation"></a>
@@ -52,7 +52,7 @@ experiences:
                 </tr>
               </thead>
               <tbody name="formation-table" is="transition-group">
-                <tr class="formation-table-item" v-for="item in items" :key="item.id">
+                <tr class="formation-table-item" v-for="item in listeitemsavoir" :key="item.id">
                   <th scope="row"><img v-bind:src=item.icon> {{ item.name }}</th>
                   <td>{{ item.dureemin }}</td>
                   <td>{{ item.dureemax }}</td>
@@ -60,7 +60,7 @@ experiences:
                 </tr>
               </tbody>
               <tfoot>
-              <td> Total = {{ items.length }}</td>
+              <td> Total = {{ listeitemsavoir.length }}</td>
                <td > {{ totalDureemin }} </td>
                <td> {{ totalDureemax }} </td>
               <td> {{ totalProjets }} </td>
