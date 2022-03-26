@@ -1,8 +1,7 @@
 hugo server -t toha -w
+hugo -t toha -D -E -d ../staticbuild
 
 faire partie CV logiciels de traitement design
-
-recaptcha
 
 afip-listing-files
 
@@ -12,3 +11,100 @@ backoffice en vue js ?
 
  deplacement backoffice sms mail 
  gestion des max ?
+
+
+ voir a rajouter sondage google form
+
+ :man_student:
+:student: 
+:man_teacher:
+:technologist:
+
+hugo server --theme toha --watch --disableFastRender
+hugo -t toha -D -E -d ../staticbuild
+
+https://getbootstrap.com/docs/4.0/components/alerts/
+https://fontawesome.com/v5.15/icons
+
+Visualisation liens entre modules
+A voir a mettre un truc du style : 
+https://observablehq.com/@d3/tidy-tree
+https://observablehq.com/@nitaku/tangled-tree-visualization-ii
+
+mindmapmaker Projet E-Portefolio.json
+formation.json
+https://app.mindmapmaker.org/#m:mmd691c033a673446ebb1c3c2ae2e14ee1
+
+https://app.mindmapmaker.org/#m:gd1YdkazE2JaB5SzxADaMNd2UAPTwMWzwTx 
+Carte mentale ?
+https://www.mindmeister.com/fr/344967843/languages-du-web?fullscreen=1
+
+https://coggle.it/
+
+A voir 
+https://framindmap.org/c/login
+
+<select name="input" style="font-size: 30px; margin-top: 8px;">
+          <option value="shrug">🤷</option><option value="tears-of-joy">😂</option><option value="loving-it">😍</option><option value="hmmm">🤔</option><option value="yikes" disabled="">😱</option><option value="mischievous">😈</option><option value="poo">💩</option>
+        </select>
+
+
+modifier et finaliser skills
+mettre skill par groupe avec icone, technos web etc etc 
+
+finaliser ajout formations
+web en prio
+algo 
+
+continuer ajout formations
+mettre la liste dans un posts dédiés et détaillé -> lien avec les formations
+
+
+
+https://eduscol.education.fr/numerique/dossier/archives/portfolionumerique/usages-enseignement/portfolio-professionnel-de-lenseignant
+Une première voie
+https://eduportfolio.org/11674
+Suite à ces différentes expériences, je souhaitais trouver plus de stabilité, j’ai eu l’opportunité de trouver un emploi dans ce que l’on appelle plus communément ; « le bâtiment » là j’ai eu la chance de rencontrer des gens qui m’ont transmis leurs savoirs, leurs savoir-faire, leurs passions …
+
+Après quelques années, j’avais maintenant de l’expérience en tant que : maçon, carreleur, couvreur-zingueur, charpentier, et tout ce qui touche au domaine de la construction.
+
+Un changement de cap
+
+La société qui m’employait finit par mettre fin à son activité, ayant l’opportunité de faire un essai avec une connaissance, je me suis vu proposer un travail d’ajusteur au service d’une grande société de construction aéronautique.  C’est au contact du service de maintenance de cet employeur que je me suis passionné pour l’entretien et l’amélioration des outils de productions. Motivé par ces nouveaux challenges je me suis mis en quête d’un travail dans ce créneau. Après quelques missions intérim chez les plus grands employeurs de la région de Charleroi je me suis vu proposer un CDI en tant que technicien de maintenance dans une multinationale au service de l’énergie. Je suis affecté à ce poste aujourd’hui encore.
+
+Une découverte
+
+Autodidacte de nature, j’ai eu la chance de côtoyer pendant plus de vingt ans des personnes motivées et enclin à partager leurs savoirs. Ces rencontres m’ont construit et je suis conscient de la chance que j’ai eue. Dans un même temps de par ma fonction, mon employeur est tenu de me proposer des formations professionnelles, afin de maintenir mon niveau de compétence. Dans ce cadre j’ai donc suivi plusieurs formations qui m’ont redonné gout à l’enseignement, cela m’a même donné l’envie de fréquenter les cours de la promotion sociale. Une fois le doigt mis dedans, je me suis découvert une envie de partager, de transmettre, de restituer ce que l’on m’avait donné, et bien plus encore. C’est donc sans surprise que je me suis inscrit un jour de septembre 2014 aux Aumôniers du Travail de Charleroi pour suivre les cours menant à l’obtention du CAP.  
+
+
+http://localhost:1313/
+
+https://toha-guides.netlify.app/posts/getting-started/prepare-site/
+
+https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+https://fontawesome.com/icons?d=gallery&p=2&q=dev
+
+https://toha-guides.netlify.app/posts/configuration/site-parameters/
+
+mettre toque dans rond
+
+
+ :computer:
+  :mortar_board:
+  :loudspeaker:
+
+  :orange_book:
+   :heavy_check_mark:
+    :radio_button:
+     :heavy_exclamation_mark:
+      :bangbang:
+       :link:
+        :page_with_curl:
+         :copyright:
+:loudspeaker:
+ :closed_lock_with_key:
+  :rocket:
+   :roller_coaster:
+:thought_balloon:
+<a href='https://www.freepik.com/vectors/background'>Background vector created by pikisuperstar - www.freepik.com</a>
+

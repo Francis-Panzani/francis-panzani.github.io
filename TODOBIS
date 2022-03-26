@@ -1,0 +1,74 @@
+<!--- 
+https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/ 
+https://guides.github.com/features/mastering-markdown/
+titre on met delim dessous :
+h1
+==
+h2
+-
+### h3 #
+#### h4
+2 retour chariot pour créer un paragraphe
+2espaces ou + + retour chariot pour retourner a la ligne
+texte _dont_ certains __éléments__ sont formatés **pour _être_** en *italique*, en **bold** ou ~~barrés~~.
+> citation
+lite non ordonné : + - * 
+
+liste ordonnée 
+
+https://github.com/Simplonline-foad/utiliser-markdown/blob/master/README.md
+2. Une autre puce
+
+`1. Une sous-puce`
+
+`2. Une autre sous-puce`
+
+Pour afficher un bloc de code, sautez deux lignes comme pour un paragraphe, puis indentez avec 4 espaces ou une tabulation. Dans le navigateur, la touche tabulation vous fait changer de champ et il n’est généralement pas possible de l’utiliser. Le bloc se terminera dès qu’il arrivera sur un ligne non indentée.
+code inliné ``
+```javascript
+
+barre de séparation : --- ou  ***
+
+lien / images :
+<div style="text-align:center"><img src="/content/posts/Formation_Uml/liensdiagramme.png" alt="[image des liens diagrammes uml]" title="liens entre les différents diagrammes UML"/></div>
+<img align="left" width="33%" src="https://i.stack.imgur.com/RJj4x.png"> texte a coté 
+
+[google](http://www.google.com "link to google")
+![Drag Racing](woman-winner.jpg)
+
+<center>Centered text</center>
+TASKS list
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+Tables (possibilité de centré différemment ex: :---: )
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+échappement \
+Ancre : 
+Take me to [pookie](#pookie)
+<a name="pookie"></a>
+
+[:top: ](#top)  
+
+ abbr, sub, sup, kbd, mark
+ 
+
+ # A collapsible section with markdown
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
+-->
