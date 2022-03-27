@@ -33,9 +33,9 @@ experiences:
     - Gestion de projet Agiles -> Approche d'un problème client, création de Product Vision Board, Product Backlog, Sprint et gestion de projet en [méthodologie Scrum](https://www.scrum.org/).
       <style type="text/css">
         <!--
-         @import-once url("/css/perso/listetab.css");
-          @import-once url("/css/perso/bootstrap-table.min.css");
-          @import-once url("/css/perso/animate.css@3.5.1.css");
+         @import url("/css/perso/listetab.css");
+          @import url("/css/perso/bootstrap-table.min.css");
+          @import url("/css/perso/animate.css@3.5.1.css");
           -->
         </style>  
         <a name="listeformation"></a>
