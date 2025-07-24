@@ -53,17 +53,17 @@ socialLinks:
   #    icon: "fab fa-researchgate"
   #    url: "https://www.researchgate.net/profile/john-doe"
 
-  - name: Contact form
-    icon: "fas fa-file-signature"
-    url: "#"
+  # - name: Contact form
+  #   icon: "fas fa-file-signature"
+  #   url: "#"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
-resourceLinks:
-  - title: "Mon Lien 1"
-    url: "files/resume.pdf"
-  - title: "Mon Lien 2"
-    url: "files/resume.pdf"
+# resourceLinks:
+#   - title: "Mon Lien 1"
+#     url: "files/resume.pdf"
+#   - title: "Mon Lien 2"
+#     url: "files/resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
