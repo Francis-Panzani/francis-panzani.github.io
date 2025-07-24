@@ -1,0 +1,259 @@
+# section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# old versions ?
+#  template: sections/skills.html
+
+# filter buttons
+buttons:
+  - name: Tout
+    filter: "all"
+  - name: Web
+    filter: "web"
+  - name: Langage
+    filter: "language"
+  - name: Framework
+    filter: "framework"
+  - name: Management
+    filter: "management"
+  - name: Autres
+    filter: "others"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+  # - name: C++
+  #   logo: /images/sections/skills/c++.png
+  #   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  #   categories: ["basic", "language"]
+  - name: Formation en Développement Informatique présentiel et distanciel 
+    logo: /images/sections/skills/cloud.png
+    summary:
+      <a href="https://www.editions-hatier.fr/coin-pedago-la-classe-inversee" title="concept de la classe inversée par les éditions Hatier"><img align="left" style="margin-left:3px; background-color:lightgrey;" width="40%" src="files/skills/classe-inversee-orange.png"></a> "Côté pédagogie, je mixe Scrum avec la 
+      <a href="https://www.editions-hatier.fr/coin-pedago-la-classe-inversee" title="concept de la classe inversée par les éditions Hatier" alt="-">Classe Inversée </a>dans le but d'être le plus efficace dans la progression de mes élèves.<br/> J'ai des supports de cours pour toutes mes formations <i>(demandez le programme complet, <a href="https://francis-panzani.github.io/fr/posts/formations/">une petite partie est listée ici :P)</a></i>, elles ont toutes des exercices TP / TD, la plupart peuvent être insérées dans des projets de groupes. </br> 
+      Le remote c'est principalement Teams ou Discord 
+      <span style="display:FLEX;margin:0;">
+      ![-](/images/icones/w30/teams_30.png) &nbsp; ![-](/images/icones/w30/discord_30.png) &nbsp; ![-](/images/icones/w30/trello_30.png) <a href="files/skills/trelloJavaJFX.png"> 
+     Trello et certains outils de projet ... 
+     </span><br/> 
+     <span style='float:left'> ![-](/images/icones/w30/capsule_30.png) </span>
+     <a href="https://francis-panzani.github.io/posts/formations/" style='line-height:30px;'>L'idée de base est de donner à mes élèves le minimum pour apprendre, s'exercer, progresser selon les niveaux et aller plus loin. Je gére la montée en compétence du groupe selon les objectifs</a>
+    url: "https://francis-panzani.github.io/posts/formations/"
+    categories: ["others"]
+
+  # ![-](/images/icones/w30/PO.png) ![-](/images/icones/w30/SM.png) ![-](/images/icones/w30/scrum_30.png)
+  - name: Product Owner - Gestion de projet
+    logo: /images/sections/skills/gdp.png
+    summary:
+      "Pour le travail ou les projets associatifs je joue très souvent le rôle du Product Owner / Scrum Master dans des projets agiles fortement typés Scrum. <br/>
+      J'utilise pour ce faire tout un tas d'outils permettant
+      <ul><li> d'établir les cahiers des charges
+      <span style='display:FLEX;margin:0'> ![-](/images/icones/w30/word_30.png)![-](/images/icones/w30/PowerPoint_30.png)![-](/images/icones/w30/Excel_30.png)![-](/images/icones/w30/photoshop_30.png)![-](/images/icones/w30/Illustrator_30.png)![-](/images/icones/w30/Staruml_30.png)![-](/images/icones/w30/balsamiq_30.png)</li>
+      </span >
+      <li>donner les directives <span style='display:FLEX;margin:0'> ![-](/images/icones/w30/trello_30.png)![-](/images/icones/w30/GitLab_30.png)![-](/images/icones/w30/Paint_30.png)</li></span >
+      <li>communiquer <span style='display:FLEX;margin:0'> ![-](/images/icones/w30/gmail_30.png)![-](/images/icones/w30/discord_30.png)![-](/images/icones/w30/calendar_30.png)![-](/images/icones/w30/teams_30.png)![-](/images/icones/w30/linkedin_30.png)</li></span >
+      <li>leader, aider <span style='display:FLEX;margin:0'>  ![-](/images/icones/w30/capsule_30.png)![-](/images/icones/w30/github_30.png)</li></span >
+      <li> échanger ou autre<span style='display:FLEX;margin:0'>  ![-](/images/icones/w30/drive_30.png) ![-](/images/icones/w30/degoo_30.png) </li></span >
+      </ul>
+      J'y prends beaucoup de plaisir et j'essaie de donner le plus de convivialité possible à ces moments."
+    categories: ["management"]
+    url: "files/skills/trelloVG.png"
+
+  - name: Autonomie et apprentissage solo
+    logo: /images/sections/skills/secnumacademie_toque.png
+    summary:
+      "J'ai pris l'habitude d'être autonome dans mon travail et mes montées en compétences. <br/>
+      J'apprends toujours de nouvelles choses avec beaucoup de plaisir quasi quotidiennement<br>
+      Par exemple, je suis inscrit chez ![OpenClassrooms](/images/OC-1.png) depuis 2015, j'ai acquis plus d'une 50 aine de certifications en suivant leur formations.<br>
+      J'apprécie aussi beaucoup ![freeCodeCamp](/files/skills/freeCodeCamp-1.png) , dont je mettrai prochainement mes challenges en ligne 🦾</span>"
+    url: "http://franpan.free.fr/listeFormationOC/"
+    categories: ["others"]
+
+  # #Faire web et rajouter icone et texte <img src="/images/icones/logoNorsys30p30.png">
+
+  - name: Bootstrap
+    logo: /images/sections/skills/bootstrap.png
+    summary: "Capable de former et de développer des pages webs responsives avec Bootstrap"
+    url: "../posts/formations/formation_bootstrap/"
+    categories: ["web", "framework"]
+
+  - name: Node JS
+    logo: /images/sections/skills/node.png
+    summary: "Capable de former et de produire des applications en CLI, côté serveur avec Mongoose, Jade / Pug, Express et EJS "
+    url: "../posts/formations/formation_nodejs/"
+    categories: ["web", "framework"]
+
+  - name: Agile
+    logo: images/icones/w30/scrum_30.png
+    summary: "Capable de former en méthodologie Scrum, j'ai dispose aussi de 4 ateliers agiles (Serious games) pour approfondir ou faire découvrir la méthode agile"
+    url: "../posts/formations/formation_agile/"
+    categories: ["management", "framework"]
+
+  - name: Electron JS
+    logo: images/icones/electron.png
+    summary: "Expérimenté, capable de former dessus à des niveaux divers"
+    url: "../posts/formations/formation_electronjs/"
+    categories: ["framework"]
+  
+  - name: React
+    logo: images/icones/w30/react_30.png
+    summary: "Capable de former et de développer dessus"
+    url: "../posts/formations/formation_react/"
+    categories: ["web", "framework"]
+
+  - name: Php
+    logo: images/icones/w30/php_30.png
+    summary: "Expérimenté, capable de former dessus à des niveaux divers"
+    url: "../posts/formations/formation_php/"
+    categories: ["language", "web"]
+
+  - name: Java & JEE
+    logo: images/icones/w30/jee3_30.png
+    summary: "Expérimenté, capable de former dessus à des niveaux divers"
+    url: "../posts/formations/formation_java/"
+    categories: ["language", "web"] 
+
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: "Débutant, connaissances de base. Impossible actuellement de former sur cette techno"
+    #url: "https://www.docker.com/"
+    categories: ["others"]
+
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: "Utilisé depuis longtemps en dual boot. Capable d'écrire des scripts bash / shell.<br/>, pas de formation dispensées dessus"
+    categories: ["others"]
+
+  - name: Git & GitHub
+    logo: /images/sections/skills/git.png
+    summary: "Expérimenté et capable de former dessus. De plus j'ai une petite expérience avec GitLab. "
+    url: "../posts/formations/formation_git/"
+    categories: ["others"]
+ 
+  - name: Html5
+    logo: /images/sections/skills/html5_30.png
+    summary: "Expérimenté, capable de former à des niveaux divers"
+    url: "../posts/formations/formation_html/"
+    categories: ["language", "web"]
+
+  - name: CSS3
+    logo: images/icones/w30/css3_30.png
+    summary: "Expérimenté, capable de former à des niveaux divers"
+    url: "../posts/formations/formation_html/"
+    categories: ["language", "web"]
+
+  - name: Javascript
+    logo: images/icones/w30/js_30.png
+    summary: "Expérimenté, capable de former dessus à des niveaux divers"
+    url: "../posts/formations/formation_js/"
+    categories: ["language", "web"]
+
+  - name: JQuery
+    logo: images/icones/w30/jQuery1_30.png
+    summary: "Expérimenté, capable de former dessus à des niveaux divers"
+    url: "../posts/formations/formation_jquery/"
+    categories: ["language", "web","framework"]
+
+  - name: Ajax
+    logo: images/icones/ajax_h50.png
+    summary: "Expérimenté, capable de former dessus"
+    url: "../posts/formations/formation_ajax/"
+    categories: ["web"]
+
+  - name: Mongo DB
+    logo: images/icones/w30/mongodb_30.png
+    summary: "Capable de former et de développer dessus"
+    url: "../posts/formations/formation_mongodb/"
+    categories: ["others"]
+
+  - name: Python
+    logo: images/icones/w30/python_30.png
+    summary: "Expérimenté, capable de former dessus à des niveaux divers"
+    url: "../posts/formations/formation_python/"
+    categories: ["language", "autres"]  
+
+  - name: UML
+    logo: images/icones/w30/uml2_30.png
+    summary: "Expérimenté, capable de former dessus à des niveaux divers"
+    url: "../posts/formations/formation_uml/"
+    categories: ["language", "management"]    
+
+  - name: Merise
+    logo: images/icones/w30/merise_30.png
+    summary: "Expérimenté, capable de former dessus"
+    url: "../posts/formations/formation_merise/"
+    categories: ["others", "management"] 
+
+  - name: Algorithmique
+    logo: images/icones/w30/algo_30.png
+    summary: "Expérimenté, capable de former à des niveaux divers, généralement je fais la formation avec python"
+    url: "../posts/formations/formation_algorithmique/"
+    categories: ["others", "language"]
+
+  - name: Maquettage d'application
+    logo: images/icones/w30/photoshop_30.png
+    summary: "Expérimenté, l'essentiel pour comprendre le principe et maquetter une application, pour les devs"
+    url: "../posts/formations/formation_maquettage/"
+    categories: ["others", "management"] 
+
+  - name: Vue JS
+    logo: images/icones/w30/vuejs2_30.png
+    summary: "Capable de former et de développer dessus"
+    url: "../posts/formations/formation_vuejs/"
+    categories: ["framework", "web"]     
+
+  - name: Wordpress
+    logo: images/icones/w30/wordpress4_30.png
+    summary: "Capable de former et de développer dessus sur des niveaux divers"
+    url: "../posts/formations/formation_wordpress/"
+    categories: ["others", "web"] 
+
+  - name: Xml
+    logo: images/icones/w30/xml_30.png
+    summary: "Capable de former et de développer dessus"
+    url: "../posts/formations/formation_xml/"
+    categories: ["language"] 
+
+  - name: Doctrine 2
+    logo: images/icones/Doctrine.png
+    summary: "Capable de former et de développer dessus"
+    url: "../posts/formations/td_doctrine/"
+    categories: ["framework", "web"] 
+
+    #TODO
+  - name: Jquery
+    logo: images/icones/w30/jQuery1_30.png
+    summary: "Expérimenté, capable de former dessus"
+    url: "../posts/formations/formation_html/"
+    categories: ["language", "web"]  
+
+  - name: TypeScript
+    logo: /images/sections/skills/typescript.png
+    summary: "Capable de former et produire de petits logiciels avec, utilisé principalement pour entraîner ou préparer les formations d'Angular"
+    url: "../posts/formations/formation_typescript/"
+    categories: ["language"]
+
+  - name: SEO Référencement
+    logo: /images/sections/skills/SEOkisspng-search-engine-optimization-computer-icons-web-sear-seo-icon-png-5ab053f026b5e3.0083853915215052641586.png
+    summary: "Capable de former et de déployer puis d'enregistrer le site sur les moteurs de recherche, Google Analytics & Adwords etc ..,utilisation de référencement naturel et de référencement payant"
+    url: "../posts/formations/referencement/"
+    categories: ["web", "others"]
+
+  - name: IT - 3d printer and Raspberry Pi
+    logo: /images/sections/skills/8biticoncircle.png
+    summary: <a href="files/skills/impression3D.jpg" title="a print from an unknow guy ^^;;"><img align="right" style="margin-left:3px;" width="30%" src="files/skills/impression3D_50.png"></a>Passionné par l'informatique par mon plus jeune age j'ai acquis une imprimante 3d Anet A8 donc j'ai fait un petit meuble à peu de frais grâce à IKEA et au tuto mis en lien.<br/> Je m'amuse de temps en temps avec mes raspberry pi mais c'est plus histoire de sensibiliser ma fille à la prog et à me souvenir de mes cours de technos
+    url: "https://www.firediy.fr/article/montage-starter-guide-de-limprimante-3d-anet-a8"
+    categories: ["others"]
+
+  - name: C & C++
+    logo: /images/sections/skills/c++.png
+    summary: "Au tout début j'avais appris ces 2 langages de base, inutile de dire qu'il ne sont plus très frais à mon souvenir. <br/> Mais il risque d'y avoir un gros rafraîchissement en vue ^^ ;;."
+    categories: ["language"]

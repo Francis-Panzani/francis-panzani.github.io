@@ -1,38 +1,39 @@
-baseURL: https://francis-panzani.github.io
+baseURL: https://francis-panzani.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: fr
+title: "Francis's Blog"
+copyright: Everything is mine
 
 # Use Hugo modules to add theme
 module:
   imports:
-  - path: github.com/hugo-toha/toha/v4
+    - path: github.com/hugo-toha/toha/v4
   mounts:
-  - source: static/files
-    target: static/files
-  - source: ./node_modules/flag-icons/flags
-    target: static/flags
-  - source: ./node_modules/@fontsource/mulish/files
-    target: static/files
-  - source: ./node_modules/katex/dist/fonts
-    target: static/fonts
+    - source: static/files
+      target: static/files
+    - source: ./node_modules/flag-icons/flags
+      target: static/flags
+    - source: ./node_modules/@fontsource/mulish/files
+      target: static/files
+    - source: ./node_modules/katex/dist/fonts
+      target: static/fonts
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageCode: en
-    languageName: English
-    title: "John's Blog"
+  #desactivé cause bug images
+  # en:
+  #   languageCode: en
+  #   languageName: English
+  #   title: "FRANSEE's Blog"
+  #   weight: 2
+  fr:
+    languageCode: fr
+    languageName: French
+    title: "Panzani Francis's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
 # default language for the content
-defaultContentLanguage: en
-
+defaultContentLanguage: fr
 
 # Allow raw html in markdown file
 markup:
@@ -60,14 +61,14 @@ params:
   # Background image of the landing page
   background: /images/site/background.jpg
   # Background image of the landing page for dark theme
-  #darkBackground: /images/site/background.jpg
+  darkBackground: /images/site/background_2620726.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/FP.png
+    inverted: /images/site/FPinv.png
+    favicon: /images/site/secnumacademie_toque.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/francis-panzani/francis-panzani.github.io
@@ -105,7 +106,7 @@ params:
       # Share post on different social media
       shareButtons:
         facebook: true
-        twitter: true
+        x: true
         linkedin: true
         reddit: true
         whatsapp: true
@@ -113,11 +114,11 @@ params:
         # tumblr: true
         # pocket: true
         # diaspora: true
-        # mastodon: true
+        mastodon: true
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -142,12 +143,12 @@ params:
         #   repoID: your-repo-id
         #   category: your-category
         #   categoryID: your-category-id
-          # theme: light
-          # map: url
-          # reaction: 1
-          # metadata: 0
-          # inputPosition: bottom
-          # crossOrigin: anonymous
+        # theme: light
+        # map: url
+        # reaction: 1
+        # metadata: 0
+        # inputPosition: bottom
+        # crossOrigin: anonymous
         # commento:
         #   serverURL: cdn.commento.io
         #   autoInit: true
@@ -155,12 +156,15 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: false
+      enabled: true
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
-        # # CounterDev
+          id: GTM-KTZCJRJ
+          #fransee GTM-58F28NCS
+          # fp GTM-KTZCJRJ
+        #old G-L8WV0RBRYG
+        # # CounterDev  
         # counterDev:
         #   id: <your counterdev id>
         # # GoatCounter
@@ -178,8 +182,8 @@ params:
         kofi:
           user: hossainemruz
           text: Tip Me
-          textColor: '#f9fafc'
-          backgroundColor: '#248aaa'
+          textColor: "#f9fafc"
+          backgroundColor: "#248aaa"
         # buymeacoffee:
         #   user: <your buymeacoffee.com user>
         #   text: Support me on Buy me a coffee!
@@ -265,7 +269,7 @@ params:
         plyr:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
-    
+
     # Enables copy code button
     copyCodeButton:
       enable: true
@@ -273,11 +277,20 @@ params:
     # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
-    
+
     # Number of posts to show to each page. Default is "12"
     pagination:
-       maxPostsPerPage: 12
+      maxPostsPerPage: 12
 
+  #Info du formulaire de contact protégé par google
+  contact_form:
+    enable: true
+    footer: true
+    # url: http://localhost/_test/FORMENVOIE%20MAIL/surfree/contactv1/mail.php
+    #url: https://copieauto.000webhostapp.com/formulaire/mail.php
+    url: https://copieauto.000webhostapp.com/formulaire/mailwebhost.php
+    #google recapthca ID
+    data_sitekey: 6LcF6vUdAAAAAF0buCEfK2kyuTcmyl2tPp5Uhyuh
 
   # Provide footer configuration.
   footer:
@@ -306,4 +319,8 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
+      enable: false
+
+    #active ou pas le formulaire de contact protégé par google
+    contact_form:
       enable: true

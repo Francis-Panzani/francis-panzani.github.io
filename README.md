@@ -6,3 +6,35 @@ An example hugo static site with Toha theme.
 
 Attributions:
 - <a href='https://www.freepik.com/vectors/business'>Business vector created by studiogstock - www.freepik.com</a>
+
+hugo server --disableFastRender
+
+liste des markdows
+https://gist.github.com/rxaviers/7360908
+🚧👷 👍 💪 
+
+<i class="fa-brands fa-php fa-beat-fade fa-xl" style="color: #74C0FC;"></i>
+<i class="fa-brands fa-windows"></i>
+<i class="fa-brands fa-js"></i>
+ <i class="fa-brands fa-linux"></i>
+ <i class="fa-brands fa-ubuntu" style="color: #ff8800;"></i>
+icones fabulous
+
+> <cite>[ <img style="float:left; margin: 1px; " height="40px" src="/files/images/wikipedia.png"> Wikipedia <i class="fas fa-external-link-alt"></i>](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade "Définition à lire pour bien comprendre")</cite>
+><hr/>
+
+
+<img style="float:left;" src="ajax_h50.png" alt="">
+<div style="clear:both"></div>
+
+<div class="d-sm-block  alert alert-success  text-left" role="alert">
+
+:mortar_board: [Afin de débuter la Formation sur AJAX ensemble, vous aurez besoin de suivre les instructions du :books:support suivant et/ou de récupérer les éléments de la <span style='display:FLEX;margin:0'> <img style="vertical-align: bottom;" src="/images/icones/w30/capsule_30.png" alt="C">apsule : (Logins & Passswords :closed_lock_with_key: donnés par le formateur &nbsp; <i class="fas fa-chalkboard-teacher"></i> &nbsp;)&nbsp; <i class="fas fa-external-link-alt"></i>.</span>](http://franpan.free.fr/formation/_ajax005 "lien vers le site contenant les fichiers de la formation")
+
+
+</div>
+
+Merci de garder pour vous les ressources que vous y trouverez et de ne pas les diffuser :smirk:  
+Merci de m'avertir de toute erreur ou coquille qui m'auraient échapées :heart_eyes:
+
+:copyright: :no_entry_sign: Do not distribute :relieved:
