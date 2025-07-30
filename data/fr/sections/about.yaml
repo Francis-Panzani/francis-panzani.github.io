@@ -61,7 +61,7 @@ socialLinks:
 # For example, you can put link for your resume.
 # resourceLinks:
   - title: "Liste des formations"
-    url: "/posts/"
+    url: "posts/"
    - title: "Mon Lien 2"
      url: "files/resume.pdf"
 
