@@ -60,8 +60,8 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 # resourceLinks:
-  - title: "Liste de mes formations"
-    url: "/posts/"
+  - title: "Liste des formations"
+    url: "posts/"
 #   - title: "Mon Lien 2"
 #     url: "files/resume.pdf"
 
